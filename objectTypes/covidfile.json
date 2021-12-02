@@ -1,0 +1,63 @@
+{
+	"name": "CovidFile",
+	"plugin-id": "Sprite",
+	"sid": 594367312677795,
+	"isGlobal": false,
+	"instanceVariables": [],
+	"behaviorTypes": [
+		{
+			"behaviorId": "Persist",
+			"name": "Persist",
+			"sid": 620372954220627
+		}
+	],
+	"effectTypes": [],
+	"animations": {
+		"items": [
+			{
+				"frames": [
+					{
+						"width": 90,
+						"height": 80,
+						"originX": 0.5,
+						"originY": 0.55,
+						"originalSource": "",
+						"exportFormat": "png",
+						"exportQuality": 0.8,
+						"imageSpriteId": 6348662,
+						"collisionPoly": {
+							"points": [
+								0.09259256753411373,
+								0.1583333654977653,
+								0.5740741601794804,
+								0.12916667927194486,
+								0.6111112543977302,
+								0.03333328787927423,
+								0.8703701453935037,
+								0.04583333364239499,
+								0.9666665286782382,
+								0.23750001490116102,
+								0.8592596994996443,
+								0.8458333615241216,
+								0.051851807033084736,
+								0.8541665976798113,
+								0.06666666666666667,
+								0.5375
+							]
+						},
+						"useCollisionPoly": true,
+						"duration": 1
+					}
+				],
+				"sid": 663465765110850,
+				"name": "Animation 1",
+				"isLooping": false,
+				"isPingPong": false,
+				"repeatCount": 1,
+				"repeatTo": 0,
+				"speed": 5
+			}
+		],
+		"subfolders": []
+	}
+}

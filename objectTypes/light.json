@@ -1,0 +1,15 @@
+{
+	"name": "Light",
+	"plugin-id": "shadowlight",
+	"sid": 303607213298606,
+	"isGlobal": false,
+	"instanceVariables": [],
+	"behaviorTypes": [
+		{
+			"behaviorId": "Pin",
+			"name": "Pin",
+			"sid": 171978096757480
+		}
+	],
+	"effectTypes": []
+}

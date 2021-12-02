@@ -1,0 +1,55 @@
+{
+	"name": "PlayerHunger",
+	"plugin-id": "Sprite",
+	"sid": 164551292222253,
+	"isGlobal": false,
+	"instanceVariables": [],
+	"behaviorTypes": [
+		{
+			"behaviorId": "Persist",
+			"name": "Persist",
+			"sid": 351363050566230
+		}
+	],
+	"effectTypes": [],
+	"animations": {
+		"items": [
+			{
+				"frames": [
+					{
+						"width": 408,
+						"height": 84,
+						"originX": 0.4632352941176471,
+						"originY": 1.4642857142857142,
+						"originalSource": "",
+						"exportFormat": "png",
+						"exportQuality": 0.8,
+						"imageSpriteId": 839636,
+						"collisionPoly": {
+							"points": [
+								0.4632352941176471,
+								0.32142857142857145,
+								0.7990196078431373,
+								0.9523809523809523,
+								0.4632352941176471,
+								0.9523809523809523,
+								0.125,
+								0.9523809523809523
+							]
+						},
+						"useCollisionPoly": true,
+						"duration": 1
+					}
+				],
+				"sid": 750478113835847,
+				"name": "Animation 1",
+				"isLooping": false,
+				"isPingPong": false,
+				"repeatCount": 1,
+				"repeatTo": 0,
+				"speed": 5
+			}
+		],
+		"subfolders": []
+	}
+}

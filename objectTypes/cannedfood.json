@@ -1,0 +1,43 @@
+{
+	"name": "CannedFood",
+	"plugin-id": "Sprite",
+	"sid": 681631934920609,
+	"isGlobal": false,
+	"instanceVariables": [],
+	"behaviorTypes": [
+		{
+			"behaviorId": "Persist",
+			"name": "Persist",
+			"sid": 372082131875163
+		}
+	],
+	"effectTypes": [],
+	"animations": {
+		"items": [
+			{
+				"frames": [
+					{
+						"width": 236,
+						"height": 329,
+						"originX": 0.4872881355932203,
+						"originY": 0.5896656534954408,
+						"originalSource": "",
+						"exportFormat": "png",
+						"exportQuality": 0.8,
+						"imageSpriteId": 2461889,
+						"useCollisionPoly": true,
+						"duration": 1
+					}
+				],
+				"sid": 442703281687976,
+				"name": "Animation 1",
+				"isLooping": false,
+				"isPingPong": false,
+				"repeatCount": 1,
+				"repeatTo": 0,
+				"speed": 5
+			}
+		],
+		"subfolders": []
+	}
+}

@@ -1,0 +1,55 @@
+{
+	"name": "Tractor",
+	"plugin-id": "Sprite",
+	"sid": 914725986031665,
+	"isGlobal": false,
+	"instanceVariables": [],
+	"behaviorTypes": [
+		{
+			"behaviorId": "solid",
+			"name": "Solid",
+			"sid": 712327322990470
+		}
+	],
+	"effectTypes": [],
+	"animations": {
+		"items": [
+			{
+				"frames": [
+					{
+						"width": 215,
+						"height": 154,
+						"originX": 0.586046511627907,
+						"originY": 0.2532467532467532,
+						"originalSource": "",
+						"exportFormat": "png",
+						"exportQuality": 0.8,
+						"imageSpriteId": 73350,
+						"collisionPoly": {
+							"points": [
+								0.004651162790697674,
+								0,
+								1,
+								0,
+								1,
+								1,
+								0.004651162790697674,
+								1
+							]
+						},
+						"useCollisionPoly": true,
+						"duration": 1
+					}
+				],
+				"sid": 307389283097962,
+				"name": "Animation 1",
+				"isLooping": false,
+				"isPingPong": false,
+				"repeatCount": 1,
+				"repeatTo": 0,
+				"speed": 5
+			}
+		],
+		"subfolders": []
+	}
+}

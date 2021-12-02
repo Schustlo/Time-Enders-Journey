@@ -1,0 +1,48 @@
+{
+	"name": "Fade",
+	"plugin-id": "Sprite",
+	"sid": 101694566874110,
+	"isGlobal": true,
+	"instanceVariables": [],
+	"behaviorTypes": [
+		{
+			"behaviorId": "Fade",
+			"name": "FadeIn",
+			"sid": 939039511232642
+		},
+		{
+			"behaviorId": "Fade",
+			"name": "FadeOut",
+			"sid": 808266773015147
+		}
+	],
+	"effectTypes": [],
+	"animations": {
+		"items": [
+			{
+				"frames": [
+					{
+						"width": 250,
+						"height": 250,
+						"originX": 0.5,
+						"originY": 0.5,
+						"originalSource": "",
+						"exportFormat": "png",
+						"exportQuality": 0.8,
+						"imageSpriteId": 1030018,
+						"useCollisionPoly": true,
+						"duration": 1
+					}
+				],
+				"sid": 954176762274807,
+				"name": "Animation 1",
+				"isLooping": false,
+				"isPingPong": false,
+				"repeatCount": 1,
+				"repeatTo": 0,
+				"speed": 5
+			}
+		],
+		"subfolders": []
+	}
+}

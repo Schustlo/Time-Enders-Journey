@@ -1,0 +1,65 @@
+{
+	"name": "CovidMan",
+	"plugin-id": "Sprite",
+	"sid": 923697569955113,
+	"isGlobal": false,
+	"instanceVariables": [
+		{
+			"name": "EnemyHealth",
+			"type": "number",
+			"desc": "",
+			"sid": 763027080217758
+		}
+	],
+	"behaviorTypes": [
+		{
+			"behaviorId": "Persist",
+			"name": "Persist",
+			"sid": 426766553445437
+		},
+		{
+			"behaviorId": "LOS",
+			"name": "LineOfSight",
+			"sid": 639633006650456
+		},
+		{
+			"behaviorId": "MoveTo",
+			"name": "MoveTo",
+			"sid": 376914338895290
+		},
+		{
+			"behaviorId": "solid",
+			"name": "Solid",
+			"sid": 177859449894817
+		}
+	],
+	"effectTypes": [],
+	"animations": {
+		"items": [
+			{
+				"frames": [
+					{
+						"width": 142,
+						"height": 220,
+						"originX": 0.5845070422535211,
+						"originY": 0.43636363636363634,
+						"originalSource": "",
+						"exportFormat": "png",
+						"exportQuality": 0.8,
+						"imageSpriteId": 4040349,
+						"useCollisionPoly": true,
+						"duration": 1
+					}
+				],
+				"sid": 631504241186696,
+				"name": "Animation 1",
+				"isLooping": false,
+				"isPingPong": false,
+				"repeatCount": 1,
+				"repeatTo": 0,
+				"speed": 5
+			}
+		],
+		"subfolders": []
+	}
+}

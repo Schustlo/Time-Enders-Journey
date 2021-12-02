@@ -1,0 +1,49 @@
+{
+	"name": "Newlight",
+	"plugin-id": "Sprite",
+	"sid": 802177249782404,
+	"isGlobal": false,
+	"instanceVariables": [],
+	"behaviorTypes": [],
+	"effectTypes": [],
+	"animations": {
+		"items": [
+			{
+				"frames": [
+					{
+						"width": 196,
+						"height": 228,
+						"originX": 0.4030612244897959,
+						"originY": 0.4692982456140351,
+						"originalSource": "",
+						"exportFormat": "png",
+						"exportQuality": 0.8,
+						"imageSpriteId": 3596366,
+						"useCollisionPoly": true,
+						"duration": 1
+					},
+					{
+						"width": 196,
+						"height": 228,
+						"originX": 0.4030612244897959,
+						"originY": 0.4692982456140351,
+						"originalSource": "",
+						"exportFormat": "png",
+						"exportQuality": 0.8,
+						"imageSpriteId": 2594553,
+						"useCollisionPoly": true,
+						"duration": 1
+					}
+				],
+				"sid": 526903193245604,
+				"name": "Animation 1",
+				"isLooping": true,
+				"isPingPong": false,
+				"repeatCount": 1,
+				"repeatTo": 0,
+				"speed": 2
+			}
+		],
+		"subfolders": []
+	}
+}

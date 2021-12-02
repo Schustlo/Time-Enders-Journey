@@ -1,0 +1,103 @@
+{
+	"name": "CannedFoodInventory",
+	"plugin-id": "Sprite",
+	"sid": 913874463999779,
+	"isGlobal": false,
+	"instanceVariables": [],
+	"behaviorTypes": [
+		{
+			"behaviorId": "Persist",
+			"name": "Persist",
+			"sid": 447021637651973
+		}
+	],
+	"effectTypes": [],
+	"animations": {
+		"items": [
+			{
+				"frames": [
+					{
+						"width": 326,
+						"height": 326,
+						"originX": 0.5,
+						"originY": 0.5,
+						"originalSource": "",
+						"exportFormat": "png",
+						"exportQuality": 0.8,
+						"imageSpriteId": 715149,
+						"useCollisionPoly": true,
+						"duration": 1
+					},
+					{
+						"width": 326,
+						"height": 326,
+						"originX": 0.5,
+						"originY": 0.5,
+						"originalSource": "",
+						"exportFormat": "png",
+						"exportQuality": 0.8,
+						"imageSpriteId": 3238299,
+						"useCollisionPoly": true,
+						"duration": 1
+					},
+					{
+						"width": 326,
+						"height": 326,
+						"originX": 0.5,
+						"originY": 0.5,
+						"originalSource": "",
+						"exportFormat": "png",
+						"exportQuality": 0.8,
+						"imageSpriteId": 3463450,
+						"useCollisionPoly": true,
+						"duration": 1
+					},
+					{
+						"width": 326,
+						"height": 326,
+						"originX": 0.5,
+						"originY": 0.5,
+						"originalSource": "",
+						"exportFormat": "png",
+						"exportQuality": 0.8,
+						"imageSpriteId": 3738938,
+						"useCollisionPoly": true,
+						"duration": 1
+					},
+					{
+						"width": 326,
+						"height": 326,
+						"originX": 0.5,
+						"originY": 0.5,
+						"originalSource": "",
+						"exportFormat": "png",
+						"exportQuality": 0.8,
+						"imageSpriteId": 5448663,
+						"useCollisionPoly": true,
+						"duration": 1
+					},
+					{
+						"width": 326,
+						"height": 326,
+						"originX": 0.5,
+						"originY": 0.5,
+						"originalSource": "",
+						"exportFormat": "png",
+						"exportQuality": 0.8,
+						"imageSpriteId": 7793061,
+						"useCollisionPoly": true,
+						"duration": 1
+					}
+				],
+				"sid": 371847905305575,
+				"name": "Default",
+				"isLooping": false,
+				"isPingPong": false,
+				"repeatCount": 1,
+				"repeatTo": 0,
+				"speed": 0
+			}
+		],
+		"subfolders": []
+	}
+}

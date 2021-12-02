@@ -1,0 +1,43 @@
+{
+	"name": "NPC",
+	"plugin-id": "Sprite",
+	"sid": 769057455048149,
+	"isGlobal": false,
+	"instanceVariables": [],
+	"behaviorTypes": [
+		{
+			"behaviorId": "solid",
+			"name": "Solid",
+			"sid": 956048811569006
+		}
+	],
+	"effectTypes": [],
+	"animations": {
+		"items": [
+			{
+				"frames": [
+					{
+						"width": 131,
+						"height": 54,
+						"originX": 0.4961832061068702,
+						"originY": 0.48148148148148145,
+						"originalSource": "",
+						"exportFormat": "png",
+						"exportQuality": 0.8,
+						"imageSpriteId": 7458736,
+						"useCollisionPoly": true,
+						"duration": 1
+					}
+				],
+				"sid": 346201716988255,
+				"name": "Animation 1",
+				"isLooping": false,
+				"isPingPong": false,
+				"repeatCount": 1,
+				"repeatTo": 0,
+				"speed": 5
+			}
+		],
+		"subfolders": []
+	}
+}

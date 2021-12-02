@@ -1,0 +1,15 @@
+{
+	"name": "PlayerWaterNumber",
+	"plugin-id": "Text",
+	"sid": 284419967521740,
+	"isGlobal": false,
+	"instanceVariables": [],
+	"behaviorTypes": [
+		{
+			"behaviorId": "Persist",
+			"name": "Persist",
+			"sid": 799989929551627
+		}
+	],
+	"effectTypes": []
+}

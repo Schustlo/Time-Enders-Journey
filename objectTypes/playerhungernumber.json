@@ -1,0 +1,15 @@
+{
+	"name": "PlayerHungerNumber",
+	"plugin-id": "Text",
+	"sid": 663793093068291,
+	"isGlobal": false,
+	"instanceVariables": [],
+	"behaviorTypes": [
+		{
+			"behaviorId": "Persist",
+			"name": "Persist",
+			"sid": 688345141698513
+		}
+	],
+	"effectTypes": []
+}

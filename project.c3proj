@@ -1,0 +1,514 @@
+{
+	"projectFormatVersion": 1,
+	"savedWithRelease": 26800,
+	"name": "New project",
+	"runtime": "c3",
+	"useWorker": "auto",
+	"bundleAddons": false,
+	"usedAddons": [
+		{
+			"type": "plugin",
+			"id": "Shape3D",
+			"name": "3D shape",
+			"author": "Scirra",
+			"version": "r268",
+			"bundled": false
+		},
+		{
+			"type": "plugin",
+			"id": "Sprite",
+			"name": "Sprite",
+			"author": "Scirra",
+			"version": "r268",
+			"bundled": false
+		},
+		{
+			"type": "plugin",
+			"id": "Keyboard",
+			"name": "Keyboard",
+			"author": "Scirra",
+			"version": "r268",
+			"bundled": false
+		},
+		{
+			"type": "plugin",
+			"id": "Audio",
+			"name": "Audio",
+			"author": "Scirra",
+			"version": "r268",
+			"bundled": false
+		},
+		{
+			"type": "plugin",
+			"id": "Mouse",
+			"name": "Mouse",
+			"author": "Scirra",
+			"version": "r268",
+			"bundled": false
+		},
+		{
+			"type": "plugin",
+			"id": "TiledBg",
+			"name": "Tiled Background",
+			"author": "Scirra",
+			"version": "r268",
+			"bundled": false
+		},
+		{
+			"type": "plugin",
+			"id": "Text",
+			"name": "Text",
+			"author": "Scirra",
+			"version": "r268",
+			"bundled": false
+		},
+		{
+			"type": "plugin",
+			"id": "shadowlight",
+			"name": "Shadow light",
+			"author": "Scirra",
+			"version": "r268",
+			"bundled": false
+		},
+		{
+			"type": "plugin",
+			"id": "Browser",
+			"name": "Browser",
+			"author": "Scirra",
+			"version": "r268",
+			"bundled": false
+		},
+		{
+			"type": "plugin",
+			"id": "Button",
+			"name": "Button",
+			"author": "Scirra",
+			"version": "r268",
+			"bundled": false
+		},
+		{
+			"type": "behavior",
+			"id": "solid",
+			"name": "Solid",
+			"author": "Scirra",
+			"version": "r268",
+			"bundled": false
+		},
+		{
+			"type": "behavior",
+			"id": "Persist",
+			"name": "Persist",
+			"author": "Scirra",
+			"version": "r268",
+			"bundled": false
+		},
+		{
+			"type": "behavior",
+			"id": "scrollto",
+			"name": "Scroll To",
+			"author": "Scirra",
+			"version": "r268",
+			"bundled": false
+		},
+		{
+			"type": "behavior",
+			"id": "EightDir",
+			"name": "8 Direction",
+			"author": "Scirra",
+			"version": "r268",
+			"bundled": false
+		},
+		{
+			"type": "behavior",
+			"id": "Tween",
+			"name": "Tween",
+			"author": "Scirra",
+			"version": "r268",
+			"bundled": false
+		},
+		{
+			"type": "behavior",
+			"id": "Bullet",
+			"name": "Bullet",
+			"author": "Scirra",
+			"version": "r268",
+			"bundled": false
+		},
+		{
+			"type": "behavior",
+			"id": "Pin",
+			"name": "Pin",
+			"author": "Scirra",
+			"version": "r268",
+			"bundled": false
+		},
+		{
+			"type": "behavior",
+			"id": "LOS",
+			"name": "Line of sight",
+			"author": "Scirra",
+			"version": "r268",
+			"bundled": false
+		},
+		{
+			"type": "behavior",
+			"id": "MoveTo",
+			"name": "Move To",
+			"author": "Scirra",
+			"version": "r268",
+			"bundled": false
+		},
+		{
+			"type": "behavior",
+			"id": "Fade",
+			"name": "Fade",
+			"author": "Scirra",
+			"version": "r268",
+			"bundled": false
+		},
+		{
+			"type": "behavior",
+			"id": "Sin",
+			"name": "Sine",
+			"author": "Scirra",
+			"version": "r268",
+			"bundled": false
+		}
+	],
+	"uniqueId": "4u9efxo06vx",
+	"objectTypes": {
+		"items": [
+			"Keyboard",
+			"Audio",
+			"Cursor",
+			"Mouse",
+			"Platforms",
+			"Night",
+			"Pistol",
+			"PistolBullet",
+			"Block",
+			"Grass",
+			"Snow",
+			"Flood",
+			"Base",
+			"Crowbar",
+			"PlayerHealthNumber",
+			"PlayerHungerNumber",
+			"PlayerWaterNumber",
+			"Light",
+			"BottledWaterInventory",
+			"CannedFoodInventory",
+			"Number1Display",
+			"Number2Display",
+			"Browser",
+			"Dirt",
+			"PresentDirt",
+			"PastDirt",
+			"path",
+			"Collect5Resources",
+			"DangerWarning",
+			"CovidMan",
+			"InsidePresentHouse",
+			"GoInsideHouseTrigger",
+			"SolidHouseWalls",
+			"GoOutsideHouseTrigger",
+			"CovidFileText",
+			"NPC",
+			"Fade",
+			"Button2",
+			"Start",
+			"Button1",
+			"Sprite",
+			"CovidInventory",
+			"CovidFilesDisplay",
+			"Sprite8",
+			"Sprite9",
+			"GoInsideHouseTrigger2",
+			"GoOutsideHouseTrigger2",
+			"ClickAnyWhereToStart",
+			"GiantCovidMan",
+			"CovidFileText2",
+			"Button3",
+			"CovidFileText3",
+			"Newlight"
+		],
+		"subfolders": [
+			{
+				"items": [
+					"NPCHouses",
+					"FoodWaterCollect",
+					"QuestCollect",
+					"PlayerHouse",
+					"FileHouses",
+					"Car",
+					"Carlight",
+					"NPCHouses2",
+					"Enemy",
+					"Trash",
+					"Boxes",
+					"road",
+					"Sprite2",
+					"Sprite3",
+					"Corn",
+					"Sprite5",
+					"Sprite7",
+					"Tractor",
+					"Sprite6",
+					"shack"
+				],
+				"subfolders": [],
+				"name": "PlaceHolder Objects"
+			},
+			{
+				"items": [
+					"AbandonedHouse2",
+					"AbandonedHouse",
+					"BottledWater",
+					"CannedFood",
+					"CovidFile",
+					"Player",
+					"PlayerHealth",
+					"PlayerHunger",
+					"PlayerWater",
+					"PresentHouse",
+					"CovidFile2",
+					"CovidFile3",
+					"PresentHouse2"
+				],
+				"subfolders": [],
+				"name": "notplaceholder"
+			}
+		]
+	},
+	"autosaveData": null,
+	"containers": [],
+	"families": {
+		"items": [],
+		"subfolders": []
+	},
+	"layouts": {
+		"items": [
+			"2045Layout",
+			"2020Layout",
+			"InsideHouseLayout",
+			"InsideHouseLayout2",
+			"Start",
+			"CovidFile",
+			"CovidFile2",
+			"CovidFile3",
+			"Loading Screen"
+		],
+		"subfolders": []
+	},
+	"eventSheets": {
+		"items": [
+			"Day Event Sheet",
+			"start screen"
+		],
+		"subfolders": []
+	},
+	"rootFileFolders": {
+		"script": {
+			"items": [],
+			"subfolders": []
+		},
+		"sound": {
+			"items": [
+				{
+					"name": "Rock Breaking.webm",
+					"type": "audio/webm; codecs=opus",
+					"sid": 869221977127497
+				},
+				{
+					"name": "Crumbling_Sound_Effect.webm",
+					"type": "audio/webm; codecs=opus",
+					"sid": 853064515378060
+				},
+				{
+					"name": "Monster Hit Noise.webm",
+					"type": "audio/webm; codecs=opus",
+					"sid": 368092704900979
+				},
+				{
+					"name": "Mac_Quayle_-_2.0_6-madame3xecutioner.oga_110_-2.00_semitones.webm",
+					"type": "audio/webm; codecs=opus",
+					"sid": 744360839773901
+				},
+				{
+					"name": "Heartbeat_Low_Health.webm",
+					"type": "audio/webm; codecs=opus",
+					"sid": 736722549375884
+				},
+				{
+					"name": "Player_Damage_noise.webm",
+					"type": "audio/webm; codecs=opus",
+					"sid": 640536586740091
+				},
+				{
+					"name": "Swing_Sound_Effect.webm",
+					"type": "audio/webm; codecs=opus",
+					"sid": 954736940566644
+				}
+			],
+			"subfolders": []
+		},
+		"music": {
+			"items": [
+				{
+					"name": "Metal_Zone_09-11-2021_05-32.webm",
+					"type": "audio/webm; codecs=opus",
+					"sid": 733174694901245
+				},
+				{
+					"name": "Near_Dark_10-11-2021_01-22.webm",
+					"type": "audio/webm; codecs=opus",
+					"sid": 660870795757697
+				},
+				{
+					"name": "Unknown_-_Sally_Face_EP_2_OSTHaunted_Hallways_Download_in_description.mp3_-2.40_semitones.webm",
+					"type": "audio/webm; codecs=opus",
+					"sid": 310780005325985
+				},
+				{
+					"name": "Velvet_Lounge_16-11-2021_10-27.webm",
+					"type": "audio/webm; codecs=opus",
+					"sid": 462765897736616
+				}
+			],
+			"subfolders": []
+		},
+		"video": {
+			"items": [],
+			"subfolders": []
+		},
+		"font": {
+			"items": [],
+			"subfolders": []
+		},
+		"icon": {
+			"items": [
+				{
+					"name": "icon-16.png",
+					"type": "image/png",
+					"sid": 396103951730917,
+					"icon-info": {
+						"purpose": "app-icon"
+					}
+				},
+				{
+					"name": "icon-64.png",
+					"type": "image/png",
+					"sid": 942258534330520,
+					"icon-info": {
+						"purpose": "app-icon"
+					}
+				},
+				{
+					"name": "icon-128.png",
+					"type": "image/png",
+					"sid": 579955754500910,
+					"icon-info": {
+						"purpose": "app-icon"
+					}
+				},
+				{
+					"name": "icon-32.png",
+					"type": "image/png",
+					"sid": 619892414919969,
+					"icon-info": {
+						"purpose": "app-icon"
+					}
+				},
+				{
+					"name": "icon-512.png",
+					"type": "image/png",
+					"sid": 364722681452106,
+					"icon-info": {
+						"purpose": "app-icon"
+					}
+				},
+				{
+					"name": "icon-256.png",
+					"type": "image/png",
+					"sid": 126436817905142,
+					"icon-info": {
+						"purpose": "app-icon"
+					}
+				},
+				{
+					"name": "loading-logo.png",
+					"type": "image/png",
+					"sid": 995699700199050,
+					"icon-info": {
+						"purpose": "loading-logo"
+					}
+				}
+			],
+			"subfolders": []
+		},
+		"general": {
+			"items": [],
+			"subfolders": []
+		}
+	},
+	"timelines": {
+		"items": [
+			"Timeline 1"
+		],
+		"subfolders": [
+			{
+				"items": [],
+				"subfolders": []
+			}
+		]
+	},
+	"properties": {
+		"description": "",
+		"version": "1.0.0.0",
+		"author": "Logan Schustermann",
+		"authorEmail": "logan_Schustermann@bloomfield.edu",
+		"authorWebsite": "",
+		"appId": "",
+		"pixelRounding": true,
+		"useLoaderLayout": false,
+		"fullscreenMode": "scale-outer",
+		"fullscreenQuality": "high",
+		"viewportFit": "auto",
+		"backgroundColor": [
+			0,
+			0,
+			0,
+			0
+		],
+		"splashColor": [
+			1,
+			1,
+			1,
+			0
+		],
+		"useThemeColor": false,
+		"themeColor": [
+			1,
+			1,
+			1,
+			0
+		],
+		"orientations": "landscape",
+		"gpuPreference": "high-performance",
+		"scriptsType": "module",
+		"framerateMode": "vsync",
+		"compositingMode": "standard",
+		"sampling": "nearest",
+		"downscaling": "medium",
+		"renderingMode": "auto",
+		"anisotropicFiltering": "auto",
+		"maxSpriteSheetSize": 2048,
+		"loaderStyle": "splash",
+		"preloadSounds": true,
+		"cordovaiOSScheme": "app",
+		"cordovaAndroidScheme": "https"
+	},
+	"viewportWidth": 1080,
+	"viewportHeight": 720,
+	"firstLayout": null
+}

@@ -1,0 +1,55 @@
+{
+	"name": "PlayerWater",
+	"plugin-id": "Sprite",
+	"sid": 950813410231220,
+	"isGlobal": false,
+	"instanceVariables": [],
+	"behaviorTypes": [
+		{
+			"behaviorId": "Persist",
+			"name": "Persist",
+			"sid": 484923128282438
+		}
+	],
+	"effectTypes": [],
+	"animations": {
+		"items": [
+			{
+				"frames": [
+					{
+						"width": 421,
+						"height": 94,
+						"originX": 0.47980997624703087,
+						"originY": 1.3297872340425532,
+						"originalSource": "",
+						"exportFormat": "png",
+						"exportQuality": 0.8,
+						"imageSpriteId": 4957740,
+						"collisionPoly": {
+							"points": [
+								0.47980997624703087,
+								0.30851063829787234,
+								0.8052256532066508,
+								0.8723404255319149,
+								0.47980997624703087,
+								0.8723404255319149,
+								0.15201900237529692,
+								0.8723404255319149
+							]
+						},
+						"useCollisionPoly": true,
+						"duration": 1
+					}
+				],
+				"sid": 934361054171252,
+				"name": "Animation 1",
+				"isLooping": false,
+				"isPingPong": false,
+				"repeatCount": 1,
+				"repeatTo": 0,
+				"speed": 5
+			}
+		],
+		"subfolders": []
+	}
+}

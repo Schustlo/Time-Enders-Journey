@@ -1,0 +1,292 @@
+{
+	"name": "start screen",
+	"events": [
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-start-of-layout",
+					"objectClass": "System",
+					"sid": 587018972232893
+				}
+			],
+			"actions": [
+				{
+					"id": "reset-global-variables",
+					"objectClass": "System",
+					"sid": 154675766967639
+				},
+				{
+					"id": "reset-persisted-objects",
+					"objectClass": "System",
+					"sid": 758763797906813
+				}
+			],
+			"sid": 418162207543762,
+			"children": [
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "trigger-once-while-true",
+							"objectClass": "System",
+							"sid": 325179218825558
+						}
+					],
+					"actions": [
+						{
+							"id": "restart-layout",
+							"objectClass": "System",
+							"sid": 741144247110865
+						}
+					],
+					"sid": 498397102273734
+				}
+			]
+		},
+		{
+			"eventType": "group",
+			"disabled": false,
+			"title": "Transition2",
+			"description": "",
+			"isActiveOnStart": true,
+			"children": [
+				{
+					"eventType": "variable",
+					"name": "LayoutToLoad",
+					"type": "string",
+					"initialValue": "",
+					"comment": "Layout loaded on transition",
+					"isStatic": true,
+					"isConstant": false,
+					"sid": 180424188772797
+				},
+				{
+					"functionName": "LayoutTransition2",
+					"functionDescription": "Transition between layouts",
+					"functionCategory": "",
+					"functionReturnType": "none",
+					"functionIsAsync": false,
+					"functionParameters": [
+						{
+							"name": "LayoutLoadName",
+							"type": "string",
+							"initialValue": "",
+							"comment": "Name of layout to load",
+							"sid": 319994160443083
+						}
+					],
+					"eventType": "function-block",
+					"conditions": [],
+					"actions": [
+						{
+							"id": "set-eventvar-value",
+							"objectClass": "System",
+							"sid": 163983634265636,
+							"parameters": {
+								"variable": "LayoutToLoad",
+								"value": "LayoutLoadName"
+							}
+						},
+						{
+							"id": "set-visible",
+							"objectClass": "Fade",
+							"sid": 132232799336174,
+							"parameters": {
+								"visibility": "visible"
+							}
+						},
+						{
+							"id": "start-fade",
+							"objectClass": "Fade",
+							"sid": 217403326420274,
+							"behaviorType": "FadeIn"
+						},
+						{
+							"id": "wait-for-signal",
+							"objectClass": "System",
+							"sid": 984060002206954,
+							"parameters": {
+								"tag": "\"FadeIn\""
+							}
+						},
+						{
+							"id": "go-to-layout-by-name",
+							"objectClass": "System",
+							"sid": 446333282137670,
+							"parameters": {
+								"layout": "LayoutToLoad"
+							}
+						},
+						{
+							"id": "start-fade",
+							"objectClass": "Fade",
+							"sid": 891918461496040,
+							"behaviorType": "FadeOut"
+						}
+					],
+					"sid": 306537063970465
+				},
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "on-fade-in-finished",
+							"objectClass": "Fade",
+							"sid": 480910348206021,
+							"behaviorType": "FadeIn"
+						}
+					],
+					"actions": [
+						{
+							"id": "signal",
+							"objectClass": "System",
+							"sid": 341961072091767,
+							"parameters": {
+								"tag": "\"FadeIn\""
+							}
+						}
+					],
+					"sid": 681892461865908
+				},
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "on-fade-out-finished",
+							"objectClass": "Fade",
+							"sid": 319432515853819,
+							"behaviorType": "FadeOut"
+						}
+					],
+					"actions": [
+						{
+							"id": "set-visible",
+							"objectClass": "Fade",
+							"sid": 306934445069906,
+							"parameters": {
+								"visibility": "invisible"
+							}
+						}
+					],
+					"sid": 634836635999508
+				},
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "on-object-clicked",
+							"objectClass": "Mouse",
+							"sid": 126094963247966,
+							"parameters": {
+								"mouse-button": "left",
+								"click-type": "clicked",
+								"object-clicked": "Start"
+							}
+						}
+					],
+					"actions": [
+						{
+							"callFunction": "LayoutTransition",
+							"sid": 793483654923135,
+							"parameters": [
+								"\"Layout0\""
+							]
+						},
+						{
+							"id": "wait",
+							"objectClass": "System",
+							"sid": 378411850270033,
+							"parameters": {
+								"seconds": "1.2"
+							}
+						},
+						{
+							"id": "go-to-layout",
+							"objectClass": "System",
+							"sid": 744858095894910,
+							"parameters": {
+								"layout": "2045Layout"
+							}
+						},
+						{
+							"id": "create-object",
+							"objectClass": "System",
+							"sid": 453347869320522,
+							"parameters": {
+								"object-to-create": "Player",
+								"layer": "1",
+								"x": "329.320016",
+								"y": "492.500016",
+								"create-hierarchy": false
+							}
+						},
+						{
+							"id": "set-instvar-value",
+							"objectClass": "Player",
+							"sid": 410185224369580,
+							"parameters": {
+								"instance-variable": "Health",
+								"value": "100"
+							}
+						},
+						{
+							"id": "set-instvar-value",
+							"objectClass": "Player",
+							"sid": 653023955659103,
+							"parameters": {
+								"instance-variable": "Hunger",
+								"value": "100"
+							}
+						},
+						{
+							"id": "set-instvar-value",
+							"objectClass": "Player",
+							"sid": 468582812010299,
+							"parameters": {
+								"instance-variable": "Water",
+								"value": "100"
+							}
+						},
+						{
+							"id": "set-enabled",
+							"objectClass": "Player",
+							"sid": 632610266271712,
+							"behaviorType": "Solid",
+							"parameters": {
+								"state": "enabled"
+							}
+						},
+						{
+							"id": "rotate-toward-angle",
+							"objectClass": "Player",
+							"sid": 130853786468333,
+							"parameters": {
+								"degrees": "0",
+								"angle": "0"
+							}
+						},
+						{
+							"id": "set-size",
+							"objectClass": "Player",
+							"sid": 598972304208179,
+							"parameters": {
+								"width": "30",
+								"height": "50"
+							}
+						},
+						{
+							"id": "reset-global-variables",
+							"objectClass": "System",
+							"sid": 362558800496085
+						}
+					],
+					"sid": 598979268093258,
+					"isOrBlock": true
+				}
+			],
+			"sid": 488432173997137
+		}
+	],
+	"sid": 277323845040629
+}

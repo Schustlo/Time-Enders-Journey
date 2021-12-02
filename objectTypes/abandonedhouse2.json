@@ -1,0 +1,59 @@
+{
+	"name": "AbandonedHouse2",
+	"plugin-id": "Sprite",
+	"sid": 842947466001621,
+	"isGlobal": false,
+	"instanceVariables": [],
+	"behaviorTypes": [
+		{
+			"behaviorId": "solid",
+			"name": "Solid",
+			"sid": 118079645194846
+		}
+	],
+	"effectTypes": [],
+	"animations": {
+		"items": [
+			{
+				"frames": [
+					{
+						"width": 795,
+						"height": 745,
+						"originX": 0.4817610062893082,
+						"originY": 0.487248322147651,
+						"originalSource": "",
+						"exportFormat": "png",
+						"exportQuality": 0.8,
+						"imageSpriteId": 9144665,
+						"collisionPoly": {
+							"points": [
+								0.10402843154743335,
+								0.2852549806928849,
+								0.3701628709477551,
+								0.014655304978247982,
+								0.9790080881434893,
+								0.34553713351531345,
+								0.9526458111860776,
+								0.7728703152209828,
+								0.6212332016011998,
+								0.9764900961299244,
+								0.10779466813701935,
+								0.9764899700504641
+							]
+						},
+						"useCollisionPoly": true,
+						"duration": 1
+					}
+				],
+				"sid": 599956913843503,
+				"name": "Default",
+				"isLooping": false,
+				"isPingPong": false,
+				"repeatCount": 1,
+				"repeatTo": 0,
+				"speed": 5
+			}
+		],
+		"subfolders": []
+	}
+}

@@ -1,0 +1,2769 @@
+{
+	"name": "Day Event Sheet",
+	"events": [
+		{
+			"eventType": "variable",
+			"name": "DayTime",
+			"type": "number",
+			"initialValue": "0",
+			"comment": "",
+			"isStatic": false,
+			"isConstant": false,
+			"sid": 105338986333131
+		},
+		{
+			"eventType": "variable",
+			"name": "TimeofDay",
+			"type": "string",
+			"initialValue": "\"day\"",
+			"comment": "",
+			"isStatic": false,
+			"isConstant": false,
+			"sid": 180539885755444
+		},
+		{
+			"eventType": "group",
+			"disabled": false,
+			"title": "System",
+			"description": "",
+			"isActiveOnStart": true,
+			"children": [
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "on-start-of-layout",
+							"objectClass": "System",
+							"sid": 761778979149072
+						}
+					],
+					"actions": [
+						{
+							"id": "set-text",
+							"objectClass": "Number1Display",
+							"sid": 328275472807618,
+							"parameters": {
+								"text": "\"1\""
+							}
+						},
+						{
+							"id": "set-text",
+							"objectClass": "Number2Display",
+							"sid": 391401582155868,
+							"parameters": {
+								"text": "\"2\""
+							}
+						},
+						{
+							"id": "play",
+							"objectClass": "Audio",
+							"sid": 314678590005856,
+							"parameters": {
+								"audio-file": "Mac_Quayle_-_2.0_6-madame3xecutioner.oga_110_-2.00_semitones",
+								"loop": "not-looping",
+								"volume": "-15",
+								"tag-optional": "\"2020\""
+							}
+						}
+					],
+					"sid": 606342516331026,
+					"children": [
+						{
+							"eventType": "block",
+							"conditions": [
+								{
+									"id": "compare-animation-frame",
+									"objectClass": "CannedFoodInventory",
+									"sid": 661399857829189,
+									"parameters": {
+										"comparison": 1,
+										"number": "Player.TotalCannedFood"
+									}
+								}
+							],
+							"actions": [
+								{
+									"id": "set-animation-frame",
+									"objectClass": "CannedFoodInventory",
+									"sid": 127957740948265,
+									"parameters": {
+										"frame-number": "Player.TotalCannedFood"
+									}
+								}
+							],
+							"sid": 570316666398833
+						},
+						{
+							"eventType": "block",
+							"conditions": [
+								{
+									"id": "compare-animation-frame",
+									"objectClass": "BottledWaterInventory",
+									"sid": 998880070462091,
+									"parameters": {
+										"comparison": 1,
+										"number": "Player.TotalBottledWater"
+									}
+								}
+							],
+							"actions": [
+								{
+									"id": "set-animation-frame",
+									"objectClass": "BottledWaterInventory",
+									"sid": 398800225536239,
+									"parameters": {
+										"frame-number": "Player.TotalBottledWater"
+									}
+								}
+							],
+							"sid": 189130182778347
+						}
+					]
+				},
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "every-tick",
+							"objectClass": "System",
+							"sid": 804316101826985
+						}
+					],
+					"actions": [
+						{
+							"id": "set-angle-toward-position",
+							"objectClass": "Player",
+							"sid": 643092073077891,
+							"disabled": true,
+							"parameters": {
+								"x": "Mouse.X",
+								"y": "Mouse.Y"
+							}
+						},
+						{
+							"id": "set-angle-toward-position",
+							"objectClass": "Pistol",
+							"sid": 193329376741250,
+							"disabled": true,
+							"parameters": {
+								"x": "Cursor.X",
+								"y": "Cursor.Y"
+							}
+						},
+						{
+							"id": "set-position",
+							"objectClass": "Pistol",
+							"sid": 966415759494384,
+							"disabled": true,
+							"parameters": {
+								"x": "Player.ImagePointX(\"GunRight\")",
+								"y": "Player.ImagePointY(\"GunRight\")"
+							}
+						},
+						{
+							"id": "set-position",
+							"objectClass": "Cursor",
+							"sid": 651440796307080,
+							"parameters": {
+								"x": "lerp(Cursor.X, Mouse.X, 0.05)",
+								"y": "lerp(Cursor.Y, Mouse.Y, 0.05)"
+							}
+						},
+						{
+							"id": "set-angle-toward-position",
+							"objectClass": "Crowbar",
+							"sid": 439962860127989,
+							"parameters": {
+								"x": "Cursor.X",
+								"y": "Cursor.Y"
+							}
+						},
+						{
+							"id": "set-position",
+							"objectClass": "Crowbar",
+							"sid": 457237847803447,
+							"parameters": {
+								"x": "Player.ImagePointX(\"GunRight\")",
+								"y": "Player.ImagePointY(\"GunRight\")"
+							}
+						}
+					],
+					"sid": 557192331594706
+				},
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "on-click",
+							"objectClass": "Mouse",
+							"sid": 376148558461727,
+							"parameters": {
+								"mouse-button": "left",
+								"click-type": "clicked"
+							}
+						}
+					],
+					"actions": [
+						{
+							"id": "set-position",
+							"objectClass": "Crowbar",
+							"sid": 373071665975023,
+							"parameters": {
+								"x": "Player.ImagePointX(\"GunLeft\")",
+								"y": "Player.ImagePointY(\"GunLeft\")"
+							}
+						},
+						{
+							"id": "pin-to-object-imagepoint",
+							"objectClass": "Crowbar",
+							"sid": 217825919290033,
+							"behaviorType": "Pin",
+							"parameters": {
+								"pin-to": "Player",
+								"image-point": "1",
+								"angle": false,
+								"width-type": "no",
+								"height-type": "no",
+								"z": false
+							}
+						}
+					],
+					"sid": 132329259924308
+				},
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "on-click",
+							"objectClass": "Mouse",
+							"sid": 453713360664193,
+							"parameters": {
+								"mouse-button": "left",
+								"click-type": "double-clicked"
+							}
+						}
+					],
+					"actions": [
+						{
+							"id": "set-position",
+							"objectClass": "Crowbar",
+							"sid": 248033172337403,
+							"parameters": {
+								"x": "Player.ImagePointX(\"GunRight\")",
+								"y": "Player.ImagePointY(\"GunRight\")"
+							}
+						},
+						{
+							"id": "pin-to-object-imagepoint",
+							"objectClass": "Crowbar",
+							"sid": 946412964847629,
+							"behaviorType": "Pin",
+							"parameters": {
+								"pin-to": "Player",
+								"image-point": "2",
+								"angle": false,
+								"width-type": "no",
+								"height-type": "no",
+								"z": false
+							}
+						}
+					],
+					"sid": 927167712100979
+				},
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "on-created",
+							"objectClass": "Crowbar",
+							"sid": 827524626969291
+						}
+					],
+					"actions": [
+						{
+							"id": "move-to-object",
+							"objectClass": "Crowbar",
+							"sid": 480582782504247,
+							"parameters": {
+								"where": "in-front",
+								"object": "Player"
+							}
+						}
+					],
+					"sid": 319922846693322
+				}
+			],
+			"sid": 459256277259519
+		},
+		{
+			"eventType": "group",
+			"disabled": false,
+			"title": "Player",
+			"description": "",
+			"isActiveOnStart": true,
+			"children": [
+				{
+					"eventType": "group",
+					"disabled": false,
+					"title": "Movement",
+					"description": "",
+					"isActiveOnStart": true,
+					"children": [
+						{
+							"eventType": "block",
+							"conditions": [
+								{
+									"id": "key-is-down",
+									"objectClass": "Keyboard",
+									"sid": 170644710020083,
+									"parameters": {
+										"key": 87
+									}
+								}
+							],
+							"actions": [
+								{
+									"id": "simulate-control",
+									"objectClass": "Player",
+									"sid": 295029166453056,
+									"behaviorType": "8Direction",
+									"parameters": {
+										"control": "up"
+									}
+								}
+							],
+							"sid": 535908506787736
+						},
+						{
+							"eventType": "block",
+							"conditions": [
+								{
+									"id": "key-is-down",
+									"objectClass": "Keyboard",
+									"sid": 675394907867530,
+									"parameters": {
+										"key": 65
+									}
+								}
+							],
+							"actions": [
+								{
+									"id": "simulate-control",
+									"objectClass": "Player",
+									"sid": 554837590134729,
+									"behaviorType": "8Direction",
+									"parameters": {
+										"control": "left"
+									}
+								}
+							],
+							"sid": 985143446197297
+						},
+						{
+							"eventType": "block",
+							"conditions": [
+								{
+									"id": "key-is-down",
+									"objectClass": "Keyboard",
+									"sid": 492317952375840,
+									"parameters": {
+										"key": 83
+									}
+								}
+							],
+							"actions": [
+								{
+									"id": "simulate-control",
+									"objectClass": "Player",
+									"sid": 898268244298276,
+									"behaviorType": "8Direction",
+									"parameters": {
+										"control": "down"
+									}
+								},
+								{
+									"id": "set-animation",
+									"objectClass": "Player",
+									"sid": 419951042510573,
+									"parameters": {
+										"animation": "\"Downwalk\"",
+										"from": "beginning"
+									}
+								}
+							],
+							"sid": 290374411618389
+						},
+						{
+							"eventType": "block",
+							"conditions": [
+								{
+									"id": "key-is-down",
+									"objectClass": "Keyboard",
+									"sid": 471779799183702,
+									"parameters": {
+										"key": 68
+									}
+								}
+							],
+							"actions": [
+								{
+									"id": "simulate-control",
+									"objectClass": "Player",
+									"sid": 667692708811119,
+									"behaviorType": "8Direction",
+									"parameters": {
+										"control": "right"
+									}
+								}
+							],
+							"sid": 834853838574442
+						},
+						{
+							"eventType": "comment",
+							"text": "Sprinting"
+						},
+						{
+							"eventType": "block",
+							"conditions": [
+								{
+									"id": "on-key-pressed",
+									"objectClass": "Keyboard",
+									"sid": 748528464550661,
+									"parameters": {
+										"key": 16
+									}
+								}
+							],
+							"actions": [
+								{
+									"id": "set-max-speed",
+									"objectClass": "Player",
+									"sid": 433515088246778,
+									"behaviorType": "8Direction",
+									"parameters": {
+										"max-speed": "300"
+									}
+								}
+							],
+							"sid": 958897905166384
+						},
+						{
+							"eventType": "block",
+							"conditions": [
+								{
+									"id": "on-key-released",
+									"objectClass": "Keyboard",
+									"sid": 470691504690138,
+									"parameters": {
+										"key": 16
+									}
+								}
+							],
+							"actions": [
+								{
+									"id": "set-max-speed",
+									"objectClass": "Player",
+									"sid": 259281839878694,
+									"behaviorType": "8Direction",
+									"parameters": {
+										"max-speed": "150"
+									}
+								}
+							],
+							"sid": 209507942243796
+						},
+						{
+							"eventType": "block",
+							"conditions": [
+								{
+									"id": "on-start-of-layout",
+									"objectClass": "System",
+									"sid": 496870418643263
+								}
+							],
+							"actions": [
+								{
+									"id": "pin-to-object-properties",
+									"objectClass": "Light",
+									"sid": 717593746167355,
+									"behaviorType": "Pin",
+									"parameters": {
+										"pin-to": "Player",
+										"x": true,
+										"y": true,
+										"angle": true,
+										"width-type": "no",
+										"height-type": "no",
+										"z": false
+									}
+								}
+							],
+							"sid": 751207208730605,
+							"disabled": true
+						}
+					],
+					"sid": 800500320099335
+				},
+				{
+					"eventType": "group",
+					"disabled": false,
+					"title": "Stats",
+					"description": "",
+					"isActiveOnStart": true,
+					"children": [
+						{
+							"eventType": "comment",
+							"text": "Updates the health over time"
+						},
+						{
+							"eventType": "block",
+							"conditions": [
+								{
+									"id": "every-tick",
+									"objectClass": "System",
+									"sid": 202187842289727
+								}
+							],
+							"actions": [
+								{
+									"id": "set-width",
+									"objectClass": "PlayerHealth",
+									"sid": 378357233744991,
+									"parameters": {
+										"width": "192.331224*(Player.Health/100)"
+									}
+								},
+								{
+									"id": "set-text",
+									"objectClass": "PlayerHealthNumber",
+									"sid": 190935226907837,
+									"parameters": {
+										"text": "Player.Health"
+									}
+								}
+							],
+							"sid": 434036013718031
+						},
+						{
+							"eventType": "comment",
+							"text": "Updates the hunger over time"
+						},
+						{
+							"eventType": "block",
+							"conditions": [
+								{
+									"id": "every-tick",
+									"objectClass": "System",
+									"sid": 912444362102358
+								}
+							],
+							"actions": [
+								{
+									"id": "set-width",
+									"objectClass": "PlayerHunger",
+									"sid": 671104167115061,
+									"parameters": {
+										"width": "194.234601*(Player.Hunger/100)"
+									}
+								},
+								{
+									"id": "set-text",
+									"objectClass": "PlayerHungerNumber",
+									"sid": 511013393361747,
+									"parameters": {
+										"text": "Player.Hunger"
+									}
+								}
+							],
+							"sid": 709525140399885
+						},
+						{
+							"eventType": "comment",
+							"text": "Updates the water over time"
+						},
+						{
+							"eventType": "block",
+							"conditions": [
+								{
+									"id": "every-tick",
+									"objectClass": "System",
+									"sid": 669369983989293
+								}
+							],
+							"actions": [
+								{
+									"id": "set-width",
+									"objectClass": "PlayerWater",
+									"sid": 959857327148593,
+									"parameters": {
+										"width": "199.268611 *(Player.Water/100)"
+									}
+								},
+								{
+									"id": "set-text",
+									"objectClass": "PlayerWaterNumber",
+									"sid": 916345491525687,
+									"parameters": {
+										"text": "Player.Water"
+									}
+								}
+							],
+							"sid": 300530164049374
+						},
+						{
+							"eventType": "comment",
+							"text": "Subtracts from hunger and water"
+						},
+						{
+							"eventType": "block",
+							"conditions": [
+								{
+									"id": "every-x-seconds",
+									"objectClass": "System",
+									"sid": 766200305612031,
+									"parameters": {
+										"interval-seconds": "5.5"
+									}
+								}
+							],
+							"actions": [
+								{
+									"id": "subtract-from-instvar",
+									"objectClass": "Player",
+									"sid": 121361706802567,
+									"parameters": {
+										"instance-variable": "Hunger",
+										"value": "1"
+									}
+								}
+							],
+							"sid": 890665597492692
+						},
+						{
+							"eventType": "block",
+							"conditions": [
+								{
+									"id": "every-x-seconds",
+									"objectClass": "System",
+									"sid": 715506481880842,
+									"parameters": {
+										"interval-seconds": "5"
+									}
+								}
+							],
+							"actions": [
+								{
+									"id": "subtract-from-instvar",
+									"objectClass": "Player",
+									"sid": 884660923241190,
+									"parameters": {
+										"instance-variable": "Water",
+										"value": "1"
+									}
+								}
+							],
+							"sid": 635099931802920
+						},
+						{
+							"eventType": "comment",
+							"text": "Subtracts from health (hunger and water together subtract 2)"
+						},
+						{
+							"eventType": "block",
+							"conditions": [
+								{
+									"id": "compare-instance-variable",
+									"objectClass": "Player",
+									"sid": 197456865515259,
+									"parameters": {
+										"instance-variable": "Hunger",
+										"comparison": 3,
+										"value": "0"
+									}
+								},
+								{
+									"id": "every-x-seconds",
+									"objectClass": "System",
+									"sid": 488966780002351,
+									"parameters": {
+										"interval-seconds": "5"
+									}
+								}
+							],
+							"actions": [
+								{
+									"id": "subtract-from-instvar",
+									"objectClass": "Player",
+									"sid": 407729015021375,
+									"parameters": {
+										"instance-variable": "Health",
+										"value": "1"
+									}
+								}
+							],
+							"sid": 940562961642943
+						},
+						{
+							"eventType": "block",
+							"conditions": [
+								{
+									"id": "compare-instance-variable",
+									"objectClass": "Player",
+									"sid": 258728969222354,
+									"parameters": {
+										"instance-variable": "Hunger",
+										"comparison": 3,
+										"value": "0"
+									}
+								}
+							],
+							"actions": [
+								{
+									"id": "set-instvar-value",
+									"objectClass": "Player",
+									"sid": 469123367940783,
+									"parameters": {
+										"instance-variable": "Hunger",
+										"value": "0"
+									}
+								}
+							],
+							"sid": 380652198146773
+						},
+						{
+							"eventType": "block",
+							"conditions": [
+								{
+									"id": "compare-instance-variable",
+									"objectClass": "Player",
+									"sid": 974217756101926,
+									"parameters": {
+										"instance-variable": "Water",
+										"comparison": 3,
+										"value": "0"
+									}
+								},
+								{
+									"id": "every-x-seconds",
+									"objectClass": "System",
+									"sid": 464321519940111,
+									"parameters": {
+										"interval-seconds": "5"
+									}
+								}
+							],
+							"actions": [
+								{
+									"id": "subtract-from-instvar",
+									"objectClass": "Player",
+									"sid": 947402654748125,
+									"parameters": {
+										"instance-variable": "Health",
+										"value": "1"
+									}
+								}
+							],
+							"sid": 211992563690080
+						},
+						{
+							"eventType": "block",
+							"conditions": [
+								{
+									"id": "compare-instance-variable",
+									"objectClass": "Player",
+									"sid": 225732406544840,
+									"parameters": {
+										"instance-variable": "Water",
+										"comparison": 3,
+										"value": "0"
+									}
+								}
+							],
+							"actions": [
+								{
+									"id": "set-instvar-value",
+									"objectClass": "Player",
+									"sid": 320337315241873,
+									"parameters": {
+										"instance-variable": "Water",
+										"value": "0"
+									}
+								}
+							],
+							"sid": 460791294181636
+						},
+						{
+							"eventType": "comment",
+							"text": "Adds to player health over time"
+						},
+						{
+							"eventType": "block",
+							"conditions": [
+								{
+									"id": "compare-instance-variable",
+									"objectClass": "Player",
+									"sid": 759686009785645,
+									"parameters": {
+										"instance-variable": "Hunger",
+										"comparison": 5,
+										"value": "80"
+									}
+								},
+								{
+									"id": "every-x-seconds",
+									"objectClass": "System",
+									"sid": 307798279234775,
+									"parameters": {
+										"interval-seconds": "10"
+									}
+								}
+							],
+							"actions": [
+								{
+									"id": "add-to-instvar",
+									"objectClass": "Player",
+									"sid": 481826259671963,
+									"parameters": {
+										"instance-variable": "Health",
+										"value": "1"
+									}
+								}
+							],
+							"sid": 153718254888583
+						},
+						{
+							"eventType": "block",
+							"conditions": [
+								{
+									"id": "compare-instance-variable",
+									"objectClass": "Player",
+									"sid": 278832640981872,
+									"parameters": {
+										"instance-variable": "Water",
+										"comparison": 5,
+										"value": "80"
+									}
+								},
+								{
+									"id": "every-x-seconds",
+									"objectClass": "System",
+									"sid": 693092098098064,
+									"parameters": {
+										"interval-seconds": "15"
+									}
+								}
+							],
+							"actions": [
+								{
+									"id": "add-to-instvar",
+									"objectClass": "Player",
+									"sid": 991223018789160,
+									"parameters": {
+										"instance-variable": "Health",
+										"value": "1"
+									}
+								}
+							],
+							"sid": 480411628965972
+						},
+						{
+							"eventType": "block",
+							"conditions": [
+								{
+									"id": "compare-instance-variable",
+									"objectClass": "Player",
+									"sid": 620425507078730,
+									"parameters": {
+										"instance-variable": "Health",
+										"comparison": 4,
+										"value": "100"
+									}
+								}
+							],
+							"actions": [
+								{
+									"id": "set-instvar-value",
+									"objectClass": "Player",
+									"sid": 735860683361490,
+									"parameters": {
+										"instance-variable": "Health",
+										"value": "100"
+									}
+								}
+							],
+							"sid": 153056787104800
+						},
+						{
+							"eventType": "comment",
+							"text": "Player death"
+						},
+						{
+							"eventType": "block",
+							"conditions": [
+								{
+									"id": "compare-instance-variable",
+									"objectClass": "Player",
+									"sid": 842932061045607,
+									"parameters": {
+										"instance-variable": "Health",
+										"comparison": 3,
+										"value": "0"
+									}
+								}
+							],
+							"actions": [
+								{
+									"id": "destroy",
+									"objectClass": "Player",
+									"sid": 767424389923081
+								},
+								{
+									"id": "go-to-layout",
+									"objectClass": "System",
+									"sid": 340661943609826,
+									"parameters": {
+										"layout": "Start"
+									}
+								}
+							],
+							"sid": 767124997831210
+						}
+					],
+					"sid": 721933248770099
+				},
+				{
+					"eventType": "group",
+					"disabled": false,
+					"title": "Food",
+					"description": "",
+					"isActiveOnStart": true,
+					"children": [
+						{
+							"eventType": "comment",
+							"text": "Pick up food"
+						},
+						{
+							"eventType": "block",
+							"conditions": [
+								{
+									"id": "on-collision-with-another-object",
+									"objectClass": "Player",
+									"sid": 886415288360910,
+									"parameters": {
+										"object": "CannedFood"
+									}
+								},
+								{
+									"id": "compare-instance-variable",
+									"objectClass": "Player",
+									"sid": 965228313493675,
+									"parameters": {
+										"instance-variable": "TotalCannedFood",
+										"comparison": 2,
+										"value": "5"
+									}
+								}
+							],
+							"actions": [
+								{
+									"id": "destroy",
+									"objectClass": "CannedFood",
+									"sid": 212698551164132
+								},
+								{
+									"id": "add-to-instvar",
+									"objectClass": "Player",
+									"sid": 613025892097406,
+									"disabled": true,
+									"parameters": {
+										"instance-variable": "CannedFood",
+										"value": "1"
+									}
+								},
+								{
+									"id": "add-to-instvar",
+									"objectClass": "Player",
+									"sid": 117920836798125,
+									"parameters": {
+										"instance-variable": "TotalCannedFood",
+										"value": "1"
+									}
+								},
+								{
+									"id": "set-animation-frame",
+									"objectClass": "CannedFoodInventory",
+									"sid": 183840044117202,
+									"parameters": {
+										"frame-number": "Self.AnimationFrame+1"
+									}
+								}
+							],
+							"sid": 287464744878155
+						},
+						{
+							"eventType": "block",
+							"conditions": [
+								{
+									"id": "on-key-pressed",
+									"objectClass": "Keyboard",
+									"sid": 659123136841167,
+									"parameters": {
+										"key": 49
+									}
+								},
+								{
+									"id": "compare-animation-frame",
+									"objectClass": "CannedFoodInventory",
+									"sid": 713782959756580,
+									"parameters": {
+										"comparison": 5,
+										"number": "1"
+									}
+								}
+							],
+							"actions": [
+								{
+									"id": "add-to-instvar",
+									"objectClass": "Player",
+									"sid": 810238373972927,
+									"parameters": {
+										"instance-variable": "Hunger",
+										"value": "20"
+									}
+								},
+								{
+									"id": "subtract-from-instvar",
+									"objectClass": "Player",
+									"sid": 502529344187317,
+									"parameters": {
+										"instance-variable": "TotalCannedFood",
+										"value": "1"
+									}
+								},
+								{
+									"id": "set-animation-frame",
+									"objectClass": "CannedFoodInventory",
+									"sid": 259941899922069,
+									"parameters": {
+										"frame-number": "Self.AnimationFrame-1"
+									}
+								}
+							],
+							"sid": 666363924926392
+						},
+						{
+							"eventType": "block",
+							"conditions": [
+								{
+									"id": "compare-instance-variable",
+									"objectClass": "Player",
+									"sid": 351881177212373,
+									"parameters": {
+										"instance-variable": "Hunger",
+										"comparison": 4,
+										"value": "100"
+									}
+								}
+							],
+							"actions": [
+								{
+									"id": "set-instvar-value",
+									"objectClass": "Player",
+									"sid": 835273269330721,
+									"parameters": {
+										"instance-variable": "Hunger",
+										"value": "100"
+									}
+								}
+							],
+							"sid": 441144695361887
+						},
+						{
+							"eventType": "comment",
+							"text": "Pick up water"
+						},
+						{
+							"eventType": "block",
+							"conditions": [
+								{
+									"id": "on-collision-with-another-object",
+									"objectClass": "Player",
+									"sid": 556171814077062,
+									"parameters": {
+										"object": "BottledWater"
+									}
+								},
+								{
+									"id": "compare-instance-variable",
+									"objectClass": "Player",
+									"sid": 161418222564171,
+									"parameters": {
+										"instance-variable": "TotalBottledWater",
+										"comparison": 2,
+										"value": "5"
+									}
+								}
+							],
+							"actions": [
+								{
+									"id": "destroy",
+									"objectClass": "BottledWater",
+									"sid": 348213432260054
+								},
+								{
+									"id": "add-to-instvar",
+									"objectClass": "Player",
+									"sid": 166937953533609,
+									"disabled": true,
+									"parameters": {
+										"instance-variable": "BottledWater",
+										"value": "1"
+									}
+								},
+								{
+									"id": "add-to-instvar",
+									"objectClass": "Player",
+									"sid": 620616079100143,
+									"parameters": {
+										"instance-variable": "TotalBottledWater",
+										"value": "1"
+									}
+								},
+								{
+									"id": "set-animation-frame",
+									"objectClass": "BottledWaterInventory",
+									"sid": 630089584268633,
+									"parameters": {
+										"frame-number": "Self.AnimationFrame+1"
+									}
+								}
+							],
+							"sid": 280943643553471
+						},
+						{
+							"eventType": "block",
+							"conditions": [
+								{
+									"id": "on-key-pressed",
+									"objectClass": "Keyboard",
+									"sid": 768067888530955,
+									"parameters": {
+										"key": 50
+									}
+								},
+								{
+									"id": "compare-animation-frame",
+									"objectClass": "BottledWaterInventory",
+									"sid": 421664248792976,
+									"parameters": {
+										"comparison": 5,
+										"number": "1"
+									}
+								}
+							],
+							"actions": [
+								{
+									"id": "add-to-instvar",
+									"objectClass": "Player",
+									"sid": 708834619376391,
+									"parameters": {
+										"instance-variable": "Water",
+										"value": "20"
+									}
+								},
+								{
+									"id": "subtract-from-instvar",
+									"objectClass": "Player",
+									"sid": 520676960381788,
+									"disabled": true,
+									"parameters": {
+										"instance-variable": "BottledWater",
+										"value": "1"
+									}
+								},
+								{
+									"id": "subtract-from-instvar",
+									"objectClass": "Player",
+									"sid": 937795170879594,
+									"parameters": {
+										"instance-variable": "TotalBottledWater",
+										"value": "1"
+									}
+								},
+								{
+									"id": "set-animation-frame",
+									"objectClass": "BottledWaterInventory",
+									"sid": 404778490887372,
+									"parameters": {
+										"frame-number": "Self.AnimationFrame-1"
+									}
+								}
+							],
+							"sid": 703515623545072
+						},
+						{
+							"eventType": "block",
+							"conditions": [
+								{
+									"id": "compare-instance-variable",
+									"objectClass": "Player",
+									"sid": 424965227829818,
+									"parameters": {
+										"instance-variable": "Water",
+										"comparison": 4,
+										"value": "100"
+									}
+								}
+							],
+							"actions": [
+								{
+									"id": "set-instvar-value",
+									"objectClass": "Player",
+									"sid": 541558465071754,
+									"parameters": {
+										"instance-variable": "Water",
+										"value": "100"
+									}
+								}
+							],
+							"sid": 746591412921473
+						}
+					],
+					"sid": 242045000131207
+				},
+				{
+					"eventType": "group",
+					"disabled": true,
+					"title": "Time Travel",
+					"description": "",
+					"isActiveOnStart": true,
+					"children": [
+						{
+							"eventType": "variable",
+							"name": "TimeMechanic",
+							"type": "boolean",
+							"initialValue": "false",
+							"comment": "",
+							"isStatic": true,
+							"isConstant": false,
+							"sid": 927274976359832
+						},
+						{
+							"eventType": "block",
+							"conditions": [
+								{
+									"id": "on-key-pressed",
+									"objectClass": "Keyboard",
+									"sid": 481501589524274,
+									"parameters": {
+										"key": 69
+									}
+								}
+							],
+							"actions": [
+								{
+									"id": "toggle-boolean-eventvar",
+									"objectClass": "System",
+									"sid": 501708510480888,
+									"parameters": {
+										"variable": "TimeMechanic"
+									}
+								},
+								{
+									"id": "go-to-layout-by-name",
+									"objectClass": "System",
+									"sid": 253899000824878,
+									"parameters": {
+										"layout": "\"Layout\" & TimeMechanic"
+									}
+								}
+							],
+							"sid": 603507320155944,
+							"disabled": true
+						}
+					],
+					"sid": 671428310683876
+				}
+			],
+			"sid": 392568963339248
+		},
+		{
+			"eventType": "group",
+			"disabled": true,
+			"title": "Guns",
+			"description": "",
+			"isActiveOnStart": true,
+			"children": [
+				{
+					"eventType": "group",
+					"disabled": false,
+					"title": "Pistol",
+					"description": "",
+					"isActiveOnStart": true,
+					"children": [
+						{
+							"eventType": "block",
+							"conditions": [
+								{
+									"id": "on-click",
+									"objectClass": "Mouse",
+									"sid": 252489549453062,
+									"parameters": {
+										"mouse-button": "left",
+										"click-type": "clicked"
+									}
+								}
+							],
+							"actions": [
+								{
+									"id": "create-object",
+									"objectClass": "System",
+									"sid": 813768942045653,
+									"parameters": {
+										"object-to-create": "PistolBullet",
+										"layer": "\"Game\"",
+										"x": "Pistol.ImagePointX(\"Barrel\")",
+										"y": "Pistol.ImagePointY(\"Barrel\")",
+										"create-hierarchy": false
+									}
+								}
+							],
+							"sid": 579191736937777
+						},
+						{
+							"eventType": "group",
+							"disabled": false,
+							"title": "PistolBullet",
+							"description": "",
+							"isActiveOnStart": true,
+							"children": [
+								{
+									"eventType": "block",
+									"conditions": [
+										{
+											"id": "on-created",
+											"objectClass": "PistolBullet",
+											"sid": 639722375027883
+										}
+									],
+									"actions": [
+										{
+											"id": "set-angle-toward-position",
+											"objectClass": "PistolBullet",
+											"sid": 346562726616533,
+											"parameters": {
+												"x": "Cursor.X",
+												"y": "Cursor.Y"
+											}
+										}
+									],
+									"sid": 922646706375855
+								}
+							],
+							"sid": 993255796093007
+						}
+					],
+					"sid": 560940497337459
+				}
+			],
+			"sid": 947962798402702
+		},
+		{
+			"eventType": "group",
+			"disabled": false,
+			"title": "Breaking Blocks",
+			"description": "",
+			"isActiveOnStart": true,
+			"children": [
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "on-collision-with-another-object",
+							"objectClass": "Crowbar",
+							"sid": 954299338288398,
+							"parameters": {
+								"object": "Block"
+							}
+						}
+					],
+					"actions": [
+						{
+							"id": "subtract-from-instvar",
+							"objectClass": "Block",
+							"sid": 221989120054767,
+							"parameters": {
+								"instance-variable": "Health",
+								"value": "1"
+							}
+						},
+						{
+							"id": "set-animation-frame",
+							"objectClass": "Block",
+							"sid": 447384936308521,
+							"parameters": {
+								"frame-number": "Self.AnimationFrame+1"
+							}
+						},
+						{
+							"id": "play",
+							"objectClass": "Audio",
+							"sid": 317975274014787,
+							"parameters": {
+								"audio-file": "Crumbling_Sound_Effect",
+								"loop": "not-looping",
+								"volume": "-10",
+								"tag-optional": "\"\""
+							}
+						}
+					],
+					"sid": 636879628089037
+				},
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "compare-instance-variable",
+							"objectClass": "Block",
+							"sid": 976342959616636,
+							"parameters": {
+								"instance-variable": "Health",
+								"comparison": 3,
+								"value": "0"
+							}
+						}
+					],
+					"actions": [
+						{
+							"id": "destroy",
+							"objectClass": "Block",
+							"sid": 659017815258407
+						},
+						{
+							"id": "play",
+							"objectClass": "Audio",
+							"sid": 288241989352624,
+							"parameters": {
+								"audio-file": "Rock Breaking",
+								"loop": "not-looping",
+								"volume": "-15",
+								"tag-optional": "\"\""
+							}
+						},
+						{
+							"callFunction": "LayoutTransition",
+							"sid": 284856761251176,
+							"parameters": [
+								"\"Layout0\""
+							]
+						},
+						{
+							"id": "wait",
+							"objectClass": "System",
+							"sid": 473178403152148,
+							"parameters": {
+								"seconds": "1.2"
+							}
+						},
+						{
+							"id": "stop",
+							"objectClass": "Audio",
+							"sid": 114380987678113,
+							"parameters": {
+								"tag": "\"2020\""
+							}
+						},
+						{
+							"id": "go-to-layout",
+							"objectClass": "System",
+							"sid": 695580932504428,
+							"parameters": {
+								"layout": "2020Layout"
+							}
+						}
+					],
+					"sid": 792641504385697
+				}
+			],
+			"sid": 745817530201906
+		},
+		{
+			"eventType": "group",
+			"disabled": false,
+			"title": "Houses",
+			"description": "",
+			"isActiveOnStart": true,
+			"children": [
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "on-collision-with-another-object",
+							"objectClass": "Player",
+							"sid": 687620755485500,
+							"parameters": {
+								"object": "GoInsideHouseTrigger"
+							}
+						}
+					],
+					"actions": [
+						{
+							"callFunction": "LayoutTransition",
+							"sid": 364584600902524,
+							"parameters": [
+								"\"Layout0\""
+							]
+						},
+						{
+							"id": "wait",
+							"objectClass": "System",
+							"sid": 443172638861427,
+							"parameters": {
+								"seconds": "1.2"
+							}
+						},
+						{
+							"id": "set-position",
+							"objectClass": "Player",
+							"sid": 423165271872868,
+							"parameters": {
+								"x": "800",
+								"y": "1450"
+							}
+						},
+						{
+							"id": "go-to-layout",
+							"objectClass": "System",
+							"sid": 476653087288999,
+							"parameters": {
+								"layout": "InsideHouseLayout"
+							}
+						}
+					],
+					"sid": 189003533481045
+				},
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "on-collision-with-another-object",
+							"objectClass": "Player",
+							"sid": 552735755695457,
+							"parameters": {
+								"object": "GoOutsideHouseTrigger"
+							}
+						}
+					],
+					"actions": [
+						{
+							"callFunction": "LayoutTransition",
+							"sid": 433747431134076,
+							"parameters": [
+								"\"Layout0\""
+							]
+						},
+						{
+							"id": "wait",
+							"objectClass": "System",
+							"sid": 498653725186664,
+							"parameters": {
+								"seconds": "1.5"
+							}
+						},
+						{
+							"id": "set-position",
+							"objectClass": "Player",
+							"sid": 424822001574634,
+							"parameters": {
+								"x": "2000",
+								"y": "1400"
+							}
+						},
+						{
+							"id": "go-to-layout",
+							"objectClass": "System",
+							"sid": 418735623806175,
+							"parameters": {
+								"layout": "2020Layout"
+							}
+						}
+					],
+					"sid": 606116809131037
+				},
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "on-collision-with-another-object",
+							"objectClass": "Player",
+							"sid": 929006887865596,
+							"parameters": {
+								"object": "GoInsideHouseTrigger2"
+							}
+						}
+					],
+					"actions": [
+						{
+							"callFunction": "LayoutTransition",
+							"sid": 897016852397277,
+							"parameters": [
+								"\"Layout0\""
+							]
+						},
+						{
+							"id": "wait",
+							"objectClass": "System",
+							"sid": 563582954723630,
+							"parameters": {
+								"seconds": "1.2"
+							}
+						},
+						{
+							"id": "set-position",
+							"objectClass": "Player",
+							"sid": 590605390756069,
+							"parameters": {
+								"x": "800",
+								"y": "1450"
+							}
+						},
+						{
+							"id": "go-to-layout",
+							"objectClass": "System",
+							"sid": 546791016498007,
+							"parameters": {
+								"layout": "InsideHouseLayout2"
+							}
+						}
+					],
+					"sid": 799811165708353
+				},
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "on-collision-with-another-object",
+							"objectClass": "Player",
+							"sid": 923936382634734,
+							"parameters": {
+								"object": "GoOutsideHouseTrigger2"
+							}
+						}
+					],
+					"actions": [
+						{
+							"callFunction": "LayoutTransition",
+							"sid": 669609353262160,
+							"parameters": [
+								"\"Layout0\""
+							]
+						},
+						{
+							"id": "wait",
+							"objectClass": "System",
+							"sid": 803795148822357,
+							"parameters": {
+								"seconds": "1.5"
+							}
+						},
+						{
+							"id": "set-position",
+							"objectClass": "Player",
+							"sid": 469999478744735,
+							"parameters": {
+								"x": "1400",
+								"y": "5100"
+							}
+						},
+						{
+							"id": "go-to-layout",
+							"objectClass": "System",
+							"sid": 493223128442877,
+							"parameters": {
+								"layout": "2020Layout"
+							}
+						}
+					],
+					"sid": 788724928801362
+				}
+			],
+			"sid": 143038957099199
+		},
+		{
+			"eventType": "group",
+			"disabled": false,
+			"title": "Enemies",
+			"description": "",
+			"isActiveOnStart": true,
+			"children": [
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "every-tick",
+							"objectClass": "System",
+							"sid": 951953107868252
+						},
+						{
+							"id": "compare-two-values",
+							"objectClass": "System",
+							"sid": 959294157443109,
+							"parameters": {
+								"first-value": "distance(Player.X,Player.Y,CovidMan.X,CovidMan.Y)",
+								"comparison": 3,
+								"second-value": "200"
+							}
+						}
+					],
+					"actions": [
+						{
+							"id": "set-angle-toward-position",
+							"objectClass": "CovidMan",
+							"sid": 810631972982648,
+							"parameters": {
+								"x": "Player.X",
+								"y": "Player.Y"
+							}
+						},
+						{
+							"id": "move-forward",
+							"objectClass": "CovidMan",
+							"sid": 468821920139315,
+							"parameters": {
+								"distance": "1"
+							}
+						}
+					],
+					"sid": 911954212329341,
+					"disabled": true
+				},
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "has-los-to-object",
+							"objectClass": "CovidMan",
+							"sid": 704768642100040,
+							"behaviorType": "LineOfSight",
+							"parameters": {
+								"object": "Player",
+								"image-point": "0"
+							}
+						}
+					],
+					"actions": [
+						{
+							"id": "set-enabled",
+							"objectClass": "CovidMan",
+							"sid": 419465913091827,
+							"behaviorType": "MoveTo",
+							"parameters": {
+								"enabled": true
+							}
+						},
+						{
+							"id": "set-deceleration",
+							"objectClass": "CovidMan",
+							"sid": 654272397499956,
+							"behaviorType": "MoveTo",
+							"parameters": {
+								"deceleration": "0"
+							}
+						},
+						{
+							"id": "set-rotate-speed",
+							"objectClass": "CovidMan",
+							"sid": 234558419895449,
+							"behaviorType": "MoveTo",
+							"parameters": {
+								"rotate-speed": "0"
+							}
+						},
+						{
+							"id": "set-stop-on-solids",
+							"objectClass": "CovidMan",
+							"sid": 320709227906532,
+							"behaviorType": "MoveTo",
+							"parameters": {
+								"enabled": true
+							}
+						},
+						{
+							"id": "move-to-object",
+							"objectClass": "CovidMan",
+							"sid": 197645755900365,
+							"behaviorType": "MoveTo",
+							"parameters": {
+								"object": "Player",
+								"image-point": "3",
+								"mode": "direct"
+							}
+						}
+					],
+					"sid": 688727911622084
+				},
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "on-collision-with-another-object",
+							"objectClass": "CovidMan",
+							"sid": 935729926296112,
+							"parameters": {
+								"object": "Player"
+							}
+						}
+					],
+					"actions": [
+						{
+							"id": "subtract-from-instvar",
+							"objectClass": "Player",
+							"sid": 705605497057155,
+							"parameters": {
+								"instance-variable": "Health",
+								"value": "2"
+							}
+						}
+					],
+					"sid": 146171451030642
+				},
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "on-collision-with-another-object",
+							"objectClass": "Crowbar",
+							"sid": 138095964098720,
+							"parameters": {
+								"object": "CovidMan"
+							}
+						}
+					],
+					"actions": [
+						{
+							"id": "subtract-from-instvar",
+							"objectClass": "CovidMan",
+							"sid": 881656711803515,
+							"parameters": {
+								"instance-variable": "EnemyHealth",
+								"value": "1"
+							}
+						},
+						{
+							"id": "play",
+							"objectClass": "Audio",
+							"sid": 413823822346013,
+							"parameters": {
+								"audio-file": "Monster Hit Noise",
+								"loop": "not-looping",
+								"volume": "-15",
+								"tag-optional": "\"\""
+							}
+						}
+					],
+					"sid": 926767254078100
+				},
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "compare-instance-variable",
+							"objectClass": "CovidMan",
+							"sid": 938147919572132,
+							"parameters": {
+								"instance-variable": "EnemyHealth",
+								"comparison": 3,
+								"value": "0"
+							}
+						}
+					],
+					"actions": [
+						{
+							"id": "destroy",
+							"objectClass": "CovidMan",
+							"sid": 528906266531104
+						}
+					],
+					"sid": 973719646369972
+				},
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "has-los-to-object",
+							"objectClass": "GiantCovidMan",
+							"sid": 989063304657175,
+							"behaviorType": "LineOfSight",
+							"parameters": {
+								"object": "Player",
+								"image-point": "0"
+							}
+						}
+					],
+					"actions": [
+						{
+							"id": "set-enabled",
+							"objectClass": "GiantCovidMan",
+							"sid": 134643386112143,
+							"behaviorType": "MoveTo",
+							"parameters": {
+								"enabled": true
+							}
+						},
+						{
+							"id": "set-deceleration",
+							"objectClass": "GiantCovidMan",
+							"sid": 268648349186200,
+							"behaviorType": "MoveTo",
+							"parameters": {
+								"deceleration": "0"
+							}
+						},
+						{
+							"id": "set-rotate-speed",
+							"objectClass": "GiantCovidMan",
+							"sid": 932175196112367,
+							"behaviorType": "MoveTo",
+							"parameters": {
+								"rotate-speed": "0"
+							}
+						},
+						{
+							"id": "set-stop-on-solids",
+							"objectClass": "GiantCovidMan",
+							"sid": 501230817615849,
+							"behaviorType": "MoveTo",
+							"parameters": {
+								"enabled": true
+							}
+						},
+						{
+							"id": "move-to-object",
+							"objectClass": "GiantCovidMan",
+							"sid": 700847502592582,
+							"behaviorType": "MoveTo",
+							"parameters": {
+								"object": "Player",
+								"image-point": "3",
+								"mode": "direct"
+							}
+						}
+					],
+					"sid": 708261507900110
+				},
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "on-collision-with-another-object",
+							"objectClass": "GiantCovidMan",
+							"sid": 203937409028963,
+							"parameters": {
+								"object": "Player"
+							}
+						}
+					],
+					"actions": [
+						{
+							"id": "subtract-from-instvar",
+							"objectClass": "Player",
+							"sid": 146339639819344,
+							"parameters": {
+								"instance-variable": "Health",
+								"value": "10"
+							}
+						}
+					],
+					"sid": 979972313246252
+				},
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "on-collision-with-another-object",
+							"objectClass": "Crowbar",
+							"sid": 704878317651221,
+							"parameters": {
+								"object": "GiantCovidMan"
+							}
+						}
+					],
+					"actions": [
+						{
+							"id": "subtract-from-instvar",
+							"objectClass": "GiantCovidMan",
+							"sid": 524931534663112,
+							"parameters": {
+								"instance-variable": "EnemyHealth",
+								"value": "1"
+							}
+						},
+						{
+							"id": "play",
+							"objectClass": "Audio",
+							"sid": 270999025023848,
+							"parameters": {
+								"audio-file": "Monster Hit Noise",
+								"loop": "not-looping",
+								"volume": "-15",
+								"tag-optional": "\"\""
+							}
+						}
+					],
+					"sid": 326563216776448
+				},
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "compare-instance-variable",
+							"objectClass": "GiantCovidMan",
+							"sid": 659870653159284,
+							"parameters": {
+								"instance-variable": "EnemyHealth",
+								"comparison": 3,
+								"value": "0"
+							}
+						}
+					],
+					"actions": [
+						{
+							"id": "destroy",
+							"objectClass": "GiantCovidMan",
+							"sid": 563491657926005
+						},
+						{
+							"id": "spawn-another-object",
+							"objectClass": "GiantCovidMan",
+							"sid": 507626521273242,
+							"parameters": {
+								"object": "CovidFile3",
+								"layer": "\"Game\"",
+								"image-point": "0",
+								"create-hierarchy": false
+							}
+						}
+					],
+					"sid": 803934185902016
+				}
+			],
+			"sid": 949190050758463
+		},
+		{
+			"eventType": "group",
+			"disabled": false,
+			"title": "Covid Files",
+			"description": "",
+			"isActiveOnStart": true,
+			"children": [
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "on-collision-with-another-object",
+							"objectClass": "Player",
+							"sid": 408289369813033,
+							"parameters": {
+								"object": "CovidFile"
+							}
+						}
+					],
+					"actions": [
+						{
+							"id": "wait-for-previous-actions",
+							"objectClass": "System",
+							"sid": 993794025557101
+						},
+						{
+							"id": "go-to-layout",
+							"objectClass": "System",
+							"sid": 946335933817864,
+							"parameters": {
+								"layout": "CovidFile"
+							}
+						},
+						{
+							"id": "destroy",
+							"objectClass": "Player",
+							"sid": 348139772642205,
+							"disabled": true
+						},
+						{
+							"id": "set-visible",
+							"objectClass": "Player",
+							"sid": 669846649229795,
+							"parameters": {
+								"visibility": "invisible"
+							}
+						},
+						{
+							"id": "set-position",
+							"objectClass": "Player",
+							"sid": 215192761262140,
+							"parameters": {
+								"x": "50",
+								"y": "050"
+							}
+						},
+						{
+							"id": "set-enabled",
+							"objectClass": "Player",
+							"sid": 959993191327202,
+							"behaviorType": "8Direction",
+							"parameters": {
+								"state": "disabled"
+							}
+						},
+						{
+							"id": "destroy",
+							"objectClass": "CovidFile",
+							"sid": 893890317108695
+						},
+						{
+							"id": "set-animation-frame",
+							"objectClass": "CovidInventory",
+							"sid": 298093636461836,
+							"parameters": {
+								"frame-number": "Self.AnimationFrame+1"
+							}
+						}
+					],
+					"sid": 747976579173439
+				},
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "on-clicked",
+							"objectClass": "Button1",
+							"sid": 406612414474923
+						}
+					],
+					"actions": [
+						{
+							"id": "pin-to-object-properties",
+							"objectClass": "Crowbar",
+							"sid": 587485343169920,
+							"disabled": true,
+							"behaviorType": "Pin",
+							"parameters": {
+								"pin-to": "Player",
+								"x": true,
+								"y": true,
+								"angle": false,
+								"width-type": "no",
+								"height-type": "no",
+								"z": false
+							}
+						},
+						{
+							"id": "go-to-layout",
+							"objectClass": "System",
+							"sid": 895727250351543,
+							"parameters": {
+								"layout": "InsideHouseLayout"
+							}
+						},
+						{
+							"id": "set-visible",
+							"objectClass": "Player",
+							"sid": 954732562928473,
+							"parameters": {
+								"visibility": "visible"
+							}
+						},
+						{
+							"id": "set-position",
+							"objectClass": "Player",
+							"sid": 944285683678057,
+							"parameters": {
+								"x": "171",
+								"y": "1229"
+							}
+						},
+						{
+							"id": "set-enabled",
+							"objectClass": "Player",
+							"sid": 433473075527644,
+							"behaviorType": "8Direction",
+							"parameters": {
+								"state": "enabled"
+							}
+						}
+					],
+					"sid": 895646485425309
+				},
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "on-collision-with-another-object",
+							"objectClass": "Player",
+							"sid": 115878408863554,
+							"parameters": {
+								"object": "CovidFile2"
+							}
+						}
+					],
+					"actions": [
+						{
+							"id": "wait-for-previous-actions",
+							"objectClass": "System",
+							"sid": 678224047159420
+						},
+						{
+							"id": "go-to-layout",
+							"objectClass": "System",
+							"sid": 430725075834945,
+							"parameters": {
+								"layout": "CovidFile2"
+							}
+						},
+						{
+							"id": "destroy",
+							"objectClass": "Player",
+							"sid": 903578026335606,
+							"disabled": true
+						},
+						{
+							"id": "set-visible",
+							"objectClass": "Player",
+							"sid": 394697809803164,
+							"parameters": {
+								"visibility": "invisible"
+							}
+						},
+						{
+							"id": "set-position",
+							"objectClass": "Player",
+							"sid": 939565840856925,
+							"parameters": {
+								"x": "50",
+								"y": "050"
+							}
+						},
+						{
+							"id": "set-enabled",
+							"objectClass": "Player",
+							"sid": 803832202232440,
+							"behaviorType": "8Direction",
+							"parameters": {
+								"state": "disabled"
+							}
+						},
+						{
+							"id": "destroy",
+							"objectClass": "CovidFile2",
+							"sid": 132199469241981
+						},
+						{
+							"id": "set-animation-frame",
+							"objectClass": "CovidInventory",
+							"sid": 728281338373755,
+							"parameters": {
+								"frame-number": "Self.AnimationFrame+1"
+							}
+						}
+					],
+					"sid": 196090317774899
+				},
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "on-clicked",
+							"objectClass": "Button2",
+							"sid": 257151788290435
+						}
+					],
+					"actions": [
+						{
+							"id": "pin-to-object-properties",
+							"objectClass": "Crowbar",
+							"sid": 280773449475988,
+							"disabled": true,
+							"behaviorType": "Pin",
+							"parameters": {
+								"pin-to": "Player",
+								"x": true,
+								"y": true,
+								"angle": false,
+								"width-type": "no",
+								"height-type": "no",
+								"z": false
+							}
+						},
+						{
+							"id": "go-to-layout",
+							"objectClass": "System",
+							"sid": 180234659778090,
+							"parameters": {
+								"layout": "InsideHouseLayout2"
+							}
+						},
+						{
+							"id": "set-visible",
+							"objectClass": "Player",
+							"sid": 451390166221755,
+							"parameters": {
+								"visibility": "visible"
+							}
+						},
+						{
+							"id": "set-position",
+							"objectClass": "Player",
+							"sid": 581058764749166,
+							"parameters": {
+								"x": "1500",
+								"y": "1170"
+							}
+						},
+						{
+							"id": "set-enabled",
+							"objectClass": "Player",
+							"sid": 537228895240210,
+							"behaviorType": "8Direction",
+							"parameters": {
+								"state": "enabled"
+							}
+						}
+					],
+					"sid": 368465175981576
+				},
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "on-collision-with-another-object",
+							"objectClass": "Player",
+							"sid": 471406965453694,
+							"parameters": {
+								"object": "CovidFile3"
+							}
+						}
+					],
+					"actions": [
+						{
+							"id": "wait-for-previous-actions",
+							"objectClass": "System",
+							"sid": 871690743003351
+						},
+						{
+							"id": "go-to-layout",
+							"objectClass": "System",
+							"sid": 111241424164977,
+							"parameters": {
+								"layout": "CovidFile3"
+							}
+						},
+						{
+							"id": "destroy",
+							"objectClass": "Player",
+							"sid": 760499873392844,
+							"disabled": true
+						},
+						{
+							"id": "set-visible",
+							"objectClass": "Player",
+							"sid": 736020136361475,
+							"parameters": {
+								"visibility": "invisible"
+							}
+						},
+						{
+							"id": "set-position",
+							"objectClass": "Player",
+							"sid": 289345592583466,
+							"parameters": {
+								"x": "50",
+								"y": "050"
+							}
+						},
+						{
+							"id": "set-enabled",
+							"objectClass": "Player",
+							"sid": 460286454647115,
+							"behaviorType": "8Direction",
+							"parameters": {
+								"state": "disabled"
+							}
+						},
+						{
+							"id": "destroy",
+							"objectClass": "CovidFile3",
+							"sid": 661023275940828
+						},
+						{
+							"id": "set-animation-frame",
+							"objectClass": "CovidInventory",
+							"sid": 607855899740765,
+							"parameters": {
+								"frame-number": "Self.AnimationFrame+1"
+							}
+						}
+					],
+					"sid": 590400021324703
+				},
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "on-clicked",
+							"objectClass": "Button3",
+							"sid": 373333944125437
+						}
+					],
+					"actions": [
+						{
+							"id": "pin-to-object-properties",
+							"objectClass": "Crowbar",
+							"sid": 174338602957216,
+							"disabled": true,
+							"behaviorType": "Pin",
+							"parameters": {
+								"pin-to": "Player",
+								"x": true,
+								"y": true,
+								"angle": false,
+								"width-type": "no",
+								"height-type": "no",
+								"z": false
+							}
+						},
+						{
+							"id": "go-to-layout",
+							"objectClass": "System",
+							"sid": 718655279544519,
+							"parameters": {
+								"layout": "2045Layout"
+							}
+						},
+						{
+							"id": "set-visible",
+							"objectClass": "Player",
+							"sid": 272801531981131,
+							"parameters": {
+								"visibility": "visible"
+							}
+						},
+						{
+							"id": "set-position",
+							"objectClass": "Player",
+							"sid": 210411989447360,
+							"parameters": {
+								"x": "329.320016",
+								"y": "492.500016"
+							}
+						},
+						{
+							"id": "set-enabled",
+							"objectClass": "Player",
+							"sid": 904133266981257,
+							"behaviorType": "8Direction",
+							"parameters": {
+								"state": "enabled"
+							}
+						}
+					],
+					"sid": 377570789525568
+				}
+			],
+			"sid": 689300851867116
+		},
+		{
+			"eventType": "group",
+			"disabled": false,
+			"title": "NPC",
+			"description": "",
+			"isActiveOnStart": true,
+			"children": [
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "on-collision-with-another-object",
+							"objectClass": "Player",
+							"sid": 201335420203456,
+							"parameters": {
+								"object": "NPC"
+							}
+						}
+					],
+					"actions": [
+						{
+							"id": "create-object",
+							"objectClass": "System",
+							"sid": 453272147359182,
+							"parameters": {
+								"object-to-create": "Collect5Resources",
+								"layer": "0",
+								"x": "300",
+								"y": "900",
+								"create-hierarchy": false
+							}
+						},
+						{
+							"id": "wait",
+							"objectClass": "System",
+							"sid": 965877816340341,
+							"parameters": {
+								"seconds": "4"
+							}
+						},
+						{
+							"id": "destroy",
+							"objectClass": "Collect5Resources",
+							"sid": 216770411255674
+						}
+					],
+					"sid": 365060883360324
+				}
+			],
+			"sid": 601692603004525
+		},
+		{
+			"eventType": "group",
+			"disabled": false,
+			"title": "Transition",
+			"description": "",
+			"isActiveOnStart": true,
+			"children": [
+				{
+					"eventType": "variable",
+					"name": "LayoutToLoad",
+					"type": "string",
+					"initialValue": "",
+					"comment": "Layout loaded on transition",
+					"isStatic": true,
+					"isConstant": false,
+					"sid": 190952277520844
+				},
+				{
+					"functionName": "LayoutTransition",
+					"functionDescription": "Transition between layouts",
+					"functionCategory": "",
+					"functionReturnType": "none",
+					"functionIsAsync": false,
+					"functionParameters": [
+						{
+							"name": "LayoutLoadName",
+							"type": "string",
+							"initialValue": "",
+							"comment": "Name of layout to load",
+							"sid": 792043420351476
+						}
+					],
+					"eventType": "function-block",
+					"conditions": [],
+					"actions": [
+						{
+							"id": "set-eventvar-value",
+							"objectClass": "System",
+							"sid": 189231270377025,
+							"parameters": {
+								"variable": "LayoutToLoad",
+								"value": "LayoutLoadName"
+							}
+						},
+						{
+							"id": "set-visible",
+							"objectClass": "Fade",
+							"sid": 670229477599495,
+							"parameters": {
+								"visibility": "visible"
+							}
+						},
+						{
+							"id": "start-fade",
+							"objectClass": "Fade",
+							"sid": 622338510326456,
+							"behaviorType": "FadeIn"
+						},
+						{
+							"id": "wait-for-signal",
+							"objectClass": "System",
+							"sid": 732610334230516,
+							"parameters": {
+								"tag": "\"FadeIn\""
+							}
+						},
+						{
+							"id": "go-to-layout-by-name",
+							"objectClass": "System",
+							"sid": 111624343294892,
+							"parameters": {
+								"layout": "LayoutToLoad"
+							}
+						},
+						{
+							"id": "start-fade",
+							"objectClass": "Fade",
+							"sid": 964989672073549,
+							"behaviorType": "FadeOut"
+						}
+					],
+					"sid": 148217626318617
+				},
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "on-fade-in-finished",
+							"objectClass": "Fade",
+							"sid": 947888837742556,
+							"behaviorType": "FadeIn"
+						}
+					],
+					"actions": [
+						{
+							"id": "signal",
+							"objectClass": "System",
+							"sid": 147354941971717,
+							"parameters": {
+								"tag": "\"FadeIn\""
+							}
+						}
+					],
+					"sid": 913450907109258
+				},
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "on-fade-out-finished",
+							"objectClass": "Fade",
+							"sid": 761769011553763,
+							"behaviorType": "FadeOut"
+						}
+					],
+					"actions": [
+						{
+							"id": "set-visible",
+							"objectClass": "Fade",
+							"sid": 189542918093610,
+							"parameters": {
+								"visibility": "invisible"
+							}
+						}
+					],
+					"sid": 124394052458524
+				},
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "on-object-clicked",
+							"objectClass": "Mouse",
+							"sid": 598118359404789,
+							"parameters": {
+								"mouse-button": "left",
+								"click-type": "clicked",
+								"object-clicked": "Start"
+							}
+						}
+					],
+					"actions": [
+						{
+							"callFunction": "LayoutTransition",
+							"sid": 138263466066013,
+							"parameters": [
+								"\"Layout0\""
+							]
+						},
+						{
+							"id": "wait",
+							"objectClass": "System",
+							"sid": 303959937870129,
+							"parameters": {
+								"seconds": "1.2"
+							}
+						},
+						{
+							"id": "go-to-layout",
+							"objectClass": "System",
+							"sid": 256817293768126,
+							"parameters": {
+								"layout": "2045Layout"
+							}
+						},
+						{
+							"id": "create-object",
+							"objectClass": "System",
+							"sid": 671915253081391,
+							"parameters": {
+								"object-to-create": "Player",
+								"layer": "1",
+								"x": "329.320016",
+								"y": "492.500016",
+								"create-hierarchy": false
+							}
+						},
+						{
+							"id": "set-instvar-value",
+							"objectClass": "Player",
+							"sid": 505832412656853,
+							"parameters": {
+								"instance-variable": "Health",
+								"value": "100"
+							}
+						},
+						{
+							"id": "set-instvar-value",
+							"objectClass": "Player",
+							"sid": 569045152373045,
+							"parameters": {
+								"instance-variable": "Hunger",
+								"value": "100"
+							}
+						},
+						{
+							"id": "set-instvar-value",
+							"objectClass": "Player",
+							"sid": 199022512809303,
+							"parameters": {
+								"instance-variable": "Water",
+								"value": "100"
+							}
+						},
+						{
+							"id": "set-enabled",
+							"objectClass": "Player",
+							"sid": 517794556081261,
+							"behaviorType": "Solid",
+							"parameters": {
+								"state": "enabled"
+							}
+						},
+						{
+							"id": "rotate-toward-angle",
+							"objectClass": "Player",
+							"sid": 654406513211047,
+							"parameters": {
+								"degrees": "0",
+								"angle": "0"
+							}
+						},
+						{
+							"id": "set-size",
+							"objectClass": "Player",
+							"sid": 498223887222638,
+							"parameters": {
+								"width": "30",
+								"height": "50"
+							}
+						},
+						{
+							"id": "reset-global-variables",
+							"objectClass": "System",
+							"sid": 917453028345748
+						}
+					],
+					"sid": 422305501873333,
+					"isOrBlock": true
+				}
+			],
+			"sid": 780244049237314
+		}
+	],
+	"sid": 228781774656501
+}

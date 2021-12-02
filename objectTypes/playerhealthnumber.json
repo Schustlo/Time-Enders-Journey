@@ -1,0 +1,15 @@
+{
+	"name": "PlayerHealthNumber",
+	"plugin-id": "Text",
+	"sid": 396279194540197,
+	"isGlobal": false,
+	"instanceVariables": [],
+	"behaviorTypes": [
+		{
+			"behaviorId": "Persist",
+			"name": "Persist",
+			"sid": 382231891549280
+		}
+	],
+	"effectTypes": []
+}

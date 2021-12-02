@@ -1,0 +1,43 @@
+{
+	"name": "Crowbar",
+	"plugin-id": "Sprite",
+	"sid": 164165727608884,
+	"isGlobal": false,
+	"instanceVariables": [],
+	"behaviorTypes": [
+		{
+			"behaviorId": "Pin",
+			"name": "Pin",
+			"sid": 123148567218995
+		}
+	],
+	"effectTypes": [],
+	"animations": {
+		"items": [
+			{
+				"frames": [
+					{
+						"width": 200,
+						"height": 86,
+						"originX": 0.265,
+						"originY": 0.3488372093023256,
+						"originalSource": "",
+						"exportFormat": "png",
+						"exportQuality": 0.8,
+						"imageSpriteId": 5743275,
+						"useCollisionPoly": true,
+						"duration": 1
+					}
+				],
+				"sid": 350381589499083,
+				"name": "Animation 1",
+				"isLooping": false,
+				"isPingPong": false,
+				"repeatCount": 1,
+				"repeatTo": 0,
+				"speed": 5
+			}
+		],
+		"subfolders": []
+	}
+}

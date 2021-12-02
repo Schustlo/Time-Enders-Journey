@@ -1,0 +1,261 @@
+{
+	"name": "Player",
+	"plugin-id": "Sprite",
+	"sid": 645190065224620,
+	"isGlobal": true,
+	"instanceVariables": [
+		{
+			"name": "Health",
+			"type": "number",
+			"desc": "",
+			"sid": 583341969396953
+		},
+		{
+			"name": "Hunger",
+			"type": "number",
+			"desc": "",
+			"sid": 709650183851395
+		},
+		{
+			"name": "Water",
+			"type": "number",
+			"desc": "",
+			"sid": 362524241835185
+		},
+		{
+			"name": "CannedFood",
+			"type": "number",
+			"desc": "",
+			"sid": 800875128238970
+		},
+		{
+			"name": "BottledWater",
+			"type": "number",
+			"desc": "",
+			"sid": 674776782597156
+		},
+		{
+			"name": "TotalCannedFood",
+			"type": "number",
+			"desc": "",
+			"sid": 168173456508545
+		},
+		{
+			"name": "TotalBottledWater",
+			"type": "number",
+			"desc": "",
+			"sid": 910097935353107
+		}
+	],
+	"behaviorTypes": [
+		{
+			"behaviorId": "scrollto",
+			"name": "ScrollTo",
+			"sid": 257603302508183
+		},
+		{
+			"behaviorId": "EightDir",
+			"name": "8Direction",
+			"sid": 400998917259876
+		},
+		{
+			"behaviorId": "Persist",
+			"name": "Persist",
+			"sid": 426922202808351
+		},
+		{
+			"behaviorId": "solid",
+			"name": "Solid",
+			"sid": 860359947215436
+		}
+	],
+	"effectTypes": [],
+	"animations": {
+		"items": [
+			{
+				"frames": [
+					{
+						"width": 26,
+						"height": 45,
+						"originX": 0.5,
+						"originY": 0.5777777777777777,
+						"originalSource": "",
+						"exportFormat": "png",
+						"exportQuality": 0.8,
+						"imageSpriteId": 91605,
+						"collisionPoly": {
+							"points": [
+								0.13516754278009793,
+								0.02638896872231776,
+								0.9583332953120244,
+								0.022222187725115135,
+								0.9396552266288976,
+								0.9427083030619012,
+								0.24999957244516072,
+								0.9322916048820391,
+								0.02586238397948207,
+								0.796875111344785
+							]
+						},
+						"useCollisionPoly": true,
+						"imagePoints": [
+							{
+								"name": "GunLeft",
+								"x": 0.11538461538461539,
+								"y": 0.6666666666666666
+							},
+							{
+								"name": "GunRight",
+								"x": 0.8846153846153846,
+								"y": 0.6666666666666666
+							},
+							{
+								"name": "zombie point",
+								"x": 0.07692307692307693,
+								"y": 0.6666666666666666
+							}
+						],
+						"duration": 1
+					},
+					{
+						"width": 29,
+						"height": 45,
+						"originX": 0.5862068965517241,
+						"originY": 0.5111111111111111,
+						"originalSource": "",
+						"exportFormat": "png",
+						"exportQuality": 0.8,
+						"imageSpriteId": 3462502,
+						"collisionPoly": {
+							"points": [
+								0.18965479907405852,
+								0.02083339635972455,
+								1,
+								0,
+								0.9396552266288976,
+								0.9427083030619012,
+								0.24999957244516072,
+								0.9322916048820391,
+								0.02586238397948207,
+								0.796875111344785
+							]
+						},
+						"useCollisionPoly": true,
+						"imagePoints": [
+							{
+								"name": "GunLeft",
+								"x": 0.11538461538461539,
+								"y": 0.6666666666666666
+							},
+							{
+								"name": "GunRight",
+								"x": 0.8846153846153846,
+								"y": 0.6666666666666666
+							},
+							{
+								"name": "zombie point",
+								"x": 0.07692307692307693,
+								"y": 0.6666666666666666
+							}
+						],
+						"duration": 1
+					},
+					{
+						"width": 29,
+						"height": 48,
+						"originX": 0.5517241379310345,
+						"originY": 0.5416666666666666,
+						"originalSource": "",
+						"exportFormat": "png",
+						"exportQuality": 0.8,
+						"imageSpriteId": 862151,
+						"collisionPoly": {
+							"points": [
+								0.18965479907405852,
+								0.02083339635972455,
+								1,
+								0,
+								0.9396552266288976,
+								0.9427083030619012,
+								0.24999957244516072,
+								0.9322916048820391,
+								0.02586238397948207,
+								0.796875111344785
+							]
+						},
+						"useCollisionPoly": true,
+						"imagePoints": [
+							{
+								"name": "GunLeft",
+								"x": 0.11538461538461539,
+								"y": 0.6666666666666666
+							},
+							{
+								"name": "GunRight",
+								"x": 0.8846153846153846,
+								"y": 0.6666666666666666
+							},
+							{
+								"name": "zombie point",
+								"x": 0.07692307692307693,
+								"y": 0.6666666666666666
+							}
+						],
+						"duration": 1
+					},
+					{
+						"width": 29,
+						"height": 48,
+						"originX": 0.5517241379310345,
+						"originY": 0.5625,
+						"originalSource": "",
+						"exportFormat": "png",
+						"exportQuality": 0.8,
+						"imageSpriteId": 7857327,
+						"collisionPoly": {
+							"points": [
+								0.18965479907405852,
+								0.02083339635972455,
+								1,
+								0,
+								0.9396552266288976,
+								0.9427083030619012,
+								0.24999957244516072,
+								0.9322916048820391,
+								0.02586238397948207,
+								0.796875111344785
+							]
+						},
+						"useCollisionPoly": true,
+						"imagePoints": [
+							{
+								"name": "GunLeft",
+								"x": 0.11538461538461539,
+								"y": 0.6666666666666666
+							},
+							{
+								"name": "GunRight",
+								"x": 0.8846153846153846,
+								"y": 0.6666666666666666
+							},
+							{
+								"name": "zombie point",
+								"x": 0.07692307692307693,
+								"y": 0.6666666666666666
+							}
+						],
+						"duration": 1
+					}
+				],
+				"sid": 131665744454049,
+				"name": "Downwalk",
+				"isLooping": true,
+				"isPingPong": false,
+				"repeatCount": 1,
+				"repeatTo": 0,
+				"speed": 5
+			}
+		],
+		"subfolders": []
+	}
+}

@@ -1,0 +1,79 @@
+{
+	"name": "GiantCovidMan",
+	"plugin-id": "Sprite",
+	"sid": 648019086493211,
+	"isGlobal": false,
+	"instanceVariables": [
+		{
+			"name": "EnemyHealth",
+			"type": "number",
+			"desc": "",
+			"sid": 398951735199723
+		}
+	],
+	"behaviorTypes": [
+		{
+			"behaviorId": "Persist",
+			"name": "Persist",
+			"sid": 181023893394251
+		},
+		{
+			"behaviorId": "LOS",
+			"name": "LineOfSight",
+			"sid": 986795389318784
+		},
+		{
+			"behaviorId": "MoveTo",
+			"name": "MoveTo",
+			"sid": 656908105637528
+		},
+		{
+			"behaviorId": "solid",
+			"name": "Solid",
+			"sid": 129619604472373
+		}
+	],
+	"effectTypes": [],
+	"animations": {
+		"items": [
+			{
+				"frames": [
+					{
+						"width": 142,
+						"height": 220,
+						"originX": 0.5845070422535211,
+						"originY": 0.43636363636363634,
+						"originalSource": "",
+						"exportFormat": "png",
+						"exportQuality": 0.8,
+						"imageSpriteId": 1149399,
+						"collisionPoly": {
+							"points": [
+								0.23239436004083477,
+								0.0015151560988890579,
+								1,
+								0,
+								0.7981220997306401,
+								0.9999999999999998,
+								0.3075118292354304,
+								1,
+								0,
+								0.5
+							]
+						},
+						"useCollisionPoly": true,
+						"duration": 1
+					}
+				],
+				"sid": 615668613686430,
+				"name": "Animation 1",
+				"isLooping": false,
+				"isPingPong": false,
+				"repeatCount": 1,
+				"repeatTo": 0,
+				"speed": 5
+			}
+		],
+		"subfolders": []
+	}
+}

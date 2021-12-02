@@ -1,0 +1,49 @@
+{
+	"name": "Carlight",
+	"plugin-id": "Sprite",
+	"sid": 504320216396236,
+	"isGlobal": false,
+	"instanceVariables": [],
+	"behaviorTypes": [],
+	"effectTypes": [],
+	"animations": {
+		"items": [
+			{
+				"frames": [
+					{
+						"width": 179,
+						"height": 55,
+						"originX": 0.7039106145251397,
+						"originY": 0.6181818181818182,
+						"originalSource": "",
+						"exportFormat": "png",
+						"exportQuality": 0.8,
+						"imageSpriteId": 9830915,
+						"collisionPoly": {
+							"points": [
+								0.00558659217877095,
+								0,
+								1,
+								0,
+								1,
+								1,
+								0.00558659217877095,
+								1
+							]
+						},
+						"useCollisionPoly": true,
+						"duration": 1
+					}
+				],
+				"sid": 839467017747103,
+				"name": "Animation 1",
+				"isLooping": false,
+				"isPingPong": false,
+				"repeatCount": 1,
+				"repeatTo": 0,
+				"speed": 5
+			}
+		],
+		"subfolders": []
+	}
+}

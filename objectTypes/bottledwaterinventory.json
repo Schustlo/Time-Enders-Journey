@@ -1,0 +1,103 @@
+{
+	"name": "BottledWaterInventory",
+	"plugin-id": "Sprite",
+	"sid": 880904355450686,
+	"isGlobal": false,
+	"instanceVariables": [],
+	"behaviorTypes": [
+		{
+			"behaviorId": "Persist",
+			"name": "Persist",
+			"sid": 319789911904256
+		}
+	],
+	"effectTypes": [],
+	"animations": {
+		"items": [
+			{
+				"frames": [
+					{
+						"width": 326,
+						"height": 326,
+						"originX": 0.5,
+						"originY": 0.5,
+						"originalSource": "",
+						"exportFormat": "png",
+						"exportQuality": 0.8,
+						"imageSpriteId": 7824349,
+						"useCollisionPoly": true,
+						"duration": 1
+					},
+					{
+						"width": 326,
+						"height": 326,
+						"originX": 0.5,
+						"originY": 0.5,
+						"originalSource": "",
+						"exportFormat": "png",
+						"exportQuality": 0.8,
+						"imageSpriteId": 5952150,
+						"useCollisionPoly": true,
+						"duration": 1
+					},
+					{
+						"width": 326,
+						"height": 326,
+						"originX": 0.5,
+						"originY": 0.5,
+						"originalSource": "",
+						"exportFormat": "png",
+						"exportQuality": 0.8,
+						"imageSpriteId": 5217246,
+						"useCollisionPoly": true,
+						"duration": 1
+					},
+					{
+						"width": 326,
+						"height": 326,
+						"originX": 0.5,
+						"originY": 0.5,
+						"originalSource": "",
+						"exportFormat": "png",
+						"exportQuality": 0.8,
+						"imageSpriteId": 7811286,
+						"useCollisionPoly": true,
+						"duration": 1
+					},
+					{
+						"width": 326,
+						"height": 326,
+						"originX": 0.5,
+						"originY": 0.5,
+						"originalSource": "",
+						"exportFormat": "png",
+						"exportQuality": 0.8,
+						"imageSpriteId": 8930516,
+						"useCollisionPoly": true,
+						"duration": 1
+					},
+					{
+						"width": 326,
+						"height": 326,
+						"originX": 0.5,
+						"originY": 0.5,
+						"originalSource": "",
+						"exportFormat": "png",
+						"exportQuality": 0.8,
+						"imageSpriteId": 8116260,
+						"useCollisionPoly": true,
+						"duration": 1
+					}
+				],
+				"sid": 285960997713453,
+				"name": "Default",
+				"isLooping": false,
+				"isPingPong": false,
+				"repeatCount": 1,
+				"repeatTo": 0,
+				"speed": 0
+			}
+		],
+		"subfolders": []
+	}
+}
