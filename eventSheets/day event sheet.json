@@ -2433,9 +2433,9 @@
 						{
 							"id": "go-to-layout",
 							"objectClass": "System",
-							"sid": 718655279544519,
+							"sid": 857589384998567,
 							"parameters": {
-								"layout": "2045Layout"
+								"layout": "FinalLayout"
 							}
 						},
 						{
@@ -2449,10 +2449,10 @@
 						{
 							"id": "set-position",
 							"objectClass": "Player",
-							"sid": 210411989447360,
+							"sid": 368603575947985,
 							"parameters": {
-								"x": "329.320016",
-								"y": "492.500016"
+								"x": "80",
+								"y": "620"
 							}
 						},
 						{
@@ -2771,57 +2771,6 @@
 			"description": "",
 			"isActiveOnStart": true,
 			"children": [
-				{
-					"eventType": "block",
-					"conditions": [
-						{
-							"id": "on-collision-with-another-object",
-							"objectClass": "Player",
-							"sid": 889510906556538,
-							"parameters": {
-								"object": "CovidFile3"
-							}
-						}
-					],
-					"actions": [
-						{
-							"id": "go-to-layout",
-							"objectClass": "System",
-							"sid": 483242683151362,
-							"parameters": {
-								"layout": "FinalLayout"
-							}
-						},
-						{
-							"id": "set-position-to-another-object",
-							"objectClass": "Player",
-							"sid": 732310902658199,
-							"parameters": {
-								"object": "Spawnpoint",
-								"image-point-optional": "0"
-							}
-						}
-					],
-					"sid": 955888485360384
-				},
-				{
-					"eventType": "block",
-					"conditions": [
-						{
-							"id": "compare-two-values",
-							"objectClass": "System",
-							"sid": 603017816233468,
-							"parameters": {
-								"first-value": "distance(Player.X,Player.Y,NPCFinal.X,NPCFinal.Y)",
-								"comparison": 0,
-								"second-value": "1000"
-							}
-						}
-					],
-					"actions": [],
-					"sid": 490876533974575,
-					"disabled": true
-				},
 				{
 					"eventType": "block",
 					"conditions": [

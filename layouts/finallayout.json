@@ -433,9 +433,9 @@
 					}
 				},
 				{
-					"type": "Spawnpoint",
+					"type": "Cursor",
 					"properties": {
-						"initially-visible": true,
+						"initially-visible": false,
 						"initial-animation": "Animation 1",
 						"initial-frame": 0,
 						"enable-collisions": true,
@@ -445,12 +445,47 @@
 					"instanceVariables": {},
 					"behaviors": {},
 					"world": {
-						"x": 98,
-						"y": 646,
-						"width": 161.49922600433726,
-						"height": 161.49922600433726,
-						"originX": 0.5,
-						"originY": 0.5,
+						"x": 640,
+						"y": -80,
+						"width": 14.11429398283499,
+						"height": 14.11429398283499,
+						"originX": 0.48148148148148145,
+						"originY": 0.48148148148148145,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
+						"zElevation": 0
+					}
+				},
+				{
+					"type": "Crowbar",
+					"properties": {
+						"initially-visible": true,
+						"initial-animation": "Animation 1",
+						"initial-frame": 0,
+						"enable-collisions": true,
+						"live-preview": false
+					},
+					"uid": 320,
+					"instanceVariables": {},
+					"behaviors": {
+						"Pin": {
+							"properties": {
+								"destroy": true
+							}
+						}
+					},
+					"world": {
+						"x": 819,
+						"y": -86,
+						"width": 46.04174417041322,
+						"height": 19.79794999327768,
+						"originX": 0.265,
+						"originY": 0.3488372093023256,
 						"color": [
 							1,
 							1,
