@@ -1010,46 +1010,6 @@
 					}
 				},
 				{
-					"type": "PlayerHouse",
-					"properties": {
-						"shape": "box",
-						"z-height": 15,
-						"initially-visible": true,
-						"face-back": false,
-						"face-front": true,
-						"face-left": true,
-						"face-right": true,
-						"face-top": true,
-						"face-bottom": true,
-						"z-tiling-factor": 8,
-						"object-back": -1,
-						"object-front": -1,
-						"object-left": -1,
-						"object-right": -1,
-						"object-top": -1,
-						"object-bottom": -1
-					},
-					"uid": 131,
-					"instanceVariables": {},
-					"behaviors": {},
-					"world": {
-						"x": 141,
-						"y": 488.5,
-						"width": 120,
-						"height": 302,
-						"originX": 0.5,
-						"originY": 0.5,
-						"color": [
-							1,
-							1,
-							1,
-							1
-						],
-						"angle": 0,
-						"zElevation": 0
-					}
-				},
-				{
 					"type": "AbandonedHouse2",
 					"properties": {
 						"initially-visible": true,
