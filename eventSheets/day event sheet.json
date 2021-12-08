@@ -2818,32 +2818,7 @@
 							}
 						}
 					],
-					"actions": [
-						{
-							"id": "set-visible",
-							"objectClass": "FinalDialogue1",
-							"sid": 225225149802589,
-							"parameters": {
-								"visibility": "visible"
-							}
-						},
-						{
-							"id": "wait",
-							"objectClass": "System",
-							"sid": 892940343166904,
-							"parameters": {
-								"seconds": "2"
-							}
-						},
-						{
-							"id": "set-visible",
-							"objectClass": "FinalDialogue1",
-							"sid": 840778818745188,
-							"parameters": {
-								"visibility": "invisible"
-							}
-						}
-					],
+					"actions": [],
 					"sid": 490876533974575
 				},
 				{
@@ -2858,10 +2833,507 @@
 								"click-type": "clicked",
 								"object-clicked": "NPCFinal"
 							}
+						},
+						{
+							"id": "compare-instance-variable",
+							"objectClass": "Player",
+							"sid": 114385839129511,
+							"parameters": {
+								"instance-variable": "FinalDialogueCount",
+								"comparison": 0,
+								"value": "0"
+							}
 						}
 					],
-					"actions": [],
+					"actions": [
+						{
+							"id": "set-visible",
+							"objectClass": "FinalDialogue1",
+							"sid": 843946766979990,
+							"parameters": {
+								"visibility": "visible"
+							}
+						},
+						{
+							"id": "wait",
+							"objectClass": "System",
+							"sid": 672119785288721,
+							"parameters": {
+								"seconds": "2"
+							}
+						},
+						{
+							"id": "destroy",
+							"objectClass": "FinalDialogue1",
+							"sid": 174258670113622
+						}
+					],
 					"sid": 650335668850265
+				},
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "on-destroyed",
+							"objectClass": "FinalDialogue1",
+							"sid": 445589033457503
+						}
+					],
+					"actions": [
+						{
+							"id": "set-instvar-value",
+							"objectClass": "Player",
+							"sid": 362235199909376,
+							"parameters": {
+								"instance-variable": "FinalDialogueCount",
+								"value": "1"
+							}
+						}
+					],
+					"sid": 404112616765292
+				},
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "on-object-clicked",
+							"objectClass": "Mouse",
+							"sid": 519455471107483,
+							"parameters": {
+								"mouse-button": "left",
+								"click-type": "clicked",
+								"object-clicked": "NPCFinal"
+							}
+						},
+						{
+							"id": "compare-instance-variable",
+							"objectClass": "Player",
+							"sid": 384510908127400,
+							"parameters": {
+								"instance-variable": "FinalDialogueCount",
+								"comparison": 0,
+								"value": "1"
+							}
+						}
+					],
+					"actions": [
+						{
+							"id": "set-visible",
+							"objectClass": "FinalDialogue2",
+							"sid": 190739348196831,
+							"parameters": {
+								"visibility": "visible"
+							}
+						},
+						{
+							"id": "wait",
+							"objectClass": "System",
+							"sid": 958940964932760,
+							"parameters": {
+								"seconds": "2"
+							}
+						},
+						{
+							"id": "destroy",
+							"objectClass": "FinalDialogue2",
+							"sid": 432764317581713
+						}
+					],
+					"sid": 209002327228738
+				},
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "on-destroyed",
+							"objectClass": "FinalDialogue2",
+							"sid": 965208491054462
+						}
+					],
+					"actions": [
+						{
+							"id": "set-instvar-value",
+							"objectClass": "Player",
+							"sid": 841862641327721,
+							"parameters": {
+								"instance-variable": "FinalDialogueCount",
+								"value": "2"
+							}
+						}
+					],
+					"sid": 164361171925960
+				},
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "on-object-clicked",
+							"objectClass": "Mouse",
+							"sid": 348252892629460,
+							"parameters": {
+								"mouse-button": "left",
+								"click-type": "clicked",
+								"object-clicked": "NPCFinal"
+							}
+						},
+						{
+							"id": "compare-instance-variable",
+							"objectClass": "Player",
+							"sid": 685752049602563,
+							"parameters": {
+								"instance-variable": "FinalDialogueCount",
+								"comparison": 0,
+								"value": "2"
+							}
+						}
+					],
+					"actions": [
+						{
+							"id": "set-visible",
+							"objectClass": "FinalDialogue3",
+							"sid": 863258363659454,
+							"parameters": {
+								"visibility": "visible"
+							}
+						},
+						{
+							"id": "wait",
+							"objectClass": "System",
+							"sid": 411951527099500,
+							"parameters": {
+								"seconds": "2"
+							}
+						},
+						{
+							"id": "destroy",
+							"objectClass": "FinalDialogue3",
+							"sid": 993520271941868
+						}
+					],
+					"sid": 425885784344858
+				},
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "on-destroyed",
+							"objectClass": "FinalDialogue3",
+							"sid": 109867067237959
+						}
+					],
+					"actions": [
+						{
+							"id": "set-instvar-value",
+							"objectClass": "Player",
+							"sid": 434978729962832,
+							"parameters": {
+								"instance-variable": "FinalDialogueCount",
+								"value": "3"
+							}
+						}
+					],
+					"sid": 757872726168559
+				},
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "on-object-clicked",
+							"objectClass": "Mouse",
+							"sid": 609547094865286,
+							"parameters": {
+								"mouse-button": "left",
+								"click-type": "clicked",
+								"object-clicked": "NPCFinal"
+							}
+						},
+						{
+							"id": "compare-instance-variable",
+							"objectClass": "Player",
+							"sid": 529466131995387,
+							"parameters": {
+								"instance-variable": "FinalDialogueCount",
+								"comparison": 0,
+								"value": "3"
+							}
+						}
+					],
+					"actions": [
+						{
+							"id": "set-visible",
+							"objectClass": "FinalDialogue4",
+							"sid": 763030868136180,
+							"parameters": {
+								"visibility": "visible"
+							}
+						},
+						{
+							"id": "wait",
+							"objectClass": "System",
+							"sid": 103195769311179,
+							"parameters": {
+								"seconds": "2"
+							}
+						},
+						{
+							"id": "destroy",
+							"objectClass": "FinalDialogue4",
+							"sid": 666361177437762
+						}
+					],
+					"sid": 899426426567140
+				},
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "on-destroyed",
+							"objectClass": "FinalDialogue4",
+							"sid": 947084204102051
+						}
+					],
+					"actions": [
+						{
+							"id": "set-instvar-value",
+							"objectClass": "Player",
+							"sid": 428332633063693,
+							"parameters": {
+								"instance-variable": "FinalDialogueCount",
+								"value": "4"
+							}
+						}
+					],
+					"sid": 720326356642071
+				},
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "on-object-clicked",
+							"objectClass": "Mouse",
+							"sid": 787486867264882,
+							"parameters": {
+								"mouse-button": "left",
+								"click-type": "clicked",
+								"object-clicked": "NPCFinal"
+							}
+						},
+						{
+							"id": "compare-instance-variable",
+							"objectClass": "Player",
+							"sid": 122025513564582,
+							"parameters": {
+								"instance-variable": "FinalDialogueCount",
+								"comparison": 0,
+								"value": "4"
+							}
+						}
+					],
+					"actions": [
+						{
+							"id": "set-visible",
+							"objectClass": "FinalDialogue5",
+							"sid": 853635472074085,
+							"parameters": {
+								"visibility": "visible"
+							}
+						},
+						{
+							"id": "wait",
+							"objectClass": "System",
+							"sid": 231192671209956,
+							"parameters": {
+								"seconds": "2"
+							}
+						},
+						{
+							"id": "destroy",
+							"objectClass": "FinalDialogue5",
+							"sid": 349333363250050
+						}
+					],
+					"sid": 338184288251807
+				},
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "on-destroyed",
+							"objectClass": "FinalDialogue5",
+							"sid": 380480246376862
+						}
+					],
+					"actions": [
+						{
+							"id": "set-instvar-value",
+							"objectClass": "Player",
+							"sid": 561376377699828,
+							"parameters": {
+								"instance-variable": "FinalDialogueCount",
+								"value": "5"
+							}
+						}
+					],
+					"sid": 147544472071704
+				},
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "on-object-clicked",
+							"objectClass": "Mouse",
+							"sid": 614375592900292,
+							"parameters": {
+								"mouse-button": "left",
+								"click-type": "clicked",
+								"object-clicked": "NPCFinal"
+							}
+						},
+						{
+							"id": "compare-instance-variable",
+							"objectClass": "Player",
+							"sid": 728553968284995,
+							"parameters": {
+								"instance-variable": "FinalDialogueCount",
+								"comparison": 0,
+								"value": "5"
+							}
+						}
+					],
+					"actions": [
+						{
+							"id": "set-visible",
+							"objectClass": "FinalDialogue6",
+							"sid": 771110542549878,
+							"parameters": {
+								"visibility": "visible"
+							}
+						},
+						{
+							"id": "wait",
+							"objectClass": "System",
+							"sid": 747256390523835,
+							"parameters": {
+								"seconds": "2"
+							}
+						},
+						{
+							"id": "destroy",
+							"objectClass": "FinalDialogue6",
+							"sid": 312918164790076
+						}
+					],
+					"sid": 137737303853244
+				},
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "on-destroyed",
+							"objectClass": "FinalDialogue6",
+							"sid": 518262571527447
+						}
+					],
+					"actions": [
+						{
+							"id": "set-instvar-value",
+							"objectClass": "Player",
+							"sid": 927099239061094,
+							"parameters": {
+								"instance-variable": "FinalDialogueCount",
+								"value": "6"
+							}
+						}
+					],
+					"sid": 276430500681739
+				},
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "on-object-clicked",
+							"objectClass": "Mouse",
+							"sid": 962346379150670,
+							"parameters": {
+								"mouse-button": "left",
+								"click-type": "clicked",
+								"object-clicked": "NPCFinal"
+							}
+						},
+						{
+							"id": "compare-instance-variable",
+							"objectClass": "Player",
+							"sid": 223596225224106,
+							"parameters": {
+								"instance-variable": "FinalDialogueCount",
+								"comparison": 0,
+								"value": "6"
+							}
+						}
+					],
+					"actions": [
+						{
+							"id": "set-visible",
+							"objectClass": "FinalDialogue7",
+							"sid": 396561504368054,
+							"parameters": {
+								"visibility": "visible"
+							}
+						},
+						{
+							"id": "wait",
+							"objectClass": "System",
+							"sid": 787292926505288,
+							"parameters": {
+								"seconds": "2"
+							}
+						},
+						{
+							"id": "destroy",
+							"objectClass": "FinalDialogue7",
+							"sid": 372060420294428
+						}
+					],
+					"sid": 209571777563698
+				},
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "on-destroyed",
+							"objectClass": "FinalDialogue7",
+							"sid": 412339475667579
+						}
+					],
+					"actions": [
+						{
+							"id": "set-instvar-value",
+							"objectClass": "Player",
+							"sid": 946323971730985,
+							"parameters": {
+								"instance-variable": "FinalDialogueCount",
+								"value": "7"
+							}
+						},
+						{
+							"id": "wait",
+							"objectClass": "System",
+							"sid": 821305032836847,
+							"parameters": {
+								"seconds": "2"
+							}
+						},
+						{
+							"id": "subtract-from-instvar",
+							"objectClass": "Player",
+							"sid": 813704922356357,
+							"parameters": {
+								"instance-variable": "Health",
+								"value": "100"
+							}
+						}
+					],
+					"sid": 290211656523124
 				}
 			],
 			"sid": 962877580499232
