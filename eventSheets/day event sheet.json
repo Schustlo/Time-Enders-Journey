@@ -2777,15 +2777,207 @@
 						{
 							"id": "compare-two-values",
 							"objectClass": "System",
-							"sid": 152697741062860,
+							"sid": 544066301578914,
 							"parameters": {
 								"first-value": "distance(Player.X,Player.Y,NPCFinal.X,NPCFinal.Y)",
 								"comparison": 0,
-								"second-value": "1000"
+								"second-value": "250"
 							}
 						}
 					],
-					"actions": [],
+					"actions": [
+						{
+							"id": "set-visible",
+							"objectClass": "FinalDialogue1",
+							"sid": 476282344734959,
+							"parameters": {
+								"visibility": "visible"
+							}
+						},
+						{
+							"id": "wait",
+							"objectClass": "System",
+							"sid": 401287980848749,
+							"parameters": {
+								"seconds": "2"
+							}
+						},
+						{
+							"id": "destroy",
+							"objectClass": "FinalDialogue1",
+							"sid": 219412077629829
+						},
+						{
+							"id": "wait-for-previous-actions",
+							"objectClass": "System",
+							"sid": 792236923285413
+						},
+						{
+							"id": "set-visible",
+							"objectClass": "FinalDialogue2",
+							"sid": 354333788388038,
+							"parameters": {
+								"visibility": "visible"
+							}
+						},
+						{
+							"id": "wait",
+							"objectClass": "System",
+							"sid": 211090901220173,
+							"parameters": {
+								"seconds": "2"
+							}
+						},
+						{
+							"id": "destroy",
+							"objectClass": "FinalDialogue2",
+							"sid": 788955372144212
+						},
+						{
+							"id": "wait-for-previous-actions",
+							"objectClass": "System",
+							"sid": 196148670996182
+						},
+						{
+							"id": "set-visible",
+							"objectClass": "FinalDialogue3",
+							"sid": 509560484494012,
+							"parameters": {
+								"visibility": "visible"
+							}
+						},
+						{
+							"id": "wait",
+							"objectClass": "System",
+							"sid": 127836055460373,
+							"parameters": {
+								"seconds": "2"
+							}
+						},
+						{
+							"id": "destroy",
+							"objectClass": "FinalDialogue3",
+							"sid": 799182041094126
+						},
+						{
+							"id": "wait-for-previous-actions",
+							"objectClass": "System",
+							"sid": 561740741042589
+						},
+						{
+							"id": "set-visible",
+							"objectClass": "FinalDialogue4",
+							"sid": 361372673834253,
+							"parameters": {
+								"visibility": "visible"
+							}
+						},
+						{
+							"id": "wait",
+							"objectClass": "System",
+							"sid": 300663348549786,
+							"parameters": {
+								"seconds": "2"
+							}
+						},
+						{
+							"id": "destroy",
+							"objectClass": "FinalDialogue4",
+							"sid": 798097401376811
+						},
+						{
+							"id": "wait-for-previous-actions",
+							"objectClass": "System",
+							"sid": 484405219857386
+						},
+						{
+							"id": "set-visible",
+							"objectClass": "FinalDialogue5",
+							"sid": 857269977076533,
+							"parameters": {
+								"visibility": "visible"
+							}
+						},
+						{
+							"id": "wait",
+							"objectClass": "System",
+							"sid": 778087393798979,
+							"parameters": {
+								"seconds": "2"
+							}
+						},
+						{
+							"id": "destroy",
+							"objectClass": "FinalDialogue5",
+							"sid": 511199847665629
+						},
+						{
+							"id": "wait-for-previous-actions",
+							"objectClass": "System",
+							"sid": 958668502425488
+						},
+						{
+							"id": "set-visible",
+							"objectClass": "FinalDialogue6",
+							"sid": 641181859783489,
+							"parameters": {
+								"visibility": "visible"
+							}
+						},
+						{
+							"id": "wait",
+							"objectClass": "System",
+							"sid": 353075492935977,
+							"parameters": {
+								"seconds": "2"
+							}
+						},
+						{
+							"id": "destroy",
+							"objectClass": "FinalDialogue6",
+							"sid": 392763788916378
+						},
+						{
+							"id": "wait-for-previous-actions",
+							"objectClass": "System",
+							"sid": 554724214953460
+						},
+						{
+							"id": "set-visible",
+							"objectClass": "FinalDialogue7",
+							"sid": 184538073623110,
+							"parameters": {
+								"visibility": "visible"
+							}
+						},
+						{
+							"id": "wait",
+							"objectClass": "System",
+							"sid": 880307444609950,
+							"parameters": {
+								"seconds": "2"
+							}
+						},
+						{
+							"id": "destroy",
+							"objectClass": "FinalDialogue7",
+							"sid": 720882846579800
+						},
+						{
+							"id": "wait-for-previous-actions",
+							"objectClass": "System",
+							"sid": 858911805316497
+						},
+						{
+							"id": "subtract-from-instvar",
+							"objectClass": "Player",
+							"sid": 795888204383335,
+							"parameters": {
+								"instance-variable": "Health",
+								"value": "100"
+							}
+						}
+					],
 					"sid": 233630900425068
 				},
 				{
@@ -2812,29 +3004,7 @@
 							}
 						}
 					],
-					"actions": [
-						{
-							"id": "set-visible",
-							"objectClass": "FinalDialogue1",
-							"sid": 843946766979990,
-							"parameters": {
-								"visibility": "visible"
-							}
-						},
-						{
-							"id": "wait",
-							"objectClass": "System",
-							"sid": 672119785288721,
-							"parameters": {
-								"seconds": "2"
-							}
-						},
-						{
-							"id": "destroy",
-							"objectClass": "FinalDialogue1",
-							"sid": 174258670113622
-						}
-					],
+					"actions": [],
 					"sid": 650335668850265
 				},
 				{
@@ -2883,29 +3053,7 @@
 							}
 						}
 					],
-					"actions": [
-						{
-							"id": "set-visible",
-							"objectClass": "FinalDialogue2",
-							"sid": 190739348196831,
-							"parameters": {
-								"visibility": "visible"
-							}
-						},
-						{
-							"id": "wait",
-							"objectClass": "System",
-							"sid": 958940964932760,
-							"parameters": {
-								"seconds": "2"
-							}
-						},
-						{
-							"id": "destroy",
-							"objectClass": "FinalDialogue2",
-							"sid": 432764317581713
-						}
-					],
+					"actions": [],
 					"sid": 209002327228738
 				},
 				{
@@ -2954,29 +3102,7 @@
 							}
 						}
 					],
-					"actions": [
-						{
-							"id": "set-visible",
-							"objectClass": "FinalDialogue3",
-							"sid": 863258363659454,
-							"parameters": {
-								"visibility": "visible"
-							}
-						},
-						{
-							"id": "wait",
-							"objectClass": "System",
-							"sid": 411951527099500,
-							"parameters": {
-								"seconds": "2"
-							}
-						},
-						{
-							"id": "destroy",
-							"objectClass": "FinalDialogue3",
-							"sid": 993520271941868
-						}
-					],
+					"actions": [],
 					"sid": 425885784344858
 				},
 				{
@@ -3025,29 +3151,7 @@
 							}
 						}
 					],
-					"actions": [
-						{
-							"id": "set-visible",
-							"objectClass": "FinalDialogue4",
-							"sid": 763030868136180,
-							"parameters": {
-								"visibility": "visible"
-							}
-						},
-						{
-							"id": "wait",
-							"objectClass": "System",
-							"sid": 103195769311179,
-							"parameters": {
-								"seconds": "2"
-							}
-						},
-						{
-							"id": "destroy",
-							"objectClass": "FinalDialogue4",
-							"sid": 666361177437762
-						}
-					],
+					"actions": [],
 					"sid": 899426426567140
 				},
 				{
@@ -3096,29 +3200,7 @@
 							}
 						}
 					],
-					"actions": [
-						{
-							"id": "set-visible",
-							"objectClass": "FinalDialogue5",
-							"sid": 853635472074085,
-							"parameters": {
-								"visibility": "visible"
-							}
-						},
-						{
-							"id": "wait",
-							"objectClass": "System",
-							"sid": 231192671209956,
-							"parameters": {
-								"seconds": "2"
-							}
-						},
-						{
-							"id": "destroy",
-							"objectClass": "FinalDialogue5",
-							"sid": 349333363250050
-						}
-					],
+					"actions": [],
 					"sid": 338184288251807
 				},
 				{
@@ -3167,29 +3249,7 @@
 							}
 						}
 					],
-					"actions": [
-						{
-							"id": "set-visible",
-							"objectClass": "FinalDialogue6",
-							"sid": 771110542549878,
-							"parameters": {
-								"visibility": "visible"
-							}
-						},
-						{
-							"id": "wait",
-							"objectClass": "System",
-							"sid": 747256390523835,
-							"parameters": {
-								"seconds": "2"
-							}
-						},
-						{
-							"id": "destroy",
-							"objectClass": "FinalDialogue6",
-							"sid": 312918164790076
-						}
-					],
+					"actions": [],
 					"sid": 137737303853244
 				},
 				{
@@ -3238,29 +3298,7 @@
 							}
 						}
 					],
-					"actions": [
-						{
-							"id": "set-visible",
-							"objectClass": "FinalDialogue7",
-							"sid": 396561504368054,
-							"parameters": {
-								"visibility": "visible"
-							}
-						},
-						{
-							"id": "wait",
-							"objectClass": "System",
-							"sid": 787292926505288,
-							"parameters": {
-								"seconds": "2"
-							}
-						},
-						{
-							"id": "destroy",
-							"objectClass": "FinalDialogue7",
-							"sid": 372060420294428
-						}
-					],
+					"actions": [],
 					"sid": 209571777563698
 				},
 				{
@@ -3288,15 +3326,6 @@
 							"sid": 821305032836847,
 							"parameters": {
 								"seconds": "2"
-							}
-						},
-						{
-							"id": "subtract-from-instvar",
-							"objectClass": "Player",
-							"sid": 813704922356357,
-							"parameters": {
-								"instance-variable": "Health",
-								"value": "100"
 							}
 						}
 					],
