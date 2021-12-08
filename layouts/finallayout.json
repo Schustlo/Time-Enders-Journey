@@ -109,7 +109,7 @@
 				{
 					"type": "FinalDialogue3",
 					"properties": {
-						"text": "3",
+						"text": "Excellent.\n",
 						"enable-bbcode": true,
 						"font": "Arial",
 						"size": 15,
@@ -151,7 +151,7 @@
 				{
 					"type": "FinalDialogue4",
 					"properties": {
-						"text": "4",
+						"text": "You know, I always liked you. You were an amazing asset to our community\n",
 						"enable-bbcode": true,
 						"font": "Arial",
 						"size": 15,
@@ -175,7 +175,7 @@
 					"behaviors": {},
 					"world": {
 						"x": 2181,
-						"y": 294,
+						"y": 261,
 						"width": 287,
 						"height": 101,
 						"originX": 0,
@@ -193,7 +193,7 @@
 				{
 					"type": "FinalDialogue5",
 					"properties": {
-						"text": "5",
+						"text": "We truly wouldn’t be where we are without you and the work you did.",
 						"enable-bbcode": true,
 						"font": "Arial",
 						"size": 15,
@@ -235,7 +235,7 @@
 				{
 					"type": "FinalDialogue6",
 					"properties": {
-						"text": "6",
+						"text": "But now you’ve seen too much of the past. \n",
 						"enable-bbcode": true,
 						"font": "Arial",
 						"size": 15,
@@ -258,8 +258,8 @@
 					"instanceVariables": {},
 					"behaviors": {},
 					"world": {
-						"x": 2173,
-						"y": 412,
+						"x": 2181,
+						"y": 445,
 						"width": 287,
 						"height": 101,
 						"originX": 0,
@@ -277,7 +277,7 @@
 				{
 					"type": "FinalDialogue7",
 					"properties": {
-						"text": "7",
+						"text": "You’ve become a loose end… and I don't like loose ends.",
 						"enable-bbcode": true,
 						"font": "Arial",
 						"size": 15,
@@ -300,8 +300,8 @@
 					"instanceVariables": {},
 					"behaviors": {},
 					"world": {
-						"x": 2177,
-						"y": 517,
+						"x": 2181,
+						"y": 548,
 						"width": 287,
 						"height": 101,
 						"originX": 0,
@@ -351,7 +351,7 @@
 				{
 					"type": "FinalDialogue1",
 					"properties": {
-						"text": "1",
+						"text": "You're here…perfect!\n",
 						"enable-bbcode": true,
 						"font": "Arial",
 						"size": 15,
@@ -393,7 +393,7 @@
 				{
 					"type": "FinalDialogue2",
 					"properties": {
-						"text": "2",
+						"text": "Do you have what I asked for?",
 						"enable-bbcode": true,
 						"font": "Arial",
 						"size": 15,
