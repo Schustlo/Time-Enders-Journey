@@ -233,9 +233,15 @@
 			"Newlight",
 			"BarrierFinal",
 			"NPCFinal",
-			"FinalDialogue",
+			"FinalDialogue1",
 			"Sprite4",
-			"Spawnpoint"
+			"Spawnpoint",
+			"FinalDialogue2",
+			"FinalDialogue3",
+			"FinalDialogue4",
+			"FinalDialogue5",
+			"FinalDialogue6",
+			"FinalDialogue7"
 		],
 		"subfolders": [
 			{
