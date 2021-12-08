@@ -2763,6 +2763,57 @@
 				}
 			],
 			"sid": 780244049237314
+		},
+		{
+			"eventType": "group",
+			"disabled": false,
+			"title": "To Final Layout",
+			"description": "",
+			"isActiveOnStart": true,
+			"children": [
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "on-collision-with-another-object",
+							"objectClass": "Player",
+							"sid": 889510906556538,
+							"parameters": {
+								"object": "CovidFile3"
+							}
+						}
+					],
+					"actions": [
+						{
+							"id": "go-to-layout",
+							"objectClass": "System",
+							"sid": 483242683151362,
+							"parameters": {
+								"layout": "FinalLayout"
+							}
+						}
+					],
+					"sid": 955888485360384
+				},
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "compare-two-values",
+							"objectClass": "System",
+							"sid": 603017816233468,
+							"parameters": {
+								"first-value": "distance(Player.X,Player.Y,NPCFinal.X,NPCFinal.Y)",
+								"comparison": 0,
+								"second-value": "1000"
+							}
+						}
+					],
+					"actions": [],
+					"sid": 490876533974575
+				}
+			],
+			"sid": 962877580499232
 		}
 	],
 	"sid": 228781774656501

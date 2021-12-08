@@ -230,7 +230,10 @@
 			"CovidFileText2",
 			"Button3",
 			"CovidFileText3",
-			"Newlight"
+			"Newlight",
+			"BarrierFinal",
+			"NPCFinal",
+			"FinalDialogue"
 		],
 		"subfolders": [
 			{
@@ -296,7 +299,8 @@
 			"CovidFile",
 			"CovidFile2",
 			"CovidFile3",
-			"Loading Screen"
+			"Loading Screen",
+			"FinalLayout"
 		],
 		"subfolders": []
 	},
