@@ -45,6 +45,12 @@
 			"type": "number",
 			"desc": "",
 			"sid": 910097935353107
+		},
+		{
+			"name": "FinalDialogueCount",
+			"type": "number",
+			"desc": "",
+			"sid": 614245239019389
 		}
 	],
 	"behaviorTypes": [

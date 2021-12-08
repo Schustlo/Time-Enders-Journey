@@ -234,7 +234,8 @@
 			"BarrierFinal",
 			"NPCFinal",
 			"FinalDialogue",
-			"Sprite4"
+			"Sprite4",
+			"Spawnpoint"
 		],
 		"subfolders": [
 			{

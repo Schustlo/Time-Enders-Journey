@@ -2791,6 +2791,15 @@
 							"parameters": {
 								"layout": "FinalLayout"
 							}
+						},
+						{
+							"id": "set-position-to-another-object",
+							"objectClass": "Player",
+							"sid": 732310902658199,
+							"parameters": {
+								"object": "Spawnpoint",
+								"image-point-optional": "0"
+							}
 						}
 					],
 					"sid": 955888485360384
@@ -2809,7 +2818,32 @@
 							}
 						}
 					],
-					"actions": [],
+					"actions": [
+						{
+							"id": "set-visible",
+							"objectClass": "FinalDialogue",
+							"sid": 225225149802589,
+							"parameters": {
+								"visibility": "visible"
+							}
+						},
+						{
+							"id": "wait",
+							"objectClass": "System",
+							"sid": 892940343166904,
+							"parameters": {
+								"seconds": "2"
+							}
+						},
+						{
+							"id": "set-visible",
+							"objectClass": "FinalDialogue",
+							"sid": 840778818745188,
+							"parameters": {
+								"visibility": "invisible"
+							}
+						}
+					],
 					"sid": 490876533974575
 				}
 			],

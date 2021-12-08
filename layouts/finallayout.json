@@ -26,9 +26,9 @@
 					},
 					"world": {
 						"x": 1080.5,
-						"y": 299,
+						"y": 265,
 						"width": 2161,
-						"height": 598,
+						"height": 530,
 						"originX": 0.5,
 						"originY": 0.5,
 						"color": [
@@ -61,9 +61,9 @@
 						}
 					},
 					"world": {
-						"x": 1083,
+						"x": 1080,
 						"y": 1103,
-						"width": 2161,
+						"width": 2167,
 						"height": 682,
 						"originX": 0.5,
 						"originY": 0.5,
@@ -132,12 +132,41 @@
 					"instanceVariables": {},
 					"behaviors": {},
 					"world": {
-						"x": 1663,
-						"y": 658,
+						"x": 1943,
+						"y": 549,
 						"width": 200,
-						"height": 30,
+						"height": 50,
 						"originX": 0,
 						"originY": 0,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
+						"zElevation": 0
+					}
+				},
+				{
+					"type": "Spawnpoint",
+					"properties": {
+						"initially-visible": true,
+						"initial-animation": "Animation 1",
+						"initial-frame": 0,
+						"enable-collisions": true,
+						"live-preview": false
+					},
+					"uid": 311,
+					"instanceVariables": {},
+					"behaviors": {},
+					"world": {
+						"x": 98,
+						"y": 646,
+						"width": 161.49922600433726,
+						"height": 161.49922600433726,
+						"originX": 0.5,
+						"originY": 0.5,
 						"color": [
 							1,
 							1,
