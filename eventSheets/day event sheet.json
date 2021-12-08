@@ -2775,6 +2775,23 @@
 					"eventType": "block",
 					"conditions": [
 						{
+							"id": "compare-two-values",
+							"objectClass": "System",
+							"sid": 152697741062860,
+							"parameters": {
+								"first-value": "distance(Player.X,Player.Y,NPCFinal.X,NPCFinal.Y)",
+								"comparison": 0,
+								"second-value": "1000"
+							}
+						}
+					],
+					"actions": [],
+					"sid": 233630900425068
+				},
+				{
+					"eventType": "block",
+					"conditions": [
+						{
 							"id": "on-object-clicked",
 							"objectClass": "Mouse",
 							"sid": 210604273261237,
