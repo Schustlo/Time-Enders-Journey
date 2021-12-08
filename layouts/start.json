@@ -35,7 +35,37 @@
 		{
 			"name": "Layer 1",
 			"overriden": 0,
-			"instances": [],
+			"instances": [
+				{
+					"type": "Sprite4",
+					"properties": {
+						"initially-visible": true,
+						"initial-animation": "Animation 1",
+						"initial-frame": 0,
+						"enable-collisions": true,
+						"live-preview": false
+					},
+					"uid": 310,
+					"instanceVariables": {},
+					"behaviors": {},
+					"world": {
+						"x": 540,
+						"y": 359,
+						"width": 1080,
+						"height": 720,
+						"originX": 0.5,
+						"originY": 0.5,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
+						"zElevation": 0
+					}
+				}
+			],
 			"sid": 684297521682765,
 			"effectTypes": [],
 			"isInitiallyVisible": true,
@@ -80,10 +110,10 @@
 					"instanceVariables": {},
 					"behaviors": {},
 					"world": {
-						"x": 540.1338752304247,
-						"y": 360.6338752304247,
-						"width": 1078.2677504608494,
-						"height": 719.2677504608494,
+						"x": 805,
+						"y": 505,
+						"width": 188.26775046084936,
+						"height": 55.267750460849356,
 						"originX": 0.5,
 						"originY": 0.5,
 						"color": [
@@ -92,24 +122,24 @@
 							1,
 							1
 						],
-						"angle": 0,
+						"angle": 6.162561638599484,
 						"zElevation": 0
 					}
 				},
 				{
 					"type": "ClickAnyWhereToStart",
 					"properties": {
-						"text": "Click anywhere to start!",
+						"text": "Click the glowing box to start!",
 						"enable-bbcode": true,
-						"font": "Arial",
+						"font": "Franklin Gothic",
 						"size": 50,
 						"line-height": 0,
 						"bold": false,
 						"italic": false,
 						"color": [
-							0,
-							0,
-							0,
+							1,
+							1,
+							1,
 							1
 						],
 						"horizontal-alignment": "left",
@@ -137,10 +167,10 @@
 						}
 					},
 					"world": {
-						"x": 559,
-						"y": 336,
-						"width": 704,
-						"height": 91,
+						"x": 644,
+						"y": 679,
+						"width": 879,
+						"height": 113,
 						"originX": 0.5,
 						"originY": 0.5,
 						"color": [

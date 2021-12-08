@@ -233,7 +233,8 @@
 			"Newlight",
 			"BarrierFinal",
 			"NPCFinal",
-			"FinalDialogue"
+			"FinalDialogue",
+			"Sprite4"
 		],
 		"subfolders": [
 			{
