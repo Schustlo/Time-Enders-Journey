@@ -291,6 +291,27 @@
 						}
 					],
 					"sid": 319922846693322
+				},
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "on-end-of-layout",
+							"objectClass": "System",
+							"sid": 487919202532902
+						}
+					],
+					"actions": [
+						{
+							"id": "stop",
+							"objectClass": "Audio",
+							"sid": 563060409611501,
+							"parameters": {
+								"tag": "\"2020\""
+							}
+						}
+					],
+					"sid": 277174779389737
 				}
 			],
 			"sid": 459256277259519
