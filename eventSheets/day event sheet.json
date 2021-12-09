@@ -620,9 +620,9 @@
 								{
 									"id": "every-x-seconds",
 									"objectClass": "System",
-									"sid": 766200305612031,
+									"sid": 392572751628906,
 									"parameters": {
-										"interval-seconds": "5.5"
+										"interval-seconds": "2.5"
 									}
 								}
 							],
@@ -645,9 +645,9 @@
 								{
 									"id": "every-x-seconds",
 									"objectClass": "System",
-									"sid": 715506481880842,
+									"sid": 968742668391117,
 									"parameters": {
-										"interval-seconds": "5"
+										"interval-seconds": "2"
 									}
 								}
 							],
