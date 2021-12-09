@@ -37,7 +37,7 @@
 			"overriden": 0,
 			"instances": [
 				{
-					"type": "Sprite4",
+					"type": "Startscreenbkg",
 					"properties": {
 						"initially-visible": true,
 						"initial-animation": "Animation 1",
@@ -82,8 +82,8 @@
 				1
 			],
 			"isTransparent": true,
-			"parallaxX": 1,
-			"parallaxY": 1,
+			"parallaxX": 0,
+			"parallaxY": 0,
 			"scaleRate": 1,
 			"forceOwnTexture": false,
 			"renderingMode": "3d",
@@ -200,8 +200,8 @@
 				1
 			],
 			"isTransparent": true,
-			"parallaxX": 1,
-			"parallaxY": 1,
+			"parallaxX": 0,
+			"parallaxY": 0,
 			"scaleRate": 1,
 			"forceOwnTexture": false,
 			"renderingMode": "3d",
