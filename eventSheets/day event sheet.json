@@ -620,9 +620,9 @@
 								{
 									"id": "every-x-seconds",
 									"objectClass": "System",
-									"sid": 392572751628906,
+									"sid": 926937772892011,
 									"parameters": {
-										"interval-seconds": "2.5"
+										"interval-seconds": "2"
 									}
 								}
 							],
@@ -630,10 +630,10 @@
 								{
 									"id": "subtract-from-instvar",
 									"objectClass": "Player",
-									"sid": 121361706802567,
+									"sid": 589608926339716,
 									"parameters": {
 										"instance-variable": "Hunger",
-										"value": "1"
+										"value": "2"
 									}
 								}
 							],
@@ -655,10 +655,10 @@
 								{
 									"id": "subtract-from-instvar",
 									"objectClass": "Player",
-									"sid": 884660923241190,
+									"sid": 782556300597062,
 									"parameters": {
 										"instance-variable": "Water",
-										"value": "1"
+										"value": "2"
 									}
 								}
 							],
