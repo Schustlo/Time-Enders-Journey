@@ -620,9 +620,9 @@
 								{
 									"id": "every-x-seconds",
 									"objectClass": "System",
-									"sid": 926937772892011,
+									"sid": 292527764903396,
 									"parameters": {
-										"interval-seconds": "2"
+										"interval-seconds": "2.5"
 									}
 								}
 							],
@@ -645,9 +645,9 @@
 								{
 									"id": "every-x-seconds",
 									"objectClass": "System",
-									"sid": 968742668391117,
+									"sid": 134141652255479,
 									"parameters": {
-										"interval-seconds": "2"
+										"interval-seconds": "2.5"
 									}
 								}
 							],
@@ -1471,6 +1471,15 @@
 							"sid": 114380987678113,
 							"parameters": {
 								"tag": "\"2020\""
+							}
+						},
+						{
+							"id": "set-position",
+							"objectClass": "Player",
+							"sid": 977314700910186,
+							"parameters": {
+								"x": "460",
+								"y": "350"
 							}
 						},
 						{
