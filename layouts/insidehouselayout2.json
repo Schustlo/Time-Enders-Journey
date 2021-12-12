@@ -1175,7 +1175,7 @@
 					"type": "CovidMan",
 					"properties": {
 						"initially-visible": true,
-						"initial-animation": "Animation 1",
+						"initial-animation": "Right Walk",
 						"initial-frame": 0,
 						"enable-collisions": true,
 						"live-preview": false
@@ -1217,10 +1217,10 @@
 					"world": {
 						"x": 272,
 						"y": 1209,
-						"width": 76.68,
-						"height": 110.88,
-						"originX": 0.5845070422535211,
-						"originY": 0.43636363636363634,
+						"width": 152.82000000000002,
+						"height": 205.12800000000001,
+						"originX": 0.49469964664310956,
+						"originY": 0.5036855036855037,
 						"color": [
 							1,
 							1,
@@ -1235,7 +1235,7 @@
 					"type": "CovidMan",
 					"properties": {
 						"initially-visible": true,
-						"initial-animation": "Animation 1",
+						"initial-animation": "Right Walk",
 						"initial-frame": 0,
 						"enable-collisions": true,
 						"live-preview": false
@@ -1277,10 +1277,10 @@
 					"world": {
 						"x": 1242,
 						"y": 725,
-						"width": 76.68,
-						"height": 110.88,
-						"originX": 0.5845070422535211,
-						"originY": 0.43636363636363634,
+						"width": 152.82000000000002,
+						"height": 205.12800000000001,
+						"originX": 0.49469964664310956,
+						"originY": 0.5036855036855037,
 						"color": [
 							1,
 							1,

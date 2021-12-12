@@ -12502,7 +12502,7 @@
 					"type": "CovidMan",
 					"properties": {
 						"initially-visible": true,
-						"initial-animation": "Animation 1",
+						"initial-animation": "Right Walk",
 						"initial-frame": 0,
 						"enable-collisions": true,
 						"live-preview": false
@@ -12544,10 +12544,10 @@
 					"world": {
 						"x": 4598.969648385828,
 						"y": 317.35236176883706,
-						"width": 49.25457916611581,
-						"height": 71.22258395851487,
-						"originX": 0.5845070422535211,
-						"originY": 0.43636363636363634,
+						"width": 98.16229509866743,
+						"height": 131.76178032325254,
+						"originX": 0.49469964664310956,
+						"originY": 0.5036855036855037,
 						"color": [
 							1,
 							1,
@@ -12562,7 +12562,7 @@
 					"type": "CovidMan",
 					"properties": {
 						"initially-visible": true,
-						"initial-animation": "Animation 1",
+						"initial-animation": "Right Walk",
 						"initial-frame": 0,
 						"enable-collisions": true,
 						"live-preview": false
@@ -12604,10 +12604,10 @@
 					"world": {
 						"x": 4157.969648385828,
 						"y": 1384.352361768837,
-						"width": 49.25457916611581,
-						"height": 71.22258395851487,
-						"originX": 0.5845070422535211,
-						"originY": 0.43636363636363634,
+						"width": 98.16229509866743,
+						"height": 131.76178032325254,
+						"originX": 0.49469964664310956,
+						"originY": 0.5036855036855037,
 						"color": [
 							1,
 							1,
@@ -12622,7 +12622,7 @@
 					"type": "CovidMan",
 					"properties": {
 						"initially-visible": true,
-						"initial-animation": "Animation 1",
+						"initial-animation": "Right Walk",
 						"initial-frame": 0,
 						"enable-collisions": true,
 						"live-preview": false
@@ -12664,10 +12664,10 @@
 					"world": {
 						"x": 3205.9696483858284,
 						"y": 1707.352361768837,
-						"width": 49.25457916611581,
-						"height": 71.22258395851487,
-						"originX": 0.5845070422535211,
-						"originY": 0.43636363636363634,
+						"width": 98.16229509866743,
+						"height": 131.76178032325254,
+						"originX": 0.49469964664310956,
+						"originY": 0.5036855036855037,
 						"color": [
 							1,
 							1,
@@ -12682,7 +12682,7 @@
 					"type": "CovidMan",
 					"properties": {
 						"initially-visible": true,
-						"initial-animation": "Animation 1",
+						"initial-animation": "Right Walk",
 						"initial-frame": 0,
 						"enable-collisions": true,
 						"live-preview": false
@@ -12724,10 +12724,10 @@
 					"world": {
 						"x": 1057,
 						"y": 284,
-						"width": 49.25457916611581,
-						"height": 71.22258395851487,
-						"originX": 0.5845070422535211,
-						"originY": 0.43636363636363634,
+						"width": 98.16229509866743,
+						"height": 131.76178032325254,
+						"originX": 0.49469964664310956,
+						"originY": 0.5036855036855037,
 						"color": [
 							1,
 							1,
@@ -12742,7 +12742,7 @@
 					"type": "CovidMan",
 					"properties": {
 						"initially-visible": true,
-						"initial-animation": "Animation 1",
+						"initial-animation": "Right Walk",
 						"initial-frame": 0,
 						"enable-collisions": true,
 						"live-preview": false
@@ -12784,10 +12784,10 @@
 					"world": {
 						"x": 1141.9696483858284,
 						"y": 907.3523617688371,
-						"width": 49.25457916611581,
-						"height": 71.22258395851487,
-						"originX": 0.5845070422535211,
-						"originY": 0.43636363636363634,
+						"width": 98.16229509866743,
+						"height": 131.76178032325254,
+						"originX": 0.49469964664310956,
+						"originY": 0.5036855036855037,
 						"color": [
 							1,
 							1,
@@ -12802,7 +12802,7 @@
 					"type": "CovidMan",
 					"properties": {
 						"initially-visible": true,
-						"initial-animation": "Animation 1",
+						"initial-animation": "Right Walk",
 						"initial-frame": 0,
 						"enable-collisions": true,
 						"live-preview": false
@@ -12844,10 +12844,10 @@
 					"world": {
 						"x": 1028.9696483858284,
 						"y": 1304.352361768837,
-						"width": 49.25457916611581,
-						"height": 71.22258395851487,
-						"originX": 0.5845070422535211,
-						"originY": 0.43636363636363634,
+						"width": 98.16229509866743,
+						"height": 131.76178032325254,
+						"originX": 0.49469964664310956,
+						"originY": 0.5036855036855037,
 						"color": [
 							1,
 							1,
@@ -12862,7 +12862,7 @@
 					"type": "CovidMan",
 					"properties": {
 						"initially-visible": true,
-						"initial-animation": "Animation 1",
+						"initial-animation": "Right Walk",
 						"initial-frame": 0,
 						"enable-collisions": true,
 						"live-preview": false
@@ -12904,10 +12904,10 @@
 					"world": {
 						"x": 438.96964838582824,
 						"y": 2007.352361768837,
-						"width": 49.25457916611581,
-						"height": 71.22258395851487,
-						"originX": 0.5845070422535211,
-						"originY": 0.43636363636363634,
+						"width": 98.16229509866743,
+						"height": 131.76178032325254,
+						"originX": 0.49469964664310956,
+						"originY": 0.5036855036855037,
 						"color": [
 							1,
 							1,
@@ -12922,7 +12922,7 @@
 					"type": "CovidMan",
 					"properties": {
 						"initially-visible": true,
-						"initial-animation": "Animation 1",
+						"initial-animation": "Right Walk",
 						"initial-frame": 0,
 						"enable-collisions": true,
 						"live-preview": false
@@ -12964,10 +12964,10 @@
 					"world": {
 						"x": 472.96964838582824,
 						"y": 3640.352361768837,
-						"width": 49.25457916611581,
-						"height": 71.22258395851487,
-						"originX": 0.5845070422535211,
-						"originY": 0.43636363636363634,
+						"width": 98.16229509866743,
+						"height": 131.76178032325254,
+						"originX": 0.49469964664310956,
+						"originY": 0.5036855036855037,
 						"color": [
 							1,
 							1,
@@ -12982,7 +12982,7 @@
 					"type": "CovidMan",
 					"properties": {
 						"initially-visible": true,
-						"initial-animation": "Animation 1",
+						"initial-animation": "Right Walk",
 						"initial-frame": 0,
 						"enable-collisions": true,
 						"live-preview": false
@@ -13024,10 +13024,10 @@
 					"world": {
 						"x": 1005.9696483858282,
 						"y": 2731.352361768837,
-						"width": 49.25457916611581,
-						"height": 71.22258395851487,
-						"originX": 0.5845070422535211,
-						"originY": 0.43636363636363634,
+						"width": 98.16229509866743,
+						"height": 131.76178032325254,
+						"originX": 0.49469964664310956,
+						"originY": 0.5036855036855037,
 						"color": [
 							1,
 							1,
@@ -13042,7 +13042,7 @@
 					"type": "CovidMan",
 					"properties": {
 						"initially-visible": true,
-						"initial-animation": "Animation 1",
+						"initial-animation": "Right Walk",
 						"initial-frame": 0,
 						"enable-collisions": true,
 						"live-preview": false
@@ -13084,10 +13084,10 @@
 					"world": {
 						"x": 1884.9696483858284,
 						"y": 1422.352361768837,
-						"width": 49.25457916611581,
-						"height": 71.22258395851487,
-						"originX": 0.5845070422535211,
-						"originY": 0.43636363636363634,
+						"width": 98.16229509866743,
+						"height": 131.76178032325254,
+						"originX": 0.49469964664310956,
+						"originY": 0.5036855036855037,
 						"color": [
 							1,
 							1,
@@ -13102,7 +13102,7 @@
 					"type": "CovidMan",
 					"properties": {
 						"initially-visible": true,
-						"initial-animation": "Animation 1",
+						"initial-animation": "Right Walk",
 						"initial-frame": 0,
 						"enable-collisions": true,
 						"live-preview": false
@@ -13144,10 +13144,10 @@
 					"world": {
 						"x": 1611.9696483858284,
 						"y": 2850.352361768837,
-						"width": 49.25457916611581,
-						"height": 71.22258395851487,
-						"originX": 0.5845070422535211,
-						"originY": 0.43636363636363634,
+						"width": 98.16229509866743,
+						"height": 131.76178032325254,
+						"originX": 0.49469964664310956,
+						"originY": 0.5036855036855037,
 						"color": [
 							1,
 							1,
@@ -13162,7 +13162,7 @@
 					"type": "CovidMan",
 					"properties": {
 						"initially-visible": true,
-						"initial-animation": "Animation 1",
+						"initial-animation": "Right Walk",
 						"initial-frame": 0,
 						"enable-collisions": true,
 						"live-preview": false
@@ -13204,10 +13204,10 @@
 					"world": {
 						"x": 2552.9696483858284,
 						"y": 1865.352361768837,
-						"width": 49.25457916611581,
-						"height": 71.22258395851487,
-						"originX": 0.5845070422535211,
-						"originY": 0.43636363636363634,
+						"width": 98.16229509866743,
+						"height": 131.76178032325254,
+						"originX": 0.49469964664310956,
+						"originY": 0.5036855036855037,
 						"color": [
 							1,
 							1,
@@ -13222,7 +13222,7 @@
 					"type": "CovidMan",
 					"properties": {
 						"initially-visible": true,
-						"initial-animation": "Animation 1",
+						"initial-animation": "Right Walk",
 						"initial-frame": 0,
 						"enable-collisions": true,
 						"live-preview": false
@@ -13264,10 +13264,10 @@
 					"world": {
 						"x": 2536.9696483858284,
 						"y": 900.3523617688371,
-						"width": 49.25457916611581,
-						"height": 71.22258395851487,
-						"originX": 0.5845070422535211,
-						"originY": 0.43636363636363634,
+						"width": 98.16229509866743,
+						"height": 131.76178032325254,
+						"originX": 0.49469964664310956,
+						"originY": 0.5036855036855037,
 						"color": [
 							1,
 							1,
@@ -13365,7 +13365,7 @@
 					"type": "CovidMan",
 					"properties": {
 						"initially-visible": true,
-						"initial-animation": "Animation 1",
+						"initial-animation": "Right Walk",
 						"initial-frame": 0,
 						"enable-collisions": true,
 						"live-preview": false
@@ -13407,10 +13407,10 @@
 					"world": {
 						"x": 4642.321685561145,
 						"y": 1605.7172771699566,
-						"width": 110.85685963473009,
-						"height": 166.57515340814177,
-						"originX": 0.5845070422535211,
-						"originY": 0.43636363636363634,
+						"width": 220.93303715935645,
+						"height": 308.1640338050623,
+						"originX": 0.49469964664310956,
+						"originY": 0.5036855036855037,
 						"color": [
 							1,
 							1,
@@ -13425,7 +13425,7 @@
 					"type": "CovidMan",
 					"properties": {
 						"initially-visible": true,
-						"initial-animation": "Animation 1",
+						"initial-animation": "Right Walk",
 						"initial-frame": 0,
 						"enable-collisions": true,
 						"live-preview": false
@@ -13467,10 +13467,10 @@
 					"world": {
 						"x": 2796.9088179113296,
 						"y": 3424.132256009455,
-						"width": 82.93364028203345,
-						"height": 126.6130941767732,
-						"originX": 0.5845070422535211,
-						"originY": 0.43636363636363634,
+						"width": 165.2832408437709,
+						"height": 234.2342242270304,
+						"originX": 0.49469964664310956,
+						"originY": 0.5036855036855037,
 						"color": [
 							1,
 							1,
@@ -13485,7 +13485,7 @@
 					"type": "CovidMan",
 					"properties": {
 						"initially-visible": true,
-						"initial-animation": "Animation 1",
+						"initial-animation": "Right Walk",
 						"initial-frame": 0,
 						"enable-collisions": true,
 						"live-preview": false
@@ -13527,10 +13527,10 @@
 					"world": {
 						"x": 2242.3237830449307,
 						"y": 3775.271852751685,
-						"width": 99.0411709925317,
-						"height": 151.20413221475258,
-						"originX": 0.5845070422535211,
-						"originY": 0.43636363636363634,
+						"width": 197.38486894990473,
+						"height": 279.7276445972922,
+						"originX": 0.49469964664310956,
+						"originY": 0.5036855036855037,
 						"color": [
 							1,
 							1,
@@ -13545,7 +13545,7 @@
 					"type": "CovidMan",
 					"properties": {
 						"initially-visible": true,
-						"initial-animation": "Animation 1",
+						"initial-animation": "Right Walk",
 						"initial-frame": 0,
 						"enable-collisions": true,
 						"live-preview": false
@@ -13587,10 +13587,10 @@
 					"world": {
 						"x": 2679.455936330027,
 						"y": 4877.883461348293,
-						"width": 118.0865416730577,
-						"height": 180.28031051109332,
-						"originX": 0.5845070422535211,
-						"originY": 0.43636363636363634,
+						"width": 235.34148798222063,
+						"height": 333.51857444552263,
+						"originX": 0.49469964664310956,
+						"originY": 0.5036855036855037,
 						"color": [
 							1,
 							1,
@@ -13605,7 +13605,7 @@
 					"type": "CovidMan",
 					"properties": {
 						"initially-visible": true,
-						"initial-animation": "Animation 1",
+						"initial-animation": "Right Walk",
 						"initial-frame": 0,
 						"enable-collisions": true,
 						"live-preview": false
@@ -13647,10 +13647,10 @@
 					"world": {
 						"x": 3919.455936330027,
 						"y": 3800.8834613482927,
-						"width": 118.0865416730577,
-						"height": 180.28031051109332,
-						"originX": 0.5845070422535211,
-						"originY": 0.43636363636363634,
+						"width": 235.34148798222063,
+						"height": 333.51857444552263,
+						"originX": 0.49469964664310956,
+						"originY": 0.5036855036855037,
 						"color": [
 							1,
 							1,
@@ -13665,7 +13665,7 @@
 					"type": "CovidMan",
 					"properties": {
 						"initially-visible": true,
-						"initial-animation": "Animation 1",
+						"initial-animation": "Right Walk",
 						"initial-frame": 0,
 						"enable-collisions": true,
 						"live-preview": false
@@ -13707,10 +13707,10 @@
 					"world": {
 						"x": 308.4559363300267,
 						"y": 4979.883461348293,
-						"width": 118.0865416730577,
-						"height": 180.28031051109332,
-						"originX": 0.5845070422535211,
-						"originY": 0.43636363636363634,
+						"width": 235.34148798222063,
+						"height": 333.51857444552263,
+						"originX": 0.49469964664310956,
+						"originY": 0.5036855036855037,
 						"color": [
 							1,
 							1,
@@ -13725,7 +13725,7 @@
 					"type": "CovidMan",
 					"properties": {
 						"initially-visible": true,
-						"initial-animation": "Animation 1",
+						"initial-animation": "Right Walk",
 						"initial-frame": 0,
 						"enable-collisions": true,
 						"live-preview": false
@@ -13767,10 +13767,10 @@
 					"world": {
 						"x": 1960.4559363300266,
 						"y": 5425.883461348293,
-						"width": 118.0865416730577,
-						"height": 180.28031051109332,
-						"originX": 0.5845070422535211,
-						"originY": 0.43636363636363634,
+						"width": 235.34148798222063,
+						"height": 333.51857444552263,
+						"originX": 0.49469964664310956,
+						"originY": 0.5036855036855037,
 						"color": [
 							1,
 							1,
@@ -13785,7 +13785,7 @@
 					"type": "CovidMan",
 					"properties": {
 						"initially-visible": true,
-						"initial-animation": "Animation 1",
+						"initial-animation": "Right Walk",
 						"initial-frame": 0,
 						"enable-collisions": true,
 						"live-preview": false
@@ -13827,10 +13827,10 @@
 					"world": {
 						"x": 3846.455936330027,
 						"y": 2591.8834613482927,
-						"width": 118.0865416730577,
-						"height": 180.28031051109332,
-						"originX": 0.5845070422535211,
-						"originY": 0.43636363636363634,
+						"width": 235.34148798222063,
+						"height": 333.51857444552263,
+						"originX": 0.49469964664310956,
+						"originY": 0.5036855036855037,
 						"color": [
 							1,
 							1,
@@ -13845,7 +13845,7 @@
 					"type": "CovidMan",
 					"properties": {
 						"initially-visible": true,
-						"initial-animation": "Animation 1",
+						"initial-animation": "Right Walk",
 						"initial-frame": 0,
 						"enable-collisions": true,
 						"live-preview": false
@@ -13887,10 +13887,10 @@
 					"world": {
 						"x": 6555.455936330027,
 						"y": 590.8834613482928,
-						"width": 118.0865416730577,
-						"height": 180.28031051109332,
-						"originX": 0.5845070422535211,
-						"originY": 0.43636363636363634,
+						"width": 235.34148798222063,
+						"height": 333.51857444552263,
+						"originX": 0.49469964664310956,
+						"originY": 0.5036855036855037,
 						"color": [
 							1,
 							1,
@@ -13905,7 +13905,7 @@
 					"type": "CovidMan",
 					"properties": {
 						"initially-visible": true,
-						"initial-animation": "Animation 1",
+						"initial-animation": "Right Walk",
 						"initial-frame": 0,
 						"enable-collisions": true,
 						"live-preview": false
@@ -13947,10 +13947,10 @@
 					"world": {
 						"x": 7748.455936330027,
 						"y": 1597.883461348293,
-						"width": 118.0865416730577,
-						"height": 180.28031051109332,
-						"originX": 0.5845070422535211,
-						"originY": 0.43636363636363634,
+						"width": 235.34148798222063,
+						"height": 333.51857444552263,
+						"originX": 0.49469964664310956,
+						"originY": 0.5036855036855037,
 						"color": [
 							1,
 							1,
@@ -13965,7 +13965,7 @@
 					"type": "CovidMan",
 					"properties": {
 						"initially-visible": true,
-						"initial-animation": "Animation 1",
+						"initial-animation": "Right Walk",
 						"initial-frame": 0,
 						"enable-collisions": true,
 						"live-preview": false
@@ -14007,10 +14007,10 @@
 					"world": {
 						"x": 6870.455936330027,
 						"y": 2174.8834613482927,
-						"width": 118.0865416730577,
-						"height": 180.28031051109332,
-						"originX": 0.5845070422535211,
-						"originY": 0.43636363636363634,
+						"width": 235.34148798222063,
+						"height": 333.51857444552263,
+						"originX": 0.49469964664310956,
+						"originY": 0.5036855036855037,
 						"color": [
 							1,
 							1,
@@ -14025,7 +14025,7 @@
 					"type": "CovidMan",
 					"properties": {
 						"initially-visible": true,
-						"initial-animation": "Animation 1",
+						"initial-animation": "Right Walk",
 						"initial-frame": 0,
 						"enable-collisions": true,
 						"live-preview": false
@@ -14067,10 +14067,10 @@
 					"world": {
 						"x": 2195.455936330027,
 						"y": 4566.883461348293,
-						"width": 118.0865416730577,
-						"height": 180.28031051109332,
-						"originX": 0.5845070422535211,
-						"originY": 0.43636363636363634,
+						"width": 235.34148798222063,
+						"height": 333.51857444552263,
+						"originX": 0.49469964664310956,
+						"originY": 0.5036855036855037,
 						"color": [
 							1,
 							1,
@@ -14085,7 +14085,7 @@
 					"type": "CovidMan",
 					"properties": {
 						"initially-visible": true,
-						"initial-animation": "Animation 1",
+						"initial-animation": "Right Walk",
 						"initial-frame": 0,
 						"enable-collisions": true,
 						"live-preview": false
@@ -14127,10 +14127,10 @@
 					"world": {
 						"x": 6033.455936330027,
 						"y": 1707.883461348293,
-						"width": 118.0865416730577,
-						"height": 180.28031051109332,
-						"originX": 0.5845070422535211,
-						"originY": 0.43636363636363634,
+						"width": 235.34148798222063,
+						"height": 333.51857444552263,
+						"originX": 0.49469964664310956,
+						"originY": 0.5036855036855037,
 						"color": [
 							1,
 							1,
@@ -14145,7 +14145,7 @@
 					"type": "CovidMan",
 					"properties": {
 						"initially-visible": true,
-						"initial-animation": "Animation 1",
+						"initial-animation": "Right Walk",
 						"initial-frame": 0,
 						"enable-collisions": true,
 						"live-preview": false
@@ -14187,10 +14187,10 @@
 					"world": {
 						"x": 1680.4559363300266,
 						"y": 4202.883461348293,
-						"width": 118.0865416730577,
-						"height": 180.28031051109332,
-						"originX": 0.5845070422535211,
-						"originY": 0.43636363636363634,
+						"width": 235.34148798222063,
+						"height": 333.51857444552263,
+						"originX": 0.49469964664310956,
+						"originY": 0.5036855036855037,
 						"color": [
 							1,
 							1,
@@ -14205,7 +14205,7 @@
 					"type": "CovidMan",
 					"properties": {
 						"initially-visible": true,
-						"initial-animation": "Animation 1",
+						"initial-animation": "Right Walk",
 						"initial-frame": 0,
 						"enable-collisions": true,
 						"live-preview": false
@@ -14247,10 +14247,10 @@
 					"world": {
 						"x": 5889.455936330027,
 						"y": 2270.8834613482927,
-						"width": 118.0865416730577,
-						"height": 180.28031051109332,
-						"originX": 0.5845070422535211,
-						"originY": 0.43636363636363634,
+						"width": 235.34148798222063,
+						"height": 333.51857444552263,
+						"originX": 0.49469964664310956,
+						"originY": 0.5036855036855037,
 						"color": [
 							1,
 							1,
@@ -14265,7 +14265,7 @@
 					"type": "CovidMan",
 					"properties": {
 						"initially-visible": true,
-						"initial-animation": "Animation 1",
+						"initial-animation": "Right Walk",
 						"initial-frame": 0,
 						"enable-collisions": true,
 						"live-preview": false
@@ -14307,10 +14307,10 @@
 					"world": {
 						"x": 3084.635187235893,
 						"y": 3044.229915429731,
-						"width": 94.441404668636,
-						"height": 144.1817629472513,
-						"originX": 0.5845070422535211,
-						"originY": 0.43636363636363634,
+						"width": 188.21772902270413,
+						"height": 266.73626145241485,
+						"originX": 0.49469964664310956,
+						"originY": 0.5036855036855037,
 						"color": [
 							1,
 							1,
@@ -14325,7 +14325,7 @@
 					"type": "CovidMan",
 					"properties": {
 						"initially-visible": true,
-						"initial-animation": "Animation 1",
+						"initial-animation": "Right Walk",
 						"initial-frame": 0,
 						"enable-collisions": true,
 						"live-preview": false
@@ -14367,10 +14367,10 @@
 					"world": {
 						"x": 3209.455936330027,
 						"y": 4202.883461348293,
-						"width": 118.0865416730577,
-						"height": 180.28031051109332,
-						"originX": 0.5845070422535211,
-						"originY": 0.43636363636363634,
+						"width": 235.34148798222063,
+						"height": 333.51857444552263,
+						"originX": 0.49469964664310956,
+						"originY": 0.5036855036855037,
 						"color": [
 							1,
 							1,
@@ -14385,7 +14385,7 @@
 					"type": "CovidMan",
 					"properties": {
 						"initially-visible": true,
-						"initial-animation": "Animation 1",
+						"initial-animation": "Right Walk",
 						"initial-frame": 0,
 						"enable-collisions": true,
 						"live-preview": false
@@ -14427,10 +14427,10 @@
 					"world": {
 						"x": 4681.455936330027,
 						"y": 3415.8834613482927,
-						"width": 118.0865416730577,
-						"height": 180.28031051109332,
-						"originX": 0.5845070422535211,
-						"originY": 0.43636363636363634,
+						"width": 235.34148798222063,
+						"height": 333.51857444552263,
+						"originX": 0.49469964664310956,
+						"originY": 0.5036855036855037,
 						"color": [
 							1,
 							1,
@@ -14445,7 +14445,7 @@
 					"type": "CovidMan",
 					"properties": {
 						"initially-visible": true,
-						"initial-animation": "Animation 1",
+						"initial-animation": "Right Walk",
 						"initial-frame": 0,
 						"enable-collisions": true,
 						"live-preview": false
@@ -14487,10 +14487,10 @@
 					"world": {
 						"x": 4757.455936330027,
 						"y": 2413.8834613482927,
-						"width": 118.0865416730577,
-						"height": 180.28031051109332,
-						"originX": 0.5845070422535211,
-						"originY": 0.43636363636363634,
+						"width": 235.34148798222063,
+						"height": 333.51857444552263,
+						"originX": 0.49469964664310956,
+						"originY": 0.5036855036855037,
 						"color": [
 							1,
 							1,
@@ -14505,7 +14505,7 @@
 					"type": "CovidMan",
 					"properties": {
 						"initially-visible": true,
-						"initial-animation": "Animation 1",
+						"initial-animation": "Right Walk",
 						"initial-frame": 0,
 						"enable-collisions": true,
 						"live-preview": false
@@ -14547,10 +14547,10 @@
 					"world": {
 						"x": 5374.455936330027,
 						"y": 3167.8834613482927,
-						"width": 118.0865416730577,
-						"height": 180.28031051109332,
-						"originX": 0.5845070422535211,
-						"originY": 0.43636363636363634,
+						"width": 235.34148798222063,
+						"height": 333.51857444552263,
+						"originX": 0.49469964664310956,
+						"originY": 0.5036855036855037,
 						"color": [
 							1,
 							1,
@@ -14565,7 +14565,7 @@
 					"type": "CovidMan",
 					"properties": {
 						"initially-visible": true,
-						"initial-animation": "Animation 1",
+						"initial-animation": "Right Walk",
 						"initial-frame": 0,
 						"enable-collisions": true,
 						"live-preview": false
@@ -14607,10 +14607,10 @@
 					"world": {
 						"x": 990,
 						"y": 4377,
-						"width": 118.0865416730577,
-						"height": 180.28031051109332,
-						"originX": 0.5845070422535211,
-						"originY": 0.43636363636363634,
+						"width": 235.34148798222063,
+						"height": 333.51857444552263,
+						"originX": 0.49469964664310956,
+						"originY": 0.5036855036855037,
 						"color": [
 							1,
 							1,
@@ -14625,7 +14625,7 @@
 					"type": "CovidMan",
 					"properties": {
 						"initially-visible": true,
-						"initial-animation": "Animation 1",
+						"initial-animation": "Right Walk",
 						"initial-frame": 0,
 						"enable-collisions": true,
 						"live-preview": false
@@ -14667,10 +14667,10 @@
 					"world": {
 						"x": 7438.455936330027,
 						"y": 898.8834613482928,
-						"width": 118.0865416730577,
-						"height": 180.28031051109332,
-						"originX": 0.5845070422535211,
-						"originY": 0.43636363636363634,
+						"width": 235.34148798222063,
+						"height": 333.51857444552263,
+						"originX": 0.49469964664310956,
+						"originY": 0.5036855036855037,
 						"color": [
 							1,
 							1,
