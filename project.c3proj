@@ -120,6 +120,22 @@
 		},
 		{
 			"type": "behavior",
+			"id": "LOS",
+			"name": "Line of sight",
+			"author": "Scirra",
+			"version": "r268",
+			"bundled": false
+		},
+		{
+			"type": "behavior",
+			"id": "MoveTo",
+			"name": "Move To",
+			"author": "Scirra",
+			"version": "r268",
+			"bundled": false
+		},
+		{
+			"type": "behavior",
 			"id": "Tween",
 			"name": "Tween",
 			"author": "Scirra",
@@ -138,22 +154,6 @@
 			"type": "behavior",
 			"id": "Pin",
 			"name": "Pin",
-			"author": "Scirra",
-			"version": "r268",
-			"bundled": false
-		},
-		{
-			"type": "behavior",
-			"id": "LOS",
-			"name": "Line of sight",
-			"author": "Scirra",
-			"version": "r268",
-			"bundled": false
-		},
-		{
-			"type": "behavior",
-			"id": "MoveTo",
-			"name": "Move To",
 			"author": "Scirra",
 			"version": "r268",
 			"bundled": false
@@ -207,7 +207,6 @@
 			"path",
 			"Collect5Resources",
 			"DangerWarning",
-			"CovidMan",
 			"GoInsideHouseTrigger",
 			"SolidHouseWalls",
 			"GoOutsideHouseTrigger",
@@ -224,7 +223,6 @@
 			"GoInsideHouseTrigger2",
 			"GoOutsideHouseTrigger2",
 			"ClickAnyWhereToStart",
-			"GiantCovidMan",
 			"CovidFileText2",
 			"Button3",
 			"CovidFileText3",
@@ -284,7 +282,9 @@
 					"lightupstreetlamps",
 					"switchinglamp",
 					"Tractor",
-					"farmhouse"
+					"farmhouse",
+					"CovidMan",
+					"GiantCovidMan"
 				],
 				"subfolders": [],
 				"name": "notplaceholder"
