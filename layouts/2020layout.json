@@ -18,8 +18,8 @@
 					"instanceVariables": {},
 					"behaviors": {},
 					"world": {
-						"x": 3987,
-						"y": 3016,
+						"x": 3979,
+						"y": 3022,
 						"width": 8036.653353282338,
 						"height": 6016.702894256363,
 						"originX": 0.5,
@@ -1079,7 +1079,7 @@
 					}
 				},
 				{
-					"type": "Sprite5",
+					"type": "nonlightupstreetlamps",
 					"properties": {
 						"initially-visible": true,
 						"initial-animation": "Animation 1",
@@ -1108,7 +1108,7 @@
 					}
 				},
 				{
-					"type": "Sprite5",
+					"type": "nonlightupstreetlamps",
 					"properties": {
 						"initially-visible": true,
 						"initial-animation": "Animation 1",
@@ -1137,7 +1137,7 @@
 					}
 				},
 				{
-					"type": "Sprite5",
+					"type": "nonlightupstreetlamps",
 					"properties": {
 						"initially-visible": true,
 						"initial-animation": "Animation 1",
@@ -1166,7 +1166,7 @@
 					}
 				},
 				{
-					"type": "Sprite5",
+					"type": "nonlightupstreetlamps",
 					"properties": {
 						"initially-visible": true,
 						"initial-animation": "Animation 1",
@@ -1195,7 +1195,7 @@
 					}
 				},
 				{
-					"type": "Sprite5",
+					"type": "nonlightupstreetlamps",
 					"properties": {
 						"initially-visible": true,
 						"initial-animation": "Animation 1",
@@ -1224,7 +1224,7 @@
 					}
 				},
 				{
-					"type": "Sprite5",
+					"type": "nonlightupstreetlamps",
 					"properties": {
 						"initially-visible": true,
 						"initial-animation": "Animation 1",
@@ -1253,7 +1253,7 @@
 					}
 				},
 				{
-					"type": "Sprite5",
+					"type": "nonlightupstreetlamps",
 					"properties": {
 						"initially-visible": true,
 						"initial-animation": "Animation 1",
@@ -1282,7 +1282,7 @@
 					}
 				},
 				{
-					"type": "Sprite5",
+					"type": "nonlightupstreetlamps",
 					"properties": {
 						"initially-visible": true,
 						"initial-animation": "Animation 1",
@@ -1311,7 +1311,7 @@
 					}
 				},
 				{
-					"type": "Sprite5",
+					"type": "nonlightupstreetlamps",
 					"properties": {
 						"initially-visible": true,
 						"initial-animation": "Animation 1",
@@ -1340,7 +1340,7 @@
 					}
 				},
 				{
-					"type": "Sprite5",
+					"type": "nonlightupstreetlamps",
 					"properties": {
 						"initially-visible": true,
 						"initial-animation": "Animation 1",
@@ -1369,7 +1369,7 @@
 					}
 				},
 				{
-					"type": "Sprite5",
+					"type": "nonlightupstreetlamps",
 					"properties": {
 						"initially-visible": true,
 						"initial-animation": "Animation 1",
@@ -1398,7 +1398,7 @@
 					}
 				},
 				{
-					"type": "Sprite5",
+					"type": "nonlightupstreetlamps",
 					"properties": {
 						"initially-visible": true,
 						"initial-animation": "Animation 1",
@@ -1427,7 +1427,7 @@
 					}
 				},
 				{
-					"type": "Sprite5",
+					"type": "nonlightupstreetlamps",
 					"properties": {
 						"initially-visible": true,
 						"initial-animation": "Animation 1",
@@ -1456,7 +1456,7 @@
 					}
 				},
 				{
-					"type": "Sprite5",
+					"type": "nonlightupstreetlamps",
 					"properties": {
 						"initially-visible": true,
 						"initial-animation": "Animation 1",
@@ -1485,7 +1485,7 @@
 					}
 				},
 				{
-					"type": "Sprite5",
+					"type": "nonlightupstreetlamps",
 					"properties": {
 						"initially-visible": true,
 						"initial-animation": "Animation 1",
@@ -1514,7 +1514,7 @@
 					}
 				},
 				{
-					"type": "Sprite5",
+					"type": "nonlightupstreetlamps",
 					"properties": {
 						"initially-visible": true,
 						"initial-animation": "Animation 1",
@@ -1543,7 +1543,7 @@
 					}
 				},
 				{
-					"type": "Sprite5",
+					"type": "nonlightupstreetlamps",
 					"properties": {
 						"initially-visible": true,
 						"initial-animation": "Animation 1",
@@ -1572,7 +1572,7 @@
 					}
 				},
 				{
-					"type": "Sprite5",
+					"type": "nonlightupstreetlamps",
 					"properties": {
 						"initially-visible": true,
 						"initial-animation": "Animation 1",
@@ -1601,7 +1601,7 @@
 					}
 				},
 				{
-					"type": "Sprite5",
+					"type": "nonlightupstreetlamps",
 					"properties": {
 						"initially-visible": true,
 						"initial-animation": "Animation 1",
@@ -1630,7 +1630,7 @@
 					}
 				},
 				{
-					"type": "Sprite5",
+					"type": "nonlightupstreetlamps",
 					"properties": {
 						"initially-visible": true,
 						"initial-animation": "Animation 1",
@@ -1659,7 +1659,7 @@
 					}
 				},
 				{
-					"type": "Sprite5",
+					"type": "nonlightupstreetlamps",
 					"properties": {
 						"initially-visible": true,
 						"initial-animation": "Animation 1",
@@ -1688,7 +1688,7 @@
 					}
 				},
 				{
-					"type": "Sprite5",
+					"type": "nonlightupstreetlamps",
 					"properties": {
 						"initially-visible": true,
 						"initial-animation": "Animation 1",
@@ -1717,7 +1717,7 @@
 					}
 				},
 				{
-					"type": "Sprite5",
+					"type": "nonlightupstreetlamps",
 					"properties": {
 						"initially-visible": true,
 						"initial-animation": "Animation 1",
@@ -1746,7 +1746,7 @@
 					}
 				},
 				{
-					"type": "Sprite5",
+					"type": "nonlightupstreetlamps",
 					"properties": {
 						"initially-visible": true,
 						"initial-animation": "Animation 1",
@@ -1775,7 +1775,7 @@
 					}
 				},
 				{
-					"type": "Sprite5",
+					"type": "nonlightupstreetlamps",
 					"properties": {
 						"initially-visible": true,
 						"initial-animation": "Animation 1",
@@ -1804,7 +1804,7 @@
 					}
 				},
 				{
-					"type": "Sprite5",
+					"type": "nonlightupstreetlamps",
 					"properties": {
 						"initially-visible": true,
 						"initial-animation": "Animation 1",
@@ -1833,7 +1833,7 @@
 					}
 				},
 				{
-					"type": "Sprite5",
+					"type": "nonlightupstreetlamps",
 					"properties": {
 						"initially-visible": true,
 						"initial-animation": "Animation 1",
@@ -1862,7 +1862,7 @@
 					}
 				},
 				{
-					"type": "Sprite5",
+					"type": "nonlightupstreetlamps",
 					"properties": {
 						"initially-visible": true,
 						"initial-animation": "Animation 1",
@@ -1891,7 +1891,7 @@
 					}
 				},
 				{
-					"type": "Sprite5",
+					"type": "nonlightupstreetlamps",
 					"properties": {
 						"initially-visible": true,
 						"initial-animation": "Animation 1",
@@ -1920,7 +1920,7 @@
 					}
 				},
 				{
-					"type": "Sprite5",
+					"type": "nonlightupstreetlamps",
 					"properties": {
 						"initially-visible": true,
 						"initial-animation": "Animation 1",
@@ -1949,7 +1949,7 @@
 					}
 				},
 				{
-					"type": "Sprite5",
+					"type": "nonlightupstreetlamps",
 					"properties": {
 						"initially-visible": true,
 						"initial-animation": "Animation 1",
@@ -1978,7 +1978,7 @@
 					}
 				},
 				{
-					"type": "Sprite5",
+					"type": "nonlightupstreetlamps",
 					"properties": {
 						"initially-visible": true,
 						"initial-animation": "Animation 1",
@@ -2007,7 +2007,7 @@
 					}
 				},
 				{
-					"type": "Sprite5",
+					"type": "nonlightupstreetlamps",
 					"properties": {
 						"initially-visible": true,
 						"initial-animation": "Animation 1",
@@ -2036,7 +2036,7 @@
 					}
 				},
 				{
-					"type": "Sprite5",
+					"type": "nonlightupstreetlamps",
 					"properties": {
 						"initially-visible": true,
 						"initial-animation": "Animation 1",
@@ -2065,7 +2065,7 @@
 					}
 				},
 				{
-					"type": "Sprite5",
+					"type": "nonlightupstreetlamps",
 					"properties": {
 						"initially-visible": true,
 						"initial-animation": "Animation 1",
@@ -2094,7 +2094,7 @@
 					}
 				},
 				{
-					"type": "Sprite5",
+					"type": "nonlightupstreetlamps",
 					"properties": {
 						"initially-visible": true,
 						"initial-animation": "Animation 1",
@@ -2123,7 +2123,7 @@
 					}
 				},
 				{
-					"type": "Sprite5",
+					"type": "nonlightupstreetlamps",
 					"properties": {
 						"initially-visible": true,
 						"initial-animation": "Animation 1",
@@ -2152,7 +2152,7 @@
 					}
 				},
 				{
-					"type": "Sprite5",
+					"type": "nonlightupstreetlamps",
 					"properties": {
 						"initially-visible": true,
 						"initial-animation": "Animation 1",
@@ -2181,7 +2181,7 @@
 					}
 				},
 				{
-					"type": "Sprite5",
+					"type": "nonlightupstreetlamps",
 					"properties": {
 						"initially-visible": true,
 						"initial-animation": "Animation 1",
@@ -2210,7 +2210,7 @@
 					}
 				},
 				{
-					"type": "Sprite5",
+					"type": "nonlightupstreetlamps",
 					"properties": {
 						"initially-visible": true,
 						"initial-animation": "Animation 1",
@@ -2239,7 +2239,7 @@
 					}
 				},
 				{
-					"type": "Sprite5",
+					"type": "nonlightupstreetlamps",
 					"properties": {
 						"initially-visible": true,
 						"initial-animation": "Animation 1",
@@ -11214,7 +11214,7 @@
 					}
 				},
 				{
-					"type": "Newlight",
+					"type": "switchinglamp",
 					"properties": {
 						"initially-visible": true,
 						"initial-animation": "Animation 1",
@@ -11243,7 +11243,7 @@
 					}
 				},
 				{
-					"type": "Newlight",
+					"type": "switchinglamp",
 					"properties": {
 						"initially-visible": true,
 						"initial-animation": "Animation 1",
@@ -11272,7 +11272,7 @@
 					}
 				},
 				{
-					"type": "Newlight",
+					"type": "switchinglamp",
 					"properties": {
 						"initially-visible": true,
 						"initial-animation": "Animation 1",
@@ -11301,7 +11301,7 @@
 					}
 				},
 				{
-					"type": "Newlight",
+					"type": "switchinglamp",
 					"properties": {
 						"initially-visible": true,
 						"initial-animation": "Animation 1",
@@ -11330,7 +11330,7 @@
 					}
 				},
 				{
-					"type": "Newlight",
+					"type": "switchinglamp",
 					"properties": {
 						"initially-visible": true,
 						"initial-animation": "Animation 1",
@@ -11359,7 +11359,7 @@
 					}
 				},
 				{
-					"type": "Newlight",
+					"type": "switchinglamp",
 					"properties": {
 						"initially-visible": true,
 						"initial-animation": "Animation 1",
@@ -11388,7 +11388,7 @@
 					}
 				},
 				{
-					"type": "Newlight",
+					"type": "switchinglamp",
 					"properties": {
 						"initially-visible": true,
 						"initial-animation": "Animation 1",
@@ -11400,7 +11400,7 @@
 					"instanceVariables": {},
 					"behaviors": {},
 					"world": {
-						"x": 3375,
+						"x": 3388.201833701932,
 						"y": 1140,
 						"width": 42.75903460088874,
 						"height": 68.15725816081513,
@@ -11417,7 +11417,7 @@
 					}
 				},
 				{
-					"type": "Newlight",
+					"type": "switchinglamp",
 					"properties": {
 						"initially-visible": true,
 						"initial-animation": "Animation 1",
@@ -11446,7 +11446,7 @@
 					}
 				},
 				{
-					"type": "Newlight",
+					"type": "switchinglamp",
 					"properties": {
 						"initially-visible": true,
 						"initial-animation": "Animation 1",
@@ -11475,7 +11475,7 @@
 					}
 				},
 				{
-					"type": "Newlight",
+					"type": "switchinglamp",
 					"properties": {
 						"initially-visible": true,
 						"initial-animation": "Animation 1",
@@ -11504,7 +11504,7 @@
 					}
 				},
 				{
-					"type": "Newlight",
+					"type": "switchinglamp",
 					"properties": {
 						"initially-visible": true,
 						"initial-animation": "Animation 1",
@@ -11533,7 +11533,7 @@
 					}
 				},
 				{
-					"type": "Newlight",
+					"type": "switchinglamp",
 					"properties": {
 						"initially-visible": true,
 						"initial-animation": "Animation 1",
@@ -11562,7 +11562,7 @@
 					}
 				},
 				{
-					"type": "Newlight",
+					"type": "switchinglamp",
 					"properties": {
 						"initially-visible": true,
 						"initial-animation": "Animation 1",
@@ -11591,7 +11591,7 @@
 					}
 				},
 				{
-					"type": "Newlight",
+					"type": "switchinglamp",
 					"properties": {
 						"initially-visible": true,
 						"initial-animation": "Animation 1",
@@ -13298,53 +13298,6 @@
 						"object-top": -1,
 						"object-bottom": -1
 					},
-					"uid": 466,
-					"instanceVariables": {},
-					"behaviors": {
-						"Solid": {
-							"properties": {
-								"enabled": true,
-								"tags": ""
-							}
-						}
-					},
-					"world": {
-						"x": 1089,
-						"y": 5358,
-						"width": 1141.4684345385606,
-						"height": 351.89641319168544,
-						"originX": 0.5,
-						"originY": 0.5,
-						"color": [
-							1,
-							1,
-							1,
-							1
-						],
-						"angle": 0.7055832442795569,
-						"zElevation": 0
-					}
-				},
-				{
-					"type": "FileHouses",
-					"properties": {
-						"shape": "box",
-						"z-height": 15,
-						"initially-visible": true,
-						"face-back": false,
-						"face-front": true,
-						"face-left": true,
-						"face-right": true,
-						"face-top": true,
-						"face-bottom": true,
-						"z-tiling-factor": 8,
-						"object-back": -1,
-						"object-front": -1,
-						"object-left": -1,
-						"object-right": -1,
-						"object-top": -1,
-						"object-bottom": -1
-					},
 					"uid": 647,
 					"instanceVariables": {},
 					"behaviors": {
@@ -13392,10 +13345,10 @@
 						}
 					},
 					"world": {
-						"x": 1233,
-						"y": 4615,
-						"width": 215,
-						"height": 154,
+						"x": 1219,
+						"y": 4550,
+						"width": 260.2108993128692,
+						"height": 235.2591692417721,
 						"originX": 0.586046511627907,
 						"originY": 0.2532467532467532,
 						"color": [
@@ -15380,7 +15333,7 @@
 					}
 				},
 				{
-					"type": "Newlight",
+					"type": "switchinglamp",
 					"properties": {
 						"initially-visible": true,
 						"initial-animation": "Animation 1",
@@ -15409,7 +15362,7 @@
 					}
 				},
 				{
-					"type": "Newlight",
+					"type": "switchinglamp",
 					"properties": {
 						"initially-visible": true,
 						"initial-animation": "Animation 1",
@@ -15438,7 +15391,7 @@
 					}
 				},
 				{
-					"type": "Newlight",
+					"type": "switchinglamp",
 					"properties": {
 						"initially-visible": true,
 						"initial-animation": "Animation 1",
@@ -15467,7 +15420,7 @@
 					}
 				},
 				{
-					"type": "Newlight",
+					"type": "switchinglamp",
 					"properties": {
 						"initially-visible": true,
 						"initial-animation": "Animation 1",
@@ -15496,7 +15449,7 @@
 					}
 				},
 				{
-					"type": "Newlight",
+					"type": "switchinglamp",
 					"properties": {
 						"initially-visible": true,
 						"initial-animation": "Animation 1",
@@ -15525,7 +15478,7 @@
 					}
 				},
 				{
-					"type": "Newlight",
+					"type": "switchinglamp",
 					"properties": {
 						"initially-visible": true,
 						"initial-animation": "Animation 1",
@@ -15554,7 +15507,7 @@
 					}
 				},
 				{
-					"type": "Newlight",
+					"type": "switchinglamp",
 					"properties": {
 						"initially-visible": true,
 						"initial-animation": "Animation 1",
@@ -15583,7 +15536,7 @@
 					}
 				},
 				{
-					"type": "Newlight",
+					"type": "switchinglamp",
 					"properties": {
 						"initially-visible": true,
 						"initial-animation": "Animation 1",
@@ -15680,6 +15633,35 @@
 							1
 						],
 						"angle": 2.434753132180769,
+						"zElevation": 0
+					}
+				},
+				{
+					"type": "farmhouse",
+					"properties": {
+						"initially-visible": true,
+						"initial-animation": "Animation 1",
+						"initial-frame": 0,
+						"enable-collisions": true,
+						"live-preview": false
+					},
+					"uid": 355,
+					"instanceVariables": {},
+					"behaviors": {},
+					"world": {
+						"x": 999,
+						"y": 5342,
+						"width": 929.924166845923,
+						"height": 1061.6947977755071,
+						"originX": 0.5,
+						"originY": 0.5,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 3.983002731287019,
 						"zElevation": 0
 					}
 				}

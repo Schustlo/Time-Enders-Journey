@@ -255,7 +255,6 @@
 					"road",
 					"Sprite2",
 					"Sprite3",
-					"Tractor",
 					"Sprite6",
 					"shack"
 				],
@@ -281,9 +280,11 @@
 					"InsidePresentHouse",
 					"Startscreenbkg",
 					"Corn",
-					"Sprite5",
-					"Sprite7",
-					"Newlight"
+					"nonlightupstreetlamps",
+					"lightupstreetlamps",
+					"switchinglamp",
+					"Tractor",
+					"farmhouse"
 				],
 				"subfolders": [],
 				"name": "notplaceholder"
