@@ -530,6 +530,33 @@
 							],
 							"sid": 751207208730605,
 							"disabled": true
+						},
+						{
+							"eventType": "block",
+							"conditions": [
+								{
+									"id": "compare-speed",
+									"objectClass": "Player",
+									"sid": 959181273109767,
+									"behaviorType": "8Direction",
+									"parameters": {
+										"comparison": 0,
+										"speed": "0"
+									}
+								}
+							],
+							"actions": [
+								{
+									"id": "set-animation",
+									"objectClass": "Player",
+									"sid": 518349951197873,
+									"parameters": {
+										"animation": "\"Idle\"",
+										"from": "beginning"
+									}
+								}
+							],
+							"sid": 211405325510633
 						}
 					],
 					"sid": 800500320099335
