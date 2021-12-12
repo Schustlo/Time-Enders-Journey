@@ -351,6 +351,15 @@
 									"parameters": {
 										"control": "up"
 									}
+								},
+								{
+									"id": "set-animation",
+									"objectClass": "Player",
+									"sid": 533244823821654,
+									"parameters": {
+										"animation": "\"Upwalk\"",
+										"from": "beginning"
+									}
 								}
 							],
 							"sid": 535908506787736
