@@ -1,6 +1,6 @@
 {
 	"projectFormatVersion": 1,
-	"savedWithRelease": 26800,
+	"savedWithRelease": 27600,
 	"name": "New project",
 	"runtime": "c3",
 	"useWorker": "auto",
@@ -11,7 +11,7 @@
 			"id": "Shape3D",
 			"name": "3D shape",
 			"author": "Scirra",
-			"version": "r268",
+			"version": "r276",
 			"bundled": false
 		},
 		{
@@ -19,7 +19,7 @@
 			"id": "Sprite",
 			"name": "Sprite",
 			"author": "Scirra",
-			"version": "r268",
+			"version": "r276",
 			"bundled": false
 		},
 		{
@@ -27,7 +27,7 @@
 			"id": "Keyboard",
 			"name": "Keyboard",
 			"author": "Scirra",
-			"version": "r268",
+			"version": "r276",
 			"bundled": false
 		},
 		{
@@ -35,7 +35,7 @@
 			"id": "Audio",
 			"name": "Audio",
 			"author": "Scirra",
-			"version": "r268",
+			"version": "r276",
 			"bundled": false
 		},
 		{
@@ -43,7 +43,7 @@
 			"id": "Mouse",
 			"name": "Mouse",
 			"author": "Scirra",
-			"version": "r268",
+			"version": "r276",
 			"bundled": false
 		},
 		{
@@ -51,7 +51,7 @@
 			"id": "TiledBg",
 			"name": "Tiled Background",
 			"author": "Scirra",
-			"version": "r268",
+			"version": "r276",
 			"bundled": false
 		},
 		{
@@ -59,7 +59,7 @@
 			"id": "Text",
 			"name": "Text",
 			"author": "Scirra",
-			"version": "r268",
+			"version": "r276",
 			"bundled": false
 		},
 		{
@@ -67,7 +67,7 @@
 			"id": "shadowlight",
 			"name": "Shadow light",
 			"author": "Scirra",
-			"version": "r268",
+			"version": "r276",
 			"bundled": false
 		},
 		{
@@ -75,7 +75,7 @@
 			"id": "Browser",
 			"name": "Browser",
 			"author": "Scirra",
-			"version": "r268",
+			"version": "r276",
 			"bundled": false
 		},
 		{
@@ -83,7 +83,7 @@
 			"id": "Button",
 			"name": "Button",
 			"author": "Scirra",
-			"version": "r268",
+			"version": "r276",
 			"bundled": false
 		},
 		{
@@ -91,7 +91,7 @@
 			"id": "solid",
 			"name": "Solid",
 			"author": "Scirra",
-			"version": "r268",
+			"version": "r276",
 			"bundled": false
 		},
 		{
@@ -99,7 +99,7 @@
 			"id": "Persist",
 			"name": "Persist",
 			"author": "Scirra",
-			"version": "r268",
+			"version": "r276",
 			"bundled": false
 		},
 		{
@@ -107,7 +107,7 @@
 			"id": "scrollto",
 			"name": "Scroll To",
 			"author": "Scirra",
-			"version": "r268",
+			"version": "r276",
 			"bundled": false
 		},
 		{
@@ -115,7 +115,7 @@
 			"id": "EightDir",
 			"name": "8 Direction",
 			"author": "Scirra",
-			"version": "r268",
+			"version": "r276",
 			"bundled": false
 		},
 		{
@@ -123,7 +123,7 @@
 			"id": "LOS",
 			"name": "Line of sight",
 			"author": "Scirra",
-			"version": "r268",
+			"version": "r276",
 			"bundled": false
 		},
 		{
@@ -131,7 +131,7 @@
 			"id": "MoveTo",
 			"name": "Move To",
 			"author": "Scirra",
-			"version": "r268",
+			"version": "r276",
 			"bundled": false
 		},
 		{
@@ -139,7 +139,7 @@
 			"id": "Tween",
 			"name": "Tween",
 			"author": "Scirra",
-			"version": "r268",
+			"version": "r276",
 			"bundled": false
 		},
 		{
@@ -147,7 +147,7 @@
 			"id": "Bullet",
 			"name": "Bullet",
 			"author": "Scirra",
-			"version": "r268",
+			"version": "r276",
 			"bundled": false
 		},
 		{
@@ -155,7 +155,7 @@
 			"id": "Pin",
 			"name": "Pin",
 			"author": "Scirra",
-			"version": "r268",
+			"version": "r276",
 			"bundled": false
 		},
 		{
@@ -163,7 +163,7 @@
 			"id": "Fade",
 			"name": "Fade",
 			"author": "Scirra",
-			"version": "r268",
+			"version": "r276",
 			"bundled": false
 		},
 		{
@@ -171,7 +171,7 @@
 			"id": "Sin",
 			"name": "Sine",
 			"author": "Scirra",
-			"version": "r268",
+			"version": "r276",
 			"bundled": false
 		}
 	],
@@ -342,11 +342,6 @@
 					"sid": 368092704900979
 				},
 				{
-					"name": "Mac_Quayle_-_2.0_6-madame3xecutioner.oga_110_-2.00_semitones.webm",
-					"type": "audio/webm; codecs=opus",
-					"sid": 744360839773901
-				},
-				{
 					"name": "Heartbeat_Low_Health.webm",
 					"type": "audio/webm; codecs=opus",
 					"sid": 736722549375884
@@ -360,6 +355,11 @@
 					"name": "Swing_Sound_Effect.webm",
 					"type": "audio/webm; codecs=opus",
 					"sid": 954736940566644
+				},
+				{
+					"name": "Walking Fast on Tile [SOUND EFFECT].webm",
+					"type": "audio/webm; codecs=opus",
+					"sid": 744046469025986
 				}
 			],
 			"subfolders": []
@@ -385,6 +385,11 @@
 					"name": "Velvet_Lounge_16-11-2021_10-27.webm",
 					"type": "audio/webm; codecs=opus",
 					"sid": 462765897736616
+				},
+				{
+					"name": "Mac_Quayle_-_2.0_6-madame3xecutioner.oga_110_-2.00_semitones.webm",
+					"type": "audio/webm; codecs=opus",
+					"sid": 744360839773901
 				}
 			],
 			"subfolders": []
@@ -506,6 +511,7 @@
 			0
 		],
 		"orientations": "landscape",
+		"webgpu": "auto",
 		"gpuPreference": "high-performance",
 		"scriptsType": "module",
 		"framerateMode": "vsync",
