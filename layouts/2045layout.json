@@ -4,6 +4,7 @@
 		{
 			"name": "Background",
 			"overriden": 0,
+			"subLayers": [],
 			"instances": [
 				{
 					"type": "PresentDirt",
@@ -245,6 +246,7 @@
 		{
 			"name": "Game",
 			"overriden": 0,
+			"subLayers": [],
 			"instances": [
 				{
 					"type": "Block",
@@ -1112,6 +1114,7 @@
 		{
 			"name": "UI",
 			"overriden": 0,
+			"subLayers": [],
 			"instances": [
 				{
 					"type": "PlayerHealth",
@@ -1642,6 +1645,7 @@
 		{
 			"name": "Transition",
 			"overriden": 0,
+			"subLayers": [],
 			"instances": [
 				{
 					"type": "Fade",

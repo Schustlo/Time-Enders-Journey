@@ -4,6 +4,7 @@
 		{
 			"name": "Background",
 			"overriden": 0,
+			"subLayers": [],
 			"instances": [
 				{
 					"type": "InsidePresentHouse",
@@ -1170,6 +1171,7 @@
 		{
 			"name": "Game",
 			"overriden": 0,
+			"subLayers": [],
 			"instances": [
 				{
 					"type": "CovidMan",
@@ -1358,6 +1360,7 @@
 		{
 			"name": "UI",
 			"overriden": 1,
+			"subLayers": [],
 			"instances": [],
 			"sid": 221507043048076,
 			"effectTypes": [],
@@ -1389,6 +1392,7 @@
 		{
 			"name": "Transition",
 			"overriden": 0,
+			"subLayers": [],
 			"instances": [
 				{
 					"type": "Fade",

@@ -4,6 +4,7 @@
 		{
 			"name": "Background",
 			"overriden": 0,
+			"subLayers": [],
 			"instances": [
 				{
 					"type": "SolidHouseWalls",
@@ -1137,6 +1138,7 @@
 		{
 			"name": "Game",
 			"overriden": 0,
+			"subLayers": [],
 			"instances": [
 				{
 					"type": "CovidFile",
@@ -1358,6 +1360,7 @@
 		{
 			"name": "UI",
 			"overriden": 1,
+			"subLayers": [],
 			"instances": [],
 			"sid": 976893128208923,
 			"effectTypes": [],
@@ -1389,6 +1392,7 @@
 		{
 			"name": "Transition",
 			"overriden": 0,
+			"subLayers": [],
 			"instances": [
 				{
 					"type": "Fade",

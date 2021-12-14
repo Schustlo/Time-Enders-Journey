@@ -4,6 +4,7 @@
 		{
 			"name": "Background",
 			"overriden": 0,
+			"subLayers": [],
 			"instances": [
 				{
 					"type": "Bkgof2020",
@@ -12161,6 +12162,7 @@
 		{
 			"name": "Game",
 			"overriden": 0,
+			"subLayers": [],
 			"instances": [
 				{
 					"type": "Platforms",
@@ -14606,100 +14608,6 @@
 					}
 				},
 				{
-					"type": "NPCHouses",
-					"properties": {
-						"shape": "box",
-						"z-height": 15,
-						"initially-visible": true,
-						"face-back": false,
-						"face-front": true,
-						"face-left": true,
-						"face-right": true,
-						"face-top": true,
-						"face-bottom": true,
-						"z-tiling-factor": 8,
-						"object-back": -1,
-						"object-front": -1,
-						"object-left": -1,
-						"object-right": -1,
-						"object-top": -1,
-						"object-bottom": -1
-					},
-					"uid": 680,
-					"instanceVariables": {},
-					"behaviors": {
-						"Solid": {
-							"properties": {
-								"enabled": true,
-								"tags": ""
-							}
-						}
-					},
-					"world": {
-						"x": 7616,
-						"y": 4294,
-						"width": 396.41191095946726,
-						"height": 396.41191095946726,
-						"originX": 0.5,
-						"originY": 0.5,
-						"color": [
-							1,
-							1,
-							1,
-							1
-						],
-						"angle": 3.762613155104166,
-						"zElevation": 0
-					}
-				},
-				{
-					"type": "NPCHouses",
-					"properties": {
-						"shape": "box",
-						"z-height": 15,
-						"initially-visible": true,
-						"face-back": false,
-						"face-front": true,
-						"face-left": true,
-						"face-right": true,
-						"face-top": true,
-						"face-bottom": true,
-						"z-tiling-factor": 8,
-						"object-back": -1,
-						"object-front": -1,
-						"object-left": -1,
-						"object-right": -1,
-						"object-top": -1,
-						"object-bottom": -1
-					},
-					"uid": 681,
-					"instanceVariables": {},
-					"behaviors": {
-						"Solid": {
-							"properties": {
-								"enabled": true,
-								"tags": ""
-							}
-						}
-					},
-					"world": {
-						"x": 4583,
-						"y": 5690,
-						"width": 396.41191095946726,
-						"height": 396.41191095946726,
-						"originX": 0.5,
-						"originY": 0.5,
-						"color": [
-							1,
-							1,
-							1,
-							1
-						],
-						"angle": 1.1933346737463342,
-						"zElevation": 0
-					}
-				},
-				{
 					"type": "Car",
 					"properties": {
 						"initially-visible": true,
@@ -15036,10 +14944,10 @@
 					"instanceVariables": {},
 					"behaviors": {},
 					"world": {
-						"x": 1294,
-						"y": 5212,
-						"width": 461.46014802707606,
-						"height": 86.45742077622596,
+						"x": 1605,
+						"y": 5112,
+						"width": 72.34951176575979,
+						"height": 70.45602846284669,
 						"originX": 0.5,
 						"originY": 0.5,
 						"color": [
@@ -15096,10 +15004,10 @@
 						}
 					},
 					"world": {
-						"x": 6299.43661971831,
-						"y": 4830.890909090909,
-						"width": 890.955804313059,
-						"height": 1138.1063198834836,
+						"x": 7133,
+						"y": 5009,
+						"width": 486.4567492296644,
+						"height": 621.3995104674365,
 						"originX": 0.49823321554770317,
 						"originY": 0.5012285012285013,
 						"color": [
@@ -15465,8 +15373,8 @@
 					"instanceVariables": {},
 					"behaviors": {},
 					"world": {
-						"x": 1563,
-						"y": 5208,
+						"x": 1513,
+						"y": 5191,
 						"width": 581.5742863731285,
 						"height": 320.60554224132,
 						"originX": 0.5,
@@ -15501,8 +15409,8 @@
 						}
 					},
 					"world": {
-						"x": 5664,
-						"y": 1043,
+						"x": 5030,
+						"y": 2091,
 						"width": 175.421972,
 						"height": 158.600687,
 						"originX": 0.586046511627907,
@@ -16722,6 +16630,100 @@
 						"angle": 0,
 						"zElevation": 0
 					}
+				},
+				{
+					"type": "Tractor",
+					"properties": {
+						"initially-visible": true,
+						"initial-animation": "Animation 1",
+						"initial-frame": 0,
+						"enable-collisions": true,
+						"live-preview": false
+					},
+					"uid": 572,
+					"instanceVariables": {},
+					"behaviors": {
+						"Solid": {
+							"properties": {
+								"enabled": true,
+								"tags": ""
+							}
+						}
+					},
+					"world": {
+						"x": 5836,
+						"y": 743,
+						"width": 175.4219722317549,
+						"height": 158.60068722323044,
+						"originX": 0.586046511627907,
+						"originY": 0.2532467532467532,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0.38278280273611653,
+						"zElevation": 0
+					}
+				},
+				{
+					"type": "farmhouse",
+					"properties": {
+						"initially-visible": true,
+						"initial-animation": "Animation 1",
+						"initial-frame": 0,
+						"enable-collisions": true,
+						"live-preview": false
+					},
+					"uid": 573,
+					"instanceVariables": {},
+					"behaviors": {},
+					"world": {
+						"x": 6663,
+						"y": 329,
+						"width": 272.2591758698459,
+						"height": 213.2853620865214,
+						"originX": 0.5,
+						"originY": 0.5,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0.29942433952216807,
+						"zElevation": 0
+					}
+				},
+				{
+					"type": "farmhouse",
+					"properties": {
+						"initially-visible": true,
+						"initial-animation": "Animation 1",
+						"initial-frame": 0,
+						"enable-collisions": true,
+						"live-preview": false
+					},
+					"uid": 647,
+					"instanceVariables": {},
+					"behaviors": {},
+					"world": {
+						"x": 7651,
+						"y": 777,
+						"width": 272.2591758698459,
+						"height": 213.2853620865214,
+						"originX": 0.5,
+						"originY": 0.5,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 1.1654676086738303,
+						"zElevation": 0
+					}
 				}
 			],
 			"sid": 138042324087296,
@@ -16754,6 +16756,7 @@
 		{
 			"name": "UI",
 			"overriden": 1,
+			"subLayers": [],
 			"instances": [],
 			"sid": 331337002029326,
 			"effectTypes": [],
@@ -16785,6 +16788,7 @@
 		{
 			"name": "Transition",
 			"overriden": 0,
+			"subLayers": [],
 			"instances": [
 				{
 					"type": "Fade",

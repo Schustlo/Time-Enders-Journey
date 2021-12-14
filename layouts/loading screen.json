@@ -4,6 +4,7 @@
 		{
 			"name": "Layer 0",
 			"overriden": 0,
+			"subLayers": [],
 			"instances": [],
 			"sid": 895993889012004,
 			"effectTypes": [],
@@ -35,6 +36,7 @@
 		{
 			"name": "Layer 1",
 			"overriden": 0,
+			"subLayers": [],
 			"instances": [
 				{
 					"type": "Sprite8",

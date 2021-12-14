@@ -4,6 +4,7 @@
 		{
 			"name": "Background",
 			"overriden": 0,
+			"subLayers": [],
 			"instances": [
 				{
 					"type": "BarrierFinal",
@@ -390,6 +391,7 @@
 		{
 			"name": "Game",
 			"overriden": 0,
+			"subLayers": [],
 			"instances": [
 				{
 					"type": "FinalDialogue1",
@@ -606,6 +608,7 @@
 		{
 			"name": "UI",
 			"overriden": 1,
+			"subLayers": [],
 			"instances": [],
 			"sid": 595256200687056,
 			"effectTypes": [],
@@ -637,6 +640,7 @@
 		{
 			"name": "Transition",
 			"overriden": 0,
+			"subLayers": [],
 			"instances": [],
 			"sid": 822566658785851,
 			"effectTypes": [],
