@@ -12279,6 +12279,35 @@
 						"angle": 0,
 						"zElevation": 0
 					}
+				},
+				{
+					"type": "nonlightupstreetlamps",
+					"properties": {
+						"initially-visible": true,
+						"initial-animation": "Animation 1",
+						"initial-frame": 0,
+						"enable-collisions": true,
+						"live-preview": false
+					},
+					"uid": 297,
+					"instanceVariables": {},
+					"behaviors": {},
+					"world": {
+						"x": 2463,
+						"y": 244,
+						"width": 60.759035,
+						"height": 100.157258,
+						"originX": 0.9083333333333333,
+						"originY": 0.4497816593886463,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
+						"zElevation": 0
+					}
 				}
 			],
 			"sid": 255865920327652,
@@ -12604,8 +12633,8 @@
 					"instanceVariables": {},
 					"behaviors": {},
 					"world": {
-						"x": 1974,
-						"y": 1341,
+						"x": 2015,
+						"y": 1335,
 						"width": 34.15437801555001,
 						"height": 34.15437801555001,
 						"originX": 0.5,
@@ -12904,8 +12933,8 @@
 						}
 					},
 					"world": {
-						"x": 1141.9696483858284,
-						"y": 907.3523617688371,
+						"x": 2039,
+						"y": 2530,
 						"width": 74.06928,
 						"height": 119.252257,
 						"originX": 0.49469964664310956,
@@ -15202,35 +15231,6 @@
 							1
 						],
 						"angle": 1.069881452372611,
-						"zElevation": 0
-					}
-				},
-				{
-					"type": "switchinglamp",
-					"properties": {
-						"initially-visible": true,
-						"initial-animation": "Animation 1",
-						"initial-frame": 0,
-						"enable-collisions": true,
-						"live-preview": false
-					},
-					"uid": 297,
-					"instanceVariables": {},
-					"behaviors": {},
-					"world": {
-						"x": 2444,
-						"y": 211,
-						"width": 60.759035,
-						"height": 100.157258,
-						"originX": 0.4030612244897959,
-						"originY": 0.4692982456140351,
-						"color": [
-							1,
-							1,
-							1,
-							1
-						],
-						"angle": 0,
 						"zElevation": 0
 					}
 				},
