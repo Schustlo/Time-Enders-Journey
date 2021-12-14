@@ -478,42 +478,6 @@
 					}
 				},
 				{
-					"type": "NPCFinal",
-					"properties": {
-						"initially-visible": true,
-						"initial-animation": "Animation 1",
-						"initial-frame": 0,
-						"enable-collisions": true,
-						"live-preview": false
-					},
-					"uid": 308,
-					"instanceVariables": {},
-					"behaviors": {
-						"Solid": {
-							"properties": {
-								"enabled": true,
-								"tags": ""
-							}
-						}
-					},
-					"world": {
-						"x": 2074,
-						"y": 660,
-						"width": 96.8606801318603,
-						"height": 96.8606801318603,
-						"originX": 0.5,
-						"originY": 0.5,
-						"color": [
-							1,
-							1,
-							1,
-							1
-						],
-						"angle": 0,
-						"zElevation": 0
-					}
-				},
-				{
 					"type": "Cursor",
 					"properties": {
 						"initially-visible": false,
@@ -574,6 +538,42 @@
 							1
 						],
 						"angle": 0,
+						"zElevation": 0
+					}
+				},
+				{
+					"type": "NPC",
+					"properties": {
+						"initially-visible": true,
+						"initial-animation": "Animation 1",
+						"initial-frame": 0,
+						"enable-collisions": true,
+						"live-preview": false
+					},
+					"uid": 649,
+					"instanceVariables": {},
+					"behaviors": {
+						"Solid": {
+							"properties": {
+								"enabled": true,
+								"tags": ""
+							}
+						}
+					},
+					"world": {
+						"x": 2094,
+						"y": 649,
+						"width": 116.51232615477073,
+						"height": 48.02798177473885,
+						"originX": 0.48055680287382124,
+						"originY": 0.5195018026876433,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 1.528254671966648,
 						"zElevation": 0
 					}
 				}
