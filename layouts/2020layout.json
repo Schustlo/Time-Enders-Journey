@@ -1233,35 +1233,6 @@
 						"enable-collisions": true,
 						"live-preview": false
 					},
-					"uid": 354,
-					"instanceVariables": {},
-					"behaviors": {},
-					"world": {
-						"x": 386,
-						"y": 270,
-						"width": 60.759035,
-						"height": 100.157258,
-						"originX": 0.9083333333333333,
-						"originY": 0.4497816593886463,
-						"color": [
-							1,
-							1,
-							1,
-							1
-						],
-						"angle": 0,
-						"zElevation": 0
-					}
-				},
-				{
-					"type": "nonlightupstreetlamps",
-					"properties": {
-						"initially-visible": true,
-						"initial-animation": "Animation 1",
-						"initial-frame": 0,
-						"enable-collisions": true,
-						"live-preview": false
-					},
 					"uid": 358,
 					"instanceVariables": {},
 					"behaviors": {},
@@ -1295,8 +1266,8 @@
 					"instanceVariables": {},
 					"behaviors": {},
 					"world": {
-						"x": 749,
-						"y": 1293,
+						"x": 773,
+						"y": 1324,
 						"width": 60.759035,
 						"height": 100.157258,
 						"originX": 0.9083333333333333,
@@ -1759,8 +1730,8 @@
 					"instanceVariables": {},
 					"behaviors": {},
 					"world": {
-						"x": 1463,
-						"y": 1311,
+						"x": 1484,
+						"y": 1321,
 						"width": 60.759035,
 						"height": 100.157258,
 						"originX": 0.9083333333333333,
@@ -11534,64 +11505,6 @@
 					}
 				},
 				{
-					"type": "switchinglamp",
-					"properties": {
-						"initially-visible": true,
-						"initial-animation": "Animation 1",
-						"initial-frame": 0,
-						"enable-collisions": true,
-						"live-preview": false
-					},
-					"uid": 298,
-					"instanceVariables": {},
-					"behaviors": {},
-					"world": {
-						"x": 962,
-						"y": 217,
-						"width": 60.759035,
-						"height": 100.157258,
-						"originX": 0.4030612244897959,
-						"originY": 0.4692982456140351,
-						"color": [
-							1,
-							1,
-							1,
-							1
-						],
-						"angle": 0,
-						"zElevation": 0
-					}
-				},
-				{
-					"type": "switchinglamp",
-					"properties": {
-						"initially-visible": true,
-						"initial-animation": "Animation 1",
-						"initial-frame": 0,
-						"enable-collisions": true,
-						"live-preview": false
-					},
-					"uid": 334,
-					"instanceVariables": {},
-					"behaviors": {},
-					"world": {
-						"x": 2043,
-						"y": 333,
-						"width": 60.759035,
-						"height": 100.157258,
-						"originX": 0.4030612244897959,
-						"originY": 0.4692982456140351,
-						"color": [
-							1,
-							1,
-							1,
-							1
-						],
-						"angle": 0,
-						"zElevation": 0
-					}
-				},
-				{
 					"type": "Boxes",
 					"properties": {
 						"initially-visible": true,
@@ -12121,6 +12034,242 @@
 						"height": 40,
 						"originX": 0.5,
 						"originY": 0.5,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
+						"zElevation": 0
+					}
+				},
+				{
+					"type": "nonlightupstreetlamps",
+					"properties": {
+						"initially-visible": true,
+						"initial-animation": "Animation 1",
+						"initial-frame": 0,
+						"enable-collisions": true,
+						"live-preview": false
+					},
+					"uid": 308,
+					"instanceVariables": {},
+					"behaviors": {},
+					"world": {
+						"x": 2012,
+						"y": 335,
+						"width": 60.759035,
+						"height": 100.157258,
+						"originX": 0.9083333333333333,
+						"originY": 0.4497816593886463,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
+						"zElevation": 0
+					}
+				},
+				{
+					"type": "nonlightupstreetlamps",
+					"properties": {
+						"initially-visible": true,
+						"initial-animation": "Animation 1",
+						"initial-frame": 0,
+						"enable-collisions": true,
+						"live-preview": false
+					},
+					"uid": 298,
+					"instanceVariables": {},
+					"behaviors": {},
+					"world": {
+						"x": 927,
+						"y": 243,
+						"width": 60.759035,
+						"height": 100.157258,
+						"originX": 0.9083333333333333,
+						"originY": 0.4497816593886463,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
+						"zElevation": 0
+					}
+				},
+				{
+					"type": "nonlightupstreetlamps",
+					"properties": {
+						"initially-visible": true,
+						"initial-animation": "Animation 1",
+						"initial-frame": 0,
+						"enable-collisions": true,
+						"live-preview": false
+					},
+					"uid": 299,
+					"instanceVariables": {},
+					"behaviors": {},
+					"world": {
+						"x": 1319,
+						"y": 329,
+						"width": 60.759035,
+						"height": 100.157258,
+						"originX": 0.9083333333333333,
+						"originY": 0.4497816593886463,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
+						"zElevation": 0
+					}
+				},
+				{
+					"type": "switchinglamp",
+					"properties": {
+						"initially-visible": true,
+						"initial-animation": "Animation 1",
+						"initial-frame": 0,
+						"enable-collisions": true,
+						"live-preview": false
+					},
+					"uid": 334,
+					"instanceVariables": {},
+					"behaviors": {},
+					"world": {
+						"x": 392,
+						"y": 391,
+						"width": 60.759035,
+						"height": 100.157258,
+						"originX": 0.4030612244897959,
+						"originY": 0.4692982456140351,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
+						"zElevation": 0
+					}
+				},
+				{
+					"type": "CovidMan",
+					"properties": {
+						"initially-visible": true,
+						"initial-animation": "Right Walk",
+						"initial-frame": 0,
+						"enable-collisions": true,
+						"live-preview": false
+					},
+					"uid": 354,
+					"instanceVariables": {
+						"EnemyHealth": 3
+					},
+					"behaviors": {
+						"Persist": {
+							"properties": {}
+						},
+						"LineOfSight": {
+							"properties": {
+								"obstacles": "solids",
+								"range": 200,
+								"cone-of-view": 360,
+								"use-collision-cells": true
+							}
+						},
+						"MoveTo": {
+							"properties": {
+								"max-speed": 200,
+								"acceleration": 600,
+								"deceleration": 600,
+								"rotate-speed": 0,
+								"set-angle": true,
+								"stop-on-solids": false,
+								"enabled": false
+							}
+						},
+						"Solid": {
+							"properties": {
+								"enabled": true,
+								"tags": ""
+							}
+						}
+					},
+					"world": {
+						"x": 2229,
+						"y": 317,
+						"width": 74.06928,
+						"height": 119.252257,
+						"originX": 0.49469964664310956,
+						"originY": 0.5036855036855037,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
+						"zElevation": 0
+					}
+				},
+				{
+					"type": "CovidMan",
+					"properties": {
+						"initially-visible": true,
+						"initial-animation": "Right Walk",
+						"initial-frame": 0,
+						"enable-collisions": true,
+						"live-preview": false
+					},
+					"uid": 650,
+					"instanceVariables": {
+						"EnemyHealth": 3
+					},
+					"behaviors": {
+						"Persist": {
+							"properties": {}
+						},
+						"LineOfSight": {
+							"properties": {
+								"obstacles": "solids",
+								"range": 200,
+								"cone-of-view": 360,
+								"use-collision-cells": true
+							}
+						},
+						"MoveTo": {
+							"properties": {
+								"max-speed": 200,
+								"acceleration": 600,
+								"deceleration": 600,
+								"rotate-speed": 0,
+								"set-angle": true,
+								"stop-on-solids": false,
+								"enabled": false
+							}
+						},
+						"Solid": {
+							"properties": {
+								"enabled": true,
+								"tags": ""
+							}
+						}
+					},
+					"world": {
+						"x": 460,
+						"y": 884,
+						"width": 74.06928,
+						"height": 119.252257,
+						"originX": 0.49469964664310956,
+						"originY": 0.5036855036855037,
 						"color": [
 							1,
 							1,
@@ -12875,8 +13024,8 @@
 						}
 					},
 					"world": {
-						"x": 438.96964838582824,
-						"y": 2007.352361768837,
+						"x": 464,
+						"y": 1582,
 						"width": 74.06928,
 						"height": 119.252257,
 						"originX": 0.49469964664310956,
@@ -15071,35 +15220,6 @@
 					"world": {
 						"x": 2444,
 						"y": 211,
-						"width": 60.759035,
-						"height": 100.157258,
-						"originX": 0.4030612244897959,
-						"originY": 0.4692982456140351,
-						"color": [
-							1,
-							1,
-							1,
-							1
-						],
-						"angle": 0,
-						"zElevation": 0
-					}
-				},
-				{
-					"type": "switchinglamp",
-					"properties": {
-						"initially-visible": true,
-						"initial-animation": "Animation 1",
-						"initial-frame": 0,
-						"enable-collisions": true,
-						"live-preview": false
-					},
-					"uid": 299,
-					"instanceVariables": {},
-					"behaviors": {},
-					"world": {
-						"x": 1290,
-						"y": 321,
 						"width": 60.759035,
 						"height": 100.157258,
 						"originX": 0.4030612244897959,
