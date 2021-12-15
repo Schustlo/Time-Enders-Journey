@@ -1,0 +1,63 @@
+{
+	"name": "PresentHouse4",
+	"plugin-id": "Sprite",
+	"sid": 106309527129698,
+	"isGlobal": false,
+	"instanceVariables": [],
+	"behaviorTypes": [
+		{
+			"behaviorId": "solid",
+			"name": "Solid",
+			"sid": 415041583621215
+		}
+	],
+	"effectTypes": [],
+	"animations": {
+		"items": [
+			{
+				"frames": [
+					{
+						"width": 861,
+						"height": 847,
+						"originX": 0.5868958107415685,
+						"originY": 0.9041767145021915,
+						"originalSource": "",
+						"exportFormat": "png",
+						"exportQuality": 0.8,
+						"imageSpriteId": 8614842,
+						"collisionPoly": {
+							"points": [
+								0.2041801942383436,
+								0.3661121972293989,
+								0.47261960518274804,
+								0.05601064242814359,
+								0.764473651911296,
+								0.37033133966804216,
+								1,
+								0.40194616460448923,
+								1,
+								0.8890090665737572,
+								0.7667822010374674,
+								0.8746653298612059,
+								0.7536728767384797,
+								1,
+								0.19579106405486235,
+								1
+							]
+						},
+						"useCollisionPoly": true,
+						"duration": 1
+					}
+				],
+				"sid": 564405567190073,
+				"name": "Animation 1",
+				"isLooping": false,
+				"isPingPong": false,
+				"repeatCount": 1,
+				"repeatTo": 0,
+				"speed": 5
+			}
+		],
+		"subfolders": []
+	}
+}
