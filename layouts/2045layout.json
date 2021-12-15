@@ -953,10 +953,10 @@
 						}
 					},
 					"world": {
-						"x": 1556,
-						"y": 1311,
-						"width": 74.33245832842671,
-						"height": 30.64086068564887,
+						"x": 480.23241309648125,
+						"y": 369.21118390844737,
+						"width": 46.677179924974794,
+						"height": 63.430512009560765,
 						"originX": 0.48055680287382124,
 						"originY": 0.5195018026876433,
 						"color": [
@@ -965,14 +965,14 @@
 							1,
 							1
 						],
-						"angle": 1.528254671966648,
+						"angle": 0,
 						"zElevation": 0
 					}
 				},
 				{
-					"type": "Collect5Resources",
+					"type": "npc1dialouge",
 					"properties": {
-						"text": "Search the area for resources!",
+						"text": "Good evening Alex, you need to \nprepare for your journey...",
 						"enable-bbcode": true,
 						"font": "Arial",
 						"size": 15,
@@ -995,10 +995,10 @@
 					"instanceVariables": {},
 					"behaviors": {},
 					"world": {
-						"x": 257,
-						"y": -153,
-						"width": 296.5824668868725,
-						"height": 26.72192598658728,
+						"x": 8,
+						"y": -168,
+						"width": 324.5824668868725,
+						"height": 62.72192598658728,
 						"originX": 0,
 						"originY": 0,
 						"color": [
@@ -1080,6 +1080,48 @@
 							1
 						],
 						"angle": 2.2974791364756406,
+						"zElevation": 0
+					}
+				},
+				{
+					"type": "npc1dialouguepart2",
+					"properties": {
+						"text": "Collect resources for your\nhunger and thirst! \nRemember to speak to Helen\nbefore you leave!",
+						"enable-bbcode": true,
+						"font": "Arial",
+						"size": 15,
+						"line-height": 0,
+						"bold": true,
+						"italic": true,
+						"color": [
+							1,
+							0.9411764705882353,
+							0.9411764705882353,
+							1
+						],
+						"horizontal-alignment": "center",
+						"vertical-alignment": "center",
+						"wrapping": "character",
+						"initially-visible": true,
+						"origin": "top-left"
+					},
+					"uid": 210,
+					"instanceVariables": {},
+					"behaviors": {},
+					"world": {
+						"x": 366,
+						"y": -243,
+						"width": 416.5824668868725,
+						"height": 116.72192598658728,
+						"originX": 0,
+						"originY": 0,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
 						"zElevation": 0
 					}
 				}

@@ -2571,27 +2571,62 @@
 						{
 							"id": "create-object",
 							"objectClass": "System",
-							"sid": 453272147359182,
+							"sid": 241479622266472,
 							"parameters": {
-								"object-to-create": "Collect5Resources",
+								"object-to-create": "npc1dialouge",
 								"layer": "0",
-								"x": "300",
-								"y": "900",
+								"x": "141",
+								"y": "264",
 								"create-hierarchy": false
 							}
 						},
 						{
+							"id": "wait-for-previous-actions",
+							"objectClass": "System",
+							"sid": 946513313165636
+						},
+						{
 							"id": "wait",
 							"objectClass": "System",
-							"sid": 965877816340341,
+							"sid": 828987670281921,
 							"parameters": {
-								"seconds": "4"
+								"seconds": "2.5"
 							}
 						},
 						{
 							"id": "destroy",
-							"objectClass": "Collect5Resources",
-							"sid": 216770411255674
+							"objectClass": "npc1dialouge",
+							"sid": 602062961943053
+						},
+						{
+							"id": "create-object",
+							"objectClass": "System",
+							"sid": 227347586117018,
+							"parameters": {
+								"object-to-create": "npc1dialouguepart2",
+								"layer": "0",
+								"x": "101",
+								"y": "269",
+								"create-hierarchy": false
+							}
+						},
+						{
+							"id": "wait-for-previous-actions",
+							"objectClass": "System",
+							"sid": 102037168681175
+						},
+						{
+							"id": "wait",
+							"objectClass": "System",
+							"sid": 888486156419631,
+							"parameters": {
+								"seconds": "3"
+							}
+						},
+						{
+							"id": "destroy",
+							"objectClass": "npc1dialouguepart2",
+							"sid": 577370649653049
 						}
 					],
 					"sid": 365060883360324

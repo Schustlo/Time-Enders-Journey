@@ -24,6 +24,14 @@
 		},
 		{
 			"type": "plugin",
+			"id": "Text",
+			"name": "Text",
+			"author": "Scirra",
+			"version": "r276",
+			"bundled": false
+		},
+		{
+			"type": "plugin",
 			"id": "Keyboard",
 			"name": "Keyboard",
 			"author": "Scirra",
@@ -50,14 +58,6 @@
 			"type": "plugin",
 			"id": "TiledBg",
 			"name": "Tiled Background",
-			"author": "Scirra",
-			"version": "r276",
-			"bundled": false
-		},
-		{
-			"type": "plugin",
-			"id": "Text",
-			"name": "Text",
 			"author": "Scirra",
 			"version": "r276",
 			"bundled": false
@@ -204,7 +204,6 @@
 			"PresentDirt",
 			"PastDirt",
 			"path",
-			"Collect5Resources",
 			"DangerWarning",
 			"GoInsideHouseTrigger",
 			"SolidHouseWalls",
@@ -290,7 +289,9 @@
 					"NPC2",
 					"NPCFinal",
 					"Block",
-					"portal"
+					"portal",
+					"npc1dialouge",
+					"npc1dialouguepart2"
 				],
 				"subfolders": [],
 				"name": "notplaceholder"
