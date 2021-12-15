@@ -617,8 +617,8 @@
 						}
 					},
 					"world": {
-						"x": 1430.3955084745762,
-						"y": 1190.691693508143,
+						"x": 1449,
+						"y": 1364,
 						"width": 43.88000000000001,
 						"height": 66.30597014925374,
 						"originX": 0.4872881355932203,
@@ -1084,7 +1084,169 @@
 					}
 				},
 				{
-					"type": "npc1dialouguepart2",
+					"type": "NPC2",
+					"properties": {
+						"initially-visible": true,
+						"initial-animation": "Animation 1",
+						"initial-frame": 0,
+						"enable-collisions": true,
+						"live-preview": false
+					},
+					"uid": 211,
+					"instanceVariables": {},
+					"behaviors": {
+						"Solid": {
+							"properties": {
+								"enabled": true,
+								"tags": ""
+							}
+						}
+					},
+					"world": {
+						"x": 1584.1473771329515,
+						"y": 1246.2648623590067,
+						"width": 41.155714157091225,
+						"height": 50.485915140640444,
+						"originX": 0.4823529411764706,
+						"originY": 0.5663716814159292,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0.007474958923389341,
+						"zElevation": 0
+					}
+				},
+				{
+					"type": "npc2dialougue",
+					"properties": {
+						"text": "Hey Alex, been a long time!\nThe mayor has a special mission\nfor you! I know you didn't want\nto do this...no one did...",
+						"enable-bbcode": true,
+						"font": "Arial",
+						"size": 15,
+						"line-height": 0,
+						"bold": true,
+						"italic": true,
+						"color": [
+							1,
+							0.9411764705882353,
+							0.9411764705882353,
+							1
+						],
+						"horizontal-alignment": "center",
+						"vertical-alignment": "center",
+						"wrapping": "character",
+						"initially-visible": true,
+						"origin": "top-left"
+					},
+					"uid": 212,
+					"instanceVariables": {},
+					"behaviors": {},
+					"world": {
+						"x": 1024,
+						"y": -243,
+						"width": 416.5824668868725,
+						"height": 116.72192598658728,
+						"originX": 0,
+						"originY": 0,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
+						"zElevation": 0
+					}
+				},
+				{
+					"type": "npc2dialougue2",
+					"properties": {
+						"text": "But, on the bright side\nyou get to break the gate\nand go to the past, 2020\nam I right?",
+						"enable-bbcode": true,
+						"font": "Arial",
+						"size": 15,
+						"line-height": 0,
+						"bold": true,
+						"italic": true,
+						"color": [
+							1,
+							0.9411764705882353,
+							0.9411764705882353,
+							1
+						],
+						"horizontal-alignment": "center",
+						"vertical-alignment": "center",
+						"wrapping": "character",
+						"initially-visible": true,
+						"origin": "top-left"
+					},
+					"uid": 214,
+					"instanceVariables": {},
+					"behaviors": {},
+					"world": {
+						"x": 1254,
+						"y": -404,
+						"width": 416.5824668868725,
+						"height": 116.72192598658728,
+						"originX": 0,
+						"originY": 0,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
+						"zElevation": 0
+					}
+				},
+				{
+					"type": "npc2dialougue3",
+					"properties": {
+						"text": "Remember, you objective is to\nfind files on what happened and\nwhy it happened, why we all ended\nup this way and maybe, we can be saved!",
+						"enable-bbcode": true,
+						"font": "Arial",
+						"size": 15,
+						"line-height": 0,
+						"bold": true,
+						"italic": true,
+						"color": [
+							1,
+							0.9411764705882353,
+							0.9411764705882353,
+							1
+						],
+						"horizontal-alignment": "center",
+						"vertical-alignment": "center",
+						"wrapping": "character",
+						"initially-visible": true,
+						"origin": "top-left"
+					},
+					"uid": 215,
+					"instanceVariables": {},
+					"behaviors": {},
+					"world": {
+						"x": 1492,
+						"y": -202,
+						"width": 416.5824668868725,
+						"height": 116.72192598658728,
+						"originX": 0,
+						"originY": 0,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
+						"zElevation": 0
+					}
+				},
+				{
+					"type": "npc1dialouge2",
 					"properties": {
 						"text": "Collect resources for your\nhunger and thirst! \nRemember to speak to Helen\nbefore you leave!",
 						"enable-bbcode": true,
@@ -1105,14 +1267,14 @@
 						"initially-visible": true,
 						"origin": "top-left"
 					},
-					"uid": 210,
+					"uid": 217,
 					"instanceVariables": {},
 					"behaviors": {},
 					"world": {
-						"x": 366,
-						"y": -243,
-						"width": 416.5824668868725,
-						"height": 116.72192598658728,
+						"x": 409,
+						"y": -267,
+						"width": 350.5824668868725,
+						"height": 113.72192598658728,
 						"originX": 0,
 						"originY": 0,
 						"color": [

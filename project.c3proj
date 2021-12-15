@@ -291,7 +291,11 @@
 					"Block",
 					"portal",
 					"npc1dialouge",
-					"npc1dialouguepart2"
+					"npc2dialougue",
+					"npc1dialouge2",
+					"npc2dialougue2",
+					"npc2dialougue3",
+					"NPC3"
 				],
 				"subfolders": [],
 				"name": "notplaceholder"

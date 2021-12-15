@@ -2601,9 +2601,9 @@
 						{
 							"id": "create-object",
 							"objectClass": "System",
-							"sid": 227347586117018,
+							"sid": 596838577148957,
 							"parameters": {
-								"object-to-create": "npc1dialouguepart2",
+								"object-to-create": "npc1dialouge2",
 								"layer": "0",
 								"x": "101",
 								"y": "269",
@@ -2625,11 +2625,143 @@
 						},
 						{
 							"id": "destroy",
-							"objectClass": "npc1dialouguepart2",
+							"objectClass": "npc2dialougue",
 							"sid": 577370649653049
 						}
 					],
 					"sid": 365060883360324
+				},
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "on-collision-with-another-object",
+							"objectClass": "Player",
+							"sid": 798516654415422,
+							"parameters": {
+								"object": "NPC2"
+							}
+						}
+					],
+					"actions": [
+						{
+							"id": "create-object",
+							"objectClass": "System",
+							"sid": 168206805644584,
+							"parameters": {
+								"object-to-create": "npc2dialougue",
+								"layer": "0",
+								"x": "1220",
+								"y": "1126",
+								"create-hierarchy": false
+							}
+						},
+						{
+							"id": "wait-for-previous-actions",
+							"objectClass": "System",
+							"sid": 598903396670697
+						},
+						{
+							"id": "wait",
+							"objectClass": "System",
+							"sid": 342154443418563,
+							"parameters": {
+								"seconds": "4"
+							}
+						},
+						{
+							"id": "destroy",
+							"objectClass": "npc2dialougue",
+							"sid": 847159998027904
+						},
+						{
+							"id": "wait-for-previous-actions",
+							"objectClass": "System",
+							"sid": 197127171043422
+						},
+						{
+							"id": "wait",
+							"objectClass": "System",
+							"sid": 819840338984706,
+							"parameters": {
+								"seconds": "1.5"
+							}
+						},
+						{
+							"id": "create-object",
+							"objectClass": "System",
+							"sid": 866657182174532,
+							"parameters": {
+								"object-to-create": "npc2dialougue2",
+								"layer": "0",
+								"x": "1226",
+								"y": "1167",
+								"create-hierarchy": false
+							}
+						},
+						{
+							"id": "wait-for-previous-actions",
+							"objectClass": "System",
+							"sid": 581446157754753
+						},
+						{
+							"id": "wait",
+							"objectClass": "System",
+							"sid": 967139578875590,
+							"parameters": {
+								"seconds": "3.5"
+							}
+						},
+						{
+							"id": "destroy",
+							"objectClass": "npc2dialougue2",
+							"sid": 955812474924659
+						},
+						{
+							"id": "wait-for-previous-actions",
+							"objectClass": "System",
+							"sid": 482065205411379
+						},
+						{
+							"id": "wait",
+							"objectClass": "System",
+							"sid": 832074838903900,
+							"parameters": {
+								"seconds": "1.5"
+							}
+						},
+						{
+							"id": "create-object",
+							"objectClass": "System",
+							"sid": 499238352292831,
+							"parameters": {
+								"object-to-create": "npc2dialougue3",
+								"layer": "0",
+								"x": "1150",
+								"y": "1155",
+								"create-hierarchy": false
+							}
+						},
+						{
+							"id": "wait-for-previous-actions",
+							"objectClass": "System",
+							"sid": 509581275573249
+						},
+						{
+							"id": "wait",
+							"objectClass": "System",
+							"sid": 966157097128154,
+							"parameters": {
+								"seconds": "3.5"
+							}
+						},
+						{
+							"id": "destroy",
+							"objectClass": "npc2dialougue3",
+							"sid": 705289802073256
+						}
+					],
+					"sid": 169225590425457
 				}
 			],
 			"sid": 601692603004525
