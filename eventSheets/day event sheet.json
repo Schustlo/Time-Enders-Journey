@@ -473,6 +473,24 @@
 									"parameters": {
 										"max-speed": "300"
 									}
+								},
+								{
+									"id": "subtract-from-instvar",
+									"objectClass": "Player",
+									"sid": 421276024633707,
+									"parameters": {
+										"instance-variable": "Hunger",
+										"value": "1"
+									}
+								},
+								{
+									"id": "subtract-from-instvar",
+									"objectClass": "Player",
+									"sid": 420426755388825,
+									"parameters": {
+										"instance-variable": "Water",
+										"value": "1"
+									}
 								}
 							],
 							"sid": 958897905166384
@@ -687,10 +705,10 @@
 								{
 									"id": "subtract-from-instvar",
 									"objectClass": "Player",
-									"sid": 589608926339716,
+									"sid": 376160559110570,
 									"parameters": {
 										"instance-variable": "Hunger",
-										"value": "2"
+										"value": "1"
 									}
 								}
 							],
@@ -712,10 +730,10 @@
 								{
 									"id": "subtract-from-instvar",
 									"objectClass": "Player",
-									"sid": 782556300597062,
+									"sid": 487197395149380,
 									"parameters": {
 										"instance-variable": "Water",
-										"value": "2"
+										"value": "1"
 									}
 								}
 							],
@@ -1842,10 +1860,10 @@
 						{
 							"id": "set-deceleration",
 							"objectClass": "CovidMan",
-							"sid": 654272397499956,
+							"sid": 740677371689568,
 							"behaviorType": "MoveTo",
 							"parameters": {
-								"deceleration": "0"
+								"deceleration": "50"
 							}
 						},
 						{
@@ -2750,9 +2768,9 @@
 						{
 							"id": "wait",
 							"objectClass": "System",
-							"sid": 966157097128154,
+							"sid": 948330322938251,
 							"parameters": {
-								"seconds": "3.5"
+								"seconds": "5"
 							}
 						},
 						{
