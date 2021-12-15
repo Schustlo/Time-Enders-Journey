@@ -86,7 +86,7 @@
 						"font": "Arial",
 						"size": 15,
 						"line-height": 0,
-						"bold": false,
+						"bold": true,
 						"italic": false,
 						"color": [
 							1,
@@ -104,8 +104,8 @@
 					"instanceVariables": {},
 					"behaviors": {},
 					"world": {
-						"x": 1979,
-						"y": 551,
+						"x": 1853,
+						"y": 463,
 						"width": 287,
 						"height": 101,
 						"originX": 0,
@@ -128,7 +128,7 @@
 						"font": "Arial",
 						"size": 15,
 						"line-height": 0,
-						"bold": false,
+						"bold": true,
 						"italic": false,
 						"color": [
 							1,
@@ -146,8 +146,8 @@
 					"instanceVariables": {},
 					"behaviors": {},
 					"world": {
-						"x": 1878,
-						"y": 539,
+						"x": 1855,
+						"y": 462,
 						"width": 287,
 						"height": 101,
 						"originX": 0,
@@ -170,7 +170,7 @@
 						"font": "Arial",
 						"size": 15,
 						"line-height": 0,
-						"bold": false,
+						"bold": true,
 						"italic": false,
 						"color": [
 							1,
@@ -188,8 +188,8 @@
 					"instanceVariables": {},
 					"behaviors": {},
 					"world": {
-						"x": 1872,
-						"y": 542,
+						"x": 1851,
+						"y": 461,
 						"width": 287,
 						"height": 101,
 						"originX": 0,
@@ -212,7 +212,7 @@
 						"font": "Arial",
 						"size": 15,
 						"line-height": 0,
-						"bold": false,
+						"bold": true,
 						"italic": false,
 						"color": [
 							1,
@@ -230,8 +230,8 @@
 					"instanceVariables": {},
 					"behaviors": {},
 					"world": {
-						"x": 1862,
-						"y": 551,
+						"x": 1853,
+						"y": 462,
 						"width": 287,
 						"height": 101,
 						"originX": 0,
@@ -254,7 +254,7 @@
 						"font": "Arial",
 						"size": 15,
 						"line-height": 0,
-						"bold": false,
+						"bold": true,
 						"italic": false,
 						"color": [
 							1,
@@ -272,8 +272,8 @@
 					"instanceVariables": {},
 					"behaviors": {},
 					"world": {
-						"x": 1879,
-						"y": 542,
+						"x": 1853,
+						"y": 463,
 						"width": 287,
 						"height": 101,
 						"originX": 0,
@@ -401,7 +401,7 @@
 						"font": "Arial",
 						"size": 15,
 						"line-height": 0,
-						"bold": false,
+						"bold": true,
 						"italic": false,
 						"color": [
 							1,
@@ -419,8 +419,8 @@
 					"instanceVariables": {},
 					"behaviors": {},
 					"world": {
-						"x": 1921,
-						"y": 549,
+						"x": 1857,
+						"y": 462,
 						"width": 200,
 						"height": 50,
 						"originX": 0,
@@ -443,7 +443,7 @@
 						"font": "Arial",
 						"size": 15,
 						"line-height": 0,
-						"bold": false,
+						"bold": true,
 						"italic": false,
 						"color": [
 							1,
@@ -461,8 +461,8 @@
 					"instanceVariables": {},
 					"behaviors": {},
 					"world": {
-						"x": 1852,
-						"y": 552,
+						"x": 1856,
+						"y": 463,
 						"width": 287,
 						"height": 101,
 						"originX": 0,
@@ -542,7 +542,7 @@
 					}
 				},
 				{
-					"type": "NPC",
+					"type": "NPC2",
 					"properties": {
 						"initially-visible": true,
 						"initial-animation": "Animation 1",
@@ -550,7 +550,7 @@
 						"enable-collisions": true,
 						"live-preview": false
 					},
-					"uid": 649,
+					"uid": 174,
 					"instanceVariables": {},
 					"behaviors": {
 						"Solid": {
@@ -561,10 +561,10 @@
 						}
 					},
 					"world": {
-						"x": 2094,
-						"y": 649,
-						"width": 116.51232615477073,
-						"height": 48.02798177473885,
+						"x": 2087,
+						"y": 655,
+						"width": 116.512326,
+						"height": 48.027982,
 						"originX": 0.48055680287382124,
 						"originY": 0.5195018026876433,
 						"color": [
@@ -573,7 +573,7 @@
 							1,
 							1
 						],
-						"angle": 1.528254671966648,
+						"angle": 1.556811207906995,
 						"zElevation": 0
 					}
 				}

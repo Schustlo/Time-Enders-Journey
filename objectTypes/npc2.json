@@ -1,0 +1,63 @@
+{
+	"name": "NPC2",
+	"plugin-id": "Sprite",
+	"sid": 122136558155171,
+	"isGlobal": false,
+	"instanceVariables": [],
+	"behaviorTypes": [
+		{
+			"behaviorId": "solid",
+			"name": "Solid",
+			"sid": 951219439892922
+		}
+	],
+	"effectTypes": [],
+	"animations": {
+		"items": [
+			{
+				"frames": [
+					{
+						"width": 85,
+						"height": 113,
+						"originX": 0.48055680287382124,
+						"originY": 0.5195018026876433,
+						"originalSource": "",
+						"exportFormat": "png",
+						"exportQuality": 0.8,
+						"imageSpriteId": 9582628,
+						"collisionPoly": {
+							"points": [
+								0.17647044212989935,
+								0.05014746396200224,
+								0.4960784551001316,
+								0.005899696793958107,
+								0.8274508864168016,
+								0.056047132577088744,
+								0.9764705882352941,
+								0.5442477876106194,
+								0.8941176470588236,
+								0.7610619469026549,
+								0.4882352941176472,
+								0.9410029334109252,
+								0.07058823529411765,
+								0.7610619469026549,
+								0.011764705882352941,
+								0.5442477876106194
+							]
+						},
+						"useCollisionPoly": true,
+						"duration": 1
+					}
+				],
+				"sid": 558638449305817,
+				"name": "Animation 1",
+				"isLooping": false,
+				"isPingPong": false,
+				"repeatCount": 1,
+				"repeatTo": 0,
+				"speed": 5
+			}
+		],
+		"subfolders": []
+	}
+}
