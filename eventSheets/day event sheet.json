@@ -2033,10 +2033,10 @@
 						{
 							"id": "subtract-from-instvar",
 							"objectClass": "Player",
-							"sid": 146339639819344,
+							"sid": 234587840311023,
 							"parameters": {
 								"instance-variable": "Health",
-								"value": "10"
+								"value": "5"
 							}
 						}
 					],
