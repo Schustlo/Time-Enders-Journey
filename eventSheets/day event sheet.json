@@ -969,6 +969,31 @@
 							"sid": 153056787104800
 						},
 						{
+							"eventType": "block",
+							"conditions": [
+								{
+									"id": "on-collision-with-another-object",
+									"objectClass": "Player",
+									"sid": 313440618816835,
+									"parameters": {
+										"object": "catci"
+									}
+								}
+							],
+							"actions": [
+								{
+									"id": "subtract-from-instvar",
+									"objectClass": "Player",
+									"sid": 255718030270422,
+									"parameters": {
+										"instance-variable": "Health",
+										"value": "1"
+									}
+								}
+							],
+							"sid": 381013541378911
+						},
+						{
 							"eventType": "comment",
 							"text": "Player death"
 						},
@@ -2842,6 +2867,95 @@
 						}
 					],
 					"sid": 169225590425457
+				},
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "on-collision-with-another-object",
+							"objectClass": "Player",
+							"sid": 273506640021683,
+							"parameters": {
+								"object": "NPC3"
+							}
+						}
+					],
+					"actions": [
+						{
+							"id": "create-object",
+							"objectClass": "System",
+							"sid": 692650590470658,
+							"parameters": {
+								"object-to-create": "NP3DADASD",
+								"layer": "0",
+								"x": "1334",
+								"y": "278",
+								"create-hierarchy": false
+							}
+						},
+						{
+							"id": "wait-for-previous-actions",
+							"objectClass": "System",
+							"sid": 914052238663584
+						},
+						{
+							"id": "wait",
+							"objectClass": "System",
+							"sid": 164826314987069,
+							"parameters": {
+								"seconds": "4"
+							}
+						},
+						{
+							"id": "destroy",
+							"objectClass": "NP3DADASD",
+							"sid": 606870588503944
+						},
+						{
+							"id": "wait-for-previous-actions",
+							"objectClass": "System",
+							"sid": 812831030844574
+						},
+						{
+							"id": "wait",
+							"objectClass": "System",
+							"sid": 384489245025699,
+							"parameters": {
+								"seconds": "1.5"
+							}
+						},
+						{
+							"id": "create-object",
+							"objectClass": "System",
+							"sid": 858276349615359,
+							"parameters": {
+								"object-to-create": "NP3DADASD2fef",
+								"layer": "0",
+								"x": "1375",
+								"y": "308",
+								"create-hierarchy": false
+							}
+						},
+						{
+							"id": "wait-for-previous-actions",
+							"objectClass": "System",
+							"sid": 656724275617060
+						},
+						{
+							"id": "wait",
+							"objectClass": "System",
+							"sid": 418693492969324,
+							"parameters": {
+								"seconds": "3.5"
+							}
+						},
+						{
+							"id": "destroy",
+							"objectClass": "NP3DADASD2fef",
+							"sid": 157744533115507
+						}
+					],
+					"sid": 283477369894806
 				}
 			],
 			"sid": 601692603004525

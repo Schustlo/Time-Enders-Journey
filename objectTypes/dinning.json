@@ -1,14 +1,14 @@
 {
-	"name": "NPC3",
+	"name": "DINNING",
 	"plugin-id": "Sprite",
-	"sid": 329683388925030,
+	"sid": 393289352850863,
 	"isGlobal": false,
 	"instanceVariables": [],
 	"behaviorTypes": [
 		{
 			"behaviorId": "solid",
 			"name": "Solid",
-			"sid": 725365473861588
+			"sid": 685662734745323
 		}
 	],
 	"effectTypes": [],
@@ -17,39 +17,39 @@
 			{
 				"frames": [
 					{
-						"width": 85,
-						"height": 113,
-						"originX": 0.4823529411764706,
-						"originY": 0.5663716814159292,
+						"width": 122,
+						"height": 93,
+						"originX": 0.5,
+						"originY": 0.478494623655914,
 						"originalSource": "",
 						"exportFormat": "png",
 						"exportQuality": 0.8,
-						"imageSpriteId": 2227363,
+						"imageSpriteId": 4186365,
 						"collisionPoly": {
 							"points": [
+								0.2909836799720576,
 								0,
+								0.5860657215769786,
 								0,
-								0.48034606849555883,
+								0.7581966211452753,
 								0,
+								0.9836065573770492,
+								0.5,
+								0.8360655737704918,
+								0.7849462365591398,
+								0.4672130155650237,
 								1,
-								0,
-								1,
-								0.603375362205341,
-								1,
-								0.893100477719477,
-								0.4645674740484432,
-								1,
-								0,
-								0.893100477719477,
-								0,
-								0.603375362205341
+								0.1557377049180328,
+								0.7849462365591398,
+								0.01639344262295082,
+								0.5
 							]
 						},
 						"useCollisionPoly": true,
 						"duration": 1
 					}
 				],
-				"sid": 995854446065058,
+				"sid": 626575055067828,
 				"name": "Animation 1",
 				"isLooping": false,
 				"isPingPong": false,

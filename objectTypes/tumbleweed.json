@@ -1,0 +1,57 @@
+{
+	"name": "tumbleweed",
+	"plugin-id": "Sprite",
+	"sid": 986228770957272,
+	"isGlobal": false,
+	"instanceVariables": [],
+	"behaviorTypes": [],
+	"effectTypes": [],
+	"animations": {
+		"items": [
+			{
+				"frames": [
+					{
+						"width": 123,
+						"height": 123,
+						"originX": 0.5284552845528455,
+						"originY": 0.5203252032520326,
+						"originalSource": "",
+						"exportFormat": "png",
+						"exportQuality": 0.8,
+						"imageSpriteId": 6275350,
+						"collisionPoly": {
+							"points": [
+								0.0975609756097561,
+								0.14634146341463414,
+								0.5284552845528455,
+								0.024390243902439025,
+								0.9024390243902439,
+								0.1951219512195122,
+								0.9512195121951219,
+								0.5203252032520326,
+								0.9105691056910569,
+								0.8455284552845529,
+								0.5284552845528455,
+								0.975609756097561,
+								0.11382113821138211,
+								0.8699186991869918,
+								0.016260162601626018,
+								0.5203252032520326
+							]
+						},
+						"useCollisionPoly": true,
+						"duration": 1
+					}
+				],
+				"sid": 608711004618359,
+				"name": "Animation 1",
+				"isLooping": false,
+				"isPingPong": false,
+				"repeatCount": 1,
+				"repeatTo": 0,
+				"speed": 5
+			}
+		],
+		"subfolders": []
+	}
+}

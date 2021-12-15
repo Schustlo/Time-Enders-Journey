@@ -241,7 +241,6 @@
 					"QuestCollect",
 					"PlayerHouse",
 					"FileHouses",
-					"Car",
 					"Carlight",
 					"NPCHouses2",
 					"Enemy",
@@ -295,7 +294,15 @@
 					"npc1dialouge2",
 					"npc2dialougue2",
 					"npc2dialougue3",
-					"NPC3"
+					"NPC3",
+					"tumbleweed",
+					"catci",
+					"Car",
+					"bookshelf",
+					"IDKEDN",
+					"DINNING",
+					"NP3DADASD",
+					"NP3DADASD2fef"
 				],
 				"subfolders": [],
 				"name": "notplaceholder"

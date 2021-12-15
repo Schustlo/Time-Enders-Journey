@@ -1,0 +1,63 @@
+{
+	"name": "catci",
+	"plugin-id": "Sprite",
+	"sid": 649078731176513,
+	"isGlobal": false,
+	"instanceVariables": [],
+	"behaviorTypes": [
+		{
+			"behaviorId": "solid",
+			"name": "Solid",
+			"sid": 970496711464576
+		}
+	],
+	"effectTypes": [],
+	"animations": {
+		"items": [
+			{
+				"frames": [
+					{
+						"width": 121,
+						"height": 123,
+						"originX": 0.5041322314049587,
+						"originY": 0.5203252032520326,
+						"originalSource": "",
+						"exportFormat": "png",
+						"exportQuality": 0.8,
+						"imageSpriteId": 8813502,
+						"collisionPoly": {
+							"points": [
+								0.024793388429752067,
+								0.10569105691056911,
+								0.5041322314049587,
+								0.056910569105691054,
+								0.8016528925619835,
+								0.2764227642276423,
+								0.9752066115702479,
+								0.5203252032520326,
+								0.9173553719008265,
+								0.8699186991869918,
+								0.5041322314049587,
+								0.975609756097561,
+								0.05785123966942149,
+								0.8943089430894309,
+								0,
+								0.5609756210847486
+							]
+						},
+						"useCollisionPoly": true,
+						"duration": 1
+					}
+				],
+				"sid": 343395592300202,
+				"name": "Animation 1",
+				"isLooping": false,
+				"isPingPong": false,
+				"repeatCount": 1,
+				"repeatTo": 0,
+				"speed": 5
+			}
+		],
+		"subfolders": []
+	}
+}
