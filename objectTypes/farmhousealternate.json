@@ -1,0 +1,57 @@
+{
+	"name": "Farmhousealternate",
+	"plugin-id": "Sprite",
+	"sid": 866372431780903,
+	"isGlobal": false,
+	"instanceVariables": [],
+	"behaviorTypes": [],
+	"effectTypes": [],
+	"animations": {
+		"items": [
+			{
+				"frames": [
+					{
+						"width": 494,
+						"height": 564,
+						"originX": 0.5,
+						"originY": 0.5,
+						"originalSource": "",
+						"exportFormat": "png",
+						"exportQuality": 0.8,
+						"imageSpriteId": 9576393,
+						"collisionPoly": {
+							"points": [
+								0.12348178137651822,
+								0.10815602836879433,
+								0.5,
+								0.0070921985815602835,
+								0.868421052631579,
+								0.11347517730496454,
+								0.97165991902834,
+								0.5,
+								0.8846153846153846,
+								0.898936170212766,
+								0.5,
+								0.9024822695035462,
+								0.10931174089068826,
+								0.9024822695035462,
+								0.010121457489878543,
+								0.5
+							]
+						},
+						"useCollisionPoly": true,
+						"duration": 1
+					}
+				],
+				"sid": 401441040930951,
+				"name": "Animation 1",
+				"isLooping": false,
+				"isPingPong": false,
+				"repeatCount": 1,
+				"repeatTo": 0,
+				"speed": 5
+			}
+		],
+		"subfolders": []
+	}
+}
