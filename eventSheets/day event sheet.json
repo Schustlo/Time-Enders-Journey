@@ -1946,6 +1946,15 @@
 							}
 						},
 						{
+							"id": "set-animation",
+							"objectClass": "CovidMan",
+							"sid": 743934794929730,
+							"parameters": {
+								"animation": "\"Hit\"",
+								"from": "beginning"
+							}
+						},
+						{
 							"id": "play",
 							"objectClass": "Audio",
 							"sid": 413823822346013,
@@ -1954,6 +1963,28 @@
 								"loop": "not-looping",
 								"volume": "-15",
 								"tag-optional": "\"\""
+							}
+						},
+						{
+							"id": "wait-for-previous-actions",
+							"objectClass": "System",
+							"sid": 892518944555700
+						},
+						{
+							"id": "wait",
+							"objectClass": "System",
+							"sid": 289153620117968,
+							"parameters": {
+								"seconds": "1"
+							}
+						},
+						{
+							"id": "set-animation",
+							"objectClass": "CovidMan",
+							"sid": 294682525120679,
+							"parameters": {
+								"animation": "\"Left Walk\"",
+								"from": "beginning"
 							}
 						}
 					],
@@ -2095,6 +2126,15 @@
 							}
 						},
 						{
+							"id": "set-animation",
+							"objectClass": "GiantCovidMan",
+							"sid": 981470062728590,
+							"parameters": {
+								"animation": "\"HitB\"",
+								"from": "beginning"
+							}
+						},
+						{
 							"id": "play",
 							"objectClass": "Audio",
 							"sid": 270999025023848,
@@ -2103,6 +2143,28 @@
 								"loop": "not-looping",
 								"volume": "-15",
 								"tag-optional": "\"\""
+							}
+						},
+						{
+							"id": "wait-for-previous-actions",
+							"objectClass": "System",
+							"sid": 703861884911501
+						},
+						{
+							"id": "wait",
+							"objectClass": "System",
+							"sid": 532647793544983,
+							"parameters": {
+								"seconds": "1"
+							}
+						},
+						{
+							"id": "set-animation",
+							"objectClass": "GiantCovidMan",
+							"sid": 673476973906859,
+							"parameters": {
+								"animation": "\"Walking\"",
+								"from": "beginning"
 							}
 						}
 					],
@@ -2218,9 +2280,9 @@
 						{
 							"id": "set-animation-frame",
 							"objectClass": "CovidInventory",
-							"sid": 298093636461836,
+							"sid": 734535638003164,
 							"parameters": {
-								"frame-number": "Self.AnimationFrame+1"
+								"frame-number": "1"
 							}
 						}
 					],
@@ -2355,9 +2417,9 @@
 						{
 							"id": "set-animation-frame",
 							"objectClass": "CovidInventory",
-							"sid": 728281338373755,
+							"sid": 646579538826044,
 							"parameters": {
-								"frame-number": "Self.AnimationFrame+1"
+								"frame-number": "2"
 							}
 						}
 					],
@@ -2492,9 +2554,9 @@
 						{
 							"id": "set-animation-frame",
 							"objectClass": "CovidInventory",
-							"sid": 607855899740765,
+							"sid": 137191833676302,
 							"parameters": {
-								"frame-number": "Self.AnimationFrame+1"
+								"frame-number": "3"
 							}
 						}
 					],
@@ -2589,12 +2651,12 @@
 						{
 							"id": "create-object",
 							"objectClass": "System",
-							"sid": 241479622266472,
+							"sid": 392441959684780,
 							"parameters": {
 								"object-to-create": "npc1dialouge",
 								"layer": "0",
-								"x": "141",
-								"y": "264",
+								"x": "106",
+								"y": "273",
 								"create-hierarchy": false
 							}
 						},
@@ -2606,9 +2668,9 @@
 						{
 							"id": "wait",
 							"objectClass": "System",
-							"sid": 828987670281921,
+							"sid": 637228808059607,
 							"parameters": {
-								"seconds": "2.5"
+								"seconds": "3.5"
 							}
 						},
 						{
@@ -2643,8 +2705,8 @@
 						},
 						{
 							"id": "destroy",
-							"objectClass": "npc2dialougue",
-							"sid": 577370649653049
+							"objectClass": "npc1dialouge2",
+							"sid": 552323113715407
 						}
 					],
 					"sid": 365060883360324
@@ -3051,9 +3113,9 @@
 						{
 							"id": "is-overlapping-another-object",
 							"objectClass": "Player",
-							"sid": 432682137307325,
+							"sid": 631888320449829,
 							"parameters": {
-								"object": "NPC2"
+								"object": "NPCFinal"
 							}
 						}
 					],
@@ -3069,9 +3131,9 @@
 						{
 							"id": "wait",
 							"objectClass": "System",
-							"sid": 214079753708870,
+							"sid": 537276330726350,
 							"parameters": {
-								"seconds": "5"
+								"seconds": "3.5"
 							}
 						},
 						{
@@ -3093,9 +3155,9 @@
 						{
 							"id": "wait",
 							"objectClass": "System",
-							"sid": 153782062614034,
+							"sid": 372048542394950,
 							"parameters": {
-								"seconds": "5"
+								"seconds": "4"
 							}
 						},
 						{
@@ -3117,9 +3179,9 @@
 						{
 							"id": "wait",
 							"objectClass": "System",
-							"sid": 376700755896317,
+							"sid": 354909233586455,
 							"parameters": {
-								"seconds": "5"
+								"seconds": "3"
 							}
 						},
 						{
@@ -3141,9 +3203,9 @@
 						{
 							"id": "wait",
 							"objectClass": "System",
-							"sid": 170795156610510,
+							"sid": 650666621908838,
 							"parameters": {
-								"seconds": "5"
+								"seconds": "3"
 							}
 						},
 						{
@@ -3165,9 +3227,9 @@
 						{
 							"id": "wait",
 							"objectClass": "System",
-							"sid": 840581829602813,
+							"sid": 926863299107001,
 							"parameters": {
-								"seconds": "5"
+								"seconds": "3"
 							}
 						},
 						{
@@ -3189,9 +3251,9 @@
 						{
 							"id": "wait",
 							"objectClass": "System",
-							"sid": 253194076230438,
+							"sid": 468249237172965,
 							"parameters": {
-								"seconds": "5"
+								"seconds": "3"
 							}
 						},
 						{
@@ -3213,9 +3275,9 @@
 						{
 							"id": "wait",
 							"objectClass": "System",
-							"sid": 247291055090456,
+							"sid": 769763288648793,
 							"parameters": {
-								"seconds": "5"
+								"seconds": "3"
 							}
 						},
 						{
@@ -3224,6 +3286,20 @@
 							"sid": 855912328738594,
 							"parameters": {
 								"visibility": "invisible"
+							}
+						},
+						{
+							"id": "wait-for-previous-actions",
+							"objectClass": "System",
+							"sid": 320959998630451
+						},
+						{
+							"id": "set-instvar-value",
+							"objectClass": "Player",
+							"sid": 145058767071169,
+							"parameters": {
+								"instance-variable": "Health",
+								"value": "0"
 							}
 						}
 					],

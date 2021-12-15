@@ -120,8 +120,8 @@
 					"world": {
 						"x": 819,
 						"y": -86,
-						"width": 46.04174417041322,
-						"height": 19.79794999327768,
+						"width": 49.03445754149008,
+						"height": 20.94899359753801,
 						"originX": 0.265,
 						"originY": 0.3488372093023256,
 						"color": [
@@ -354,8 +354,8 @@
 				1
 			],
 			"isTransparent": true,
-			"parallaxX": 1,
-			"parallaxY": 1,
+			"parallaxX": 0,
+			"parallaxY": 0,
 			"scaleRate": 1,
 			"forceOwnTexture": false,
 			"renderingMode": "3d",

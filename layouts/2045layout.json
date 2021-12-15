@@ -553,8 +553,8 @@
 					"world": {
 						"x": 829.1781241698841,
 						"y": -80.23879763968823,
-						"width": 65,
-						"height": 35,
+						"width": 69.22500000000001,
+						"height": 37.03488372093023,
 						"originX": 0.265,
 						"originY": 0.3488372093023256,
 						"color": [
@@ -972,7 +972,7 @@
 				{
 					"type": "npc1dialouge",
 					"properties": {
-						"text": "Good evening Alex, you need to \nprepare for your journey...",
+						"text": "Good evening Alex, you need to \nprepare for your journey, you\ncan run by pressing shift but\nit takes away from your hunger\nand thirst",
 						"enable-bbcode": true,
 						"font": "Arial",
 						"size": 15,
@@ -995,10 +995,10 @@
 					"instanceVariables": {},
 					"behaviors": {},
 					"world": {
-						"x": 8,
-						"y": -168,
-						"width": 324.5824668868725,
-						"height": 62.72192598658728,
+						"x": 13,
+						"y": -253,
+						"width": 383.5824668868725,
+						"height": 132.72192598658728,
 						"originX": 0,
 						"originY": 0,
 						"color": [
@@ -1206,7 +1206,7 @@
 				{
 					"type": "npc2dialougue3",
 					"properties": {
-						"text": "Remember, you objective is to\nfind files on what happened and\nwhy it happened, why we all ended\nup this way and maybe, we can be saved!",
+						"text": "Remember, your objective is to\nfind 3 files on what happened and\nwhy it happened, why we all ended\nup this way and maybe, we can be saved!",
 						"enable-bbcode": true,
 						"font": "Arial",
 						"size": 15,
@@ -1284,6 +1284,78 @@
 							1
 						],
 						"angle": 0,
+						"zElevation": 0
+					}
+				},
+				{
+					"type": "SolidHouseWalls",
+					"properties": {
+						"initially-visible": true,
+						"initial-animation": "Animation 1",
+						"initial-frame": 0,
+						"enable-collisions": true,
+						"live-preview": false
+					},
+					"uid": 210,
+					"instanceVariables": {},
+					"behaviors": {
+						"Solid": {
+							"properties": {
+								"enabled": true,
+								"tags": ""
+							}
+						}
+					},
+					"world": {
+						"x": 1867,
+						"y": 1390.8130033602715,
+						"width": 1190.3739932794572,
+						"height": 16,
+						"originX": 0.5,
+						"originY": 0.5,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 1.5707963267948966,
+						"zElevation": 0
+					}
+				},
+				{
+					"type": "SolidHouseWalls",
+					"properties": {
+						"initially-visible": true,
+						"initial-animation": "Animation 1",
+						"initial-frame": 0,
+						"enable-collisions": true,
+						"live-preview": false
+					},
+					"uid": 224,
+					"instanceVariables": {},
+					"behaviors": {
+						"Solid": {
+							"properties": {
+								"enabled": true,
+								"tags": ""
+							}
+						}
+					},
+					"world": {
+						"x": 1863,
+						"y": 117,
+						"width": 434,
+						"height": 16,
+						"originX": 0.5,
+						"originY": 0.5,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 1.5707963267948966,
 						"zElevation": 0
 					}
 				}
