@@ -249,7 +249,6 @@
 					"Carlight",
 					"NPCHouses2",
 					"Enemy",
-					"Boxes",
 					"road",
 					"Sprite2",
 					"Sprite3",
@@ -288,7 +287,8 @@
 					"Farmhousealternate",
 					"PresentHouse3",
 					"PresentHouse4",
-					"PresentHouse5"
+					"PresentHouse5",
+					"Boxes"
 				],
 				"subfolders": [],
 				"name": "notplaceholder"

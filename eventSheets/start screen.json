@@ -269,9 +269,9 @@
 						{
 							"id": "set-size",
 							"objectClass": "Player",
-							"sid": 967924766430655,
+							"sid": 490687155737510,
 							"parameters": {
-								"width": "101",
+								"width": "115",
 								"height": "90"
 							}
 						},
