@@ -273,7 +273,7 @@
 					"PresentHouse",
 					"CovidFile2",
 					"CovidFile3",
-					"PresentHouse2",
+					"PresentHouseimportant",
 					"Bkgof2020",
 					"InsidePresentHouse",
 					"Startscreenbkg",
@@ -287,7 +287,8 @@
 					"GiantCovidMan",
 					"Farmhousealternate",
 					"PresentHouse3",
-					"PresentHouse4"
+					"PresentHouse4",
+					"PresentHouse5"
 				],
 				"subfolders": [],
 				"name": "notplaceholder"

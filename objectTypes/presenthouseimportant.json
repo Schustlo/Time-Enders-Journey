@@ -1,0 +1,95 @@
+{
+	"name": "PresentHouseimportant",
+	"plugin-id": "Sprite",
+	"sid": 582901219504134,
+	"isGlobal": false,
+	"instanceVariables": [],
+	"behaviorTypes": [
+		{
+			"behaviorId": "solid",
+			"name": "Solid",
+			"sid": 198529920511359
+		}
+	],
+	"effectTypes": [],
+	"animations": {
+		"items": [
+			{
+				"frames": [
+					{
+						"width": 862,
+						"height": 810,
+						"originX": 0.503732238184165,
+						"originY": 0.7648376771833562,
+						"originalSource": "",
+						"exportFormat": "png",
+						"exportQuality": 0.8,
+						"imageSpriteId": 74179,
+						"collisionPoly": {
+							"points": [
+								0.17691655663978723,
+								0.2992205257810847,
+								0.41009482664903585,
+								0.06619416031474681,
+								0.6587695165051365,
+								0.31760893124335926,
+								0.9767982011113026,
+								0.35426319323674577,
+								0.965197174215355,
+								0.739645030843493,
+								0.658434615071946,
+								0.7472488963923947,
+								0.6448404520585537,
+								0.9160494000103894,
+								0.2021845281004392,
+								0.8987653292877053
+							]
+						},
+						"useCollisionPoly": true,
+						"duration": 1
+					},
+					{
+						"width": 862,
+						"height": 810,
+						"originX": 0.5046403712296984,
+						"originY": 0.7641975308641975,
+						"originalSource": "",
+						"exportFormat": "png",
+						"exportQuality": 0.8,
+						"imageSpriteId": 8026435,
+						"collisionPoly": {
+							"points": [
+								0.4211136981549102,
+								0.05555553038588026,
+								0.6716936906178803,
+								0.3283951041924108,
+								0.9721577973794793,
+								0.35185180644439706,
+								0.9547564091403379,
+								0.7469135617751976,
+								0.6519722021004054,
+								0.7333332965730487,
+								0.6438516339127226,
+								0.9296296899766736,
+								0.17749411751849875,
+								0.928395061728395,
+								0.1798143424825539,
+								0.2975308425599825
+							]
+						},
+						"useCollisionPoly": true,
+						"duration": 1
+					}
+				],
+				"sid": 497053934801362,
+				"name": "flashing",
+				"isLooping": true,
+				"isPingPong": false,
+				"repeatCount": 1,
+				"repeatTo": 0,
+				"speed": 2
+			}
+		],
+		"subfolders": []
+	}
+}
