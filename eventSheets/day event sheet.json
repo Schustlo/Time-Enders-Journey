@@ -1497,6 +1497,18 @@
 							"sid": 659017815258407
 						},
 						{
+							"id": "create-object",
+							"objectClass": "System",
+							"sid": 208942639676546,
+							"parameters": {
+								"object-to-create": "portal",
+								"layer": "1",
+								"x": "1873",
+								"y": "562",
+								"create-hierarchy": false
+							}
+						},
+						{
 							"id": "play",
 							"objectClass": "Audio",
 							"sid": 288241989352624,
