@@ -15182,8 +15182,8 @@
 						}
 					},
 					"world": {
-						"x": 7133,
-						"y": 5009,
+						"x": 6677,
+						"y": 4790,
 						"width": 486.4567492296644,
 						"height": 621.3995104674365,
 						"originX": 0.49823321554770317,
@@ -15493,10 +15493,10 @@
 					"instanceVariables": {},
 					"behaviors": {},
 					"world": {
-						"x": 1513,
-						"y": 5191,
-						"width": 581.5742863731285,
-						"height": 320.60554224132,
+						"x": 1324.3481095396705,
+						"y": 5271.508268253351,
+						"width": 712.9628317155563,
+						"height": 709.220413648012,
 						"originX": 0.5,
 						"originY": 0.5,
 						"color": [
@@ -16788,7 +16788,36 @@
 					}
 				},
 				{
-					"type": "farmhouse",
+					"type": "Farmhousealternate",
+					"properties": {
+						"initially-visible": true,
+						"initial-animation": "Animation 1",
+						"initial-frame": 0,
+						"enable-collisions": true,
+						"live-preview": false
+					},
+					"uid": 651,
+					"instanceVariables": {},
+					"behaviors": {},
+					"world": {
+						"x": 7259,
+						"y": 4170,
+						"width": 1249,
+						"height": 921,
+						"originX": 0.5,
+						"originY": 0.5,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0.4998592480303621,
+						"zElevation": 0
+					}
+				},
+				{
+					"type": "Farmhousealternate",
 					"properties": {
 						"initially-visible": true,
 						"initial-animation": "Animation 1",
@@ -16800,10 +16829,10 @@
 					"instanceVariables": {},
 					"behaviors": {},
 					"world": {
-						"x": 6663,
-						"y": 329,
-						"width": 272.2591758698459,
-						"height": 213.2853620865214,
+						"x": 6632.263517304901,
+						"y": 396.686373150836,
+						"width": 290.4532087879202,
+						"height": 234.15885668632887,
 						"originX": 0.5,
 						"originY": 0.5,
 						"color": [
@@ -16812,12 +16841,12 @@
 							1,
 							1
 						],
-						"angle": 0.29942433952216807,
+						"angle": 0.2803638076582562,
 						"zElevation": 0
 					}
 				},
 				{
-					"type": "farmhouse",
+					"type": "Farmhousealternate",
 					"properties": {
 						"initially-visible": true,
 						"initial-animation": "Animation 1",
@@ -16829,10 +16858,10 @@
 					"instanceVariables": {},
 					"behaviors": {},
 					"world": {
-						"x": 7651,
-						"y": 777,
-						"width": 272.2591758698459,
-						"height": 213.2853620865214,
+						"x": 7532,
+						"y": 709,
+						"width": 290.4532087879202,
+						"height": 234.15885668632887,
 						"originX": 0.5,
 						"originY": 0.5,
 						"color": [
@@ -16841,7 +16870,7 @@
 							1,
 							1
 						],
-						"angle": 1.1654676086738303,
+						"angle": 0.3377128571433454,
 						"zElevation": 0
 					}
 				}
