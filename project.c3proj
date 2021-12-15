@@ -186,7 +186,6 @@
 			"Night",
 			"Pistol",
 			"PistolBullet",
-			"Block",
 			"Grass",
 			"Snow",
 			"Flood",
@@ -211,7 +210,6 @@
 			"SolidHouseWalls",
 			"GoOutsideHouseTrigger",
 			"CovidFileText",
-			"NPC",
 			"Fade",
 			"Button2",
 			"Start",
@@ -227,7 +225,6 @@
 			"Button3",
 			"CovidFileText3",
 			"BarrierFinal",
-			"NPCFinal",
 			"FinalDialogue1",
 			"Spawnpoint",
 			"FinalDialogue2",
@@ -235,8 +232,7 @@
 			"FinalDialogue4",
 			"FinalDialogue5",
 			"FinalDialogue6",
-			"FinalDialogue7",
-			"NPC2"
+			"FinalDialogue7"
 		],
 		"subfolders": [
 			{
@@ -289,7 +285,12 @@
 					"PresentHouse3",
 					"PresentHouse4",
 					"PresentHouse5",
-					"Boxes"
+					"Boxes",
+					"NPC",
+					"NPC2",
+					"NPCFinal",
+					"Block",
+					"portal"
 				],
 				"subfolders": [],
 				"name": "notplaceholder"

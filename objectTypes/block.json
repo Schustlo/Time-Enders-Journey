@@ -29,38 +29,86 @@
 			{
 				"frames": [
 					{
-						"width": 250,
-						"height": 250,
+						"width": 78,
+						"height": 356,
 						"originX": 0.5,
 						"originY": 0.5,
 						"originalSource": "",
 						"exportFormat": "png",
 						"exportQuality": 0.8,
-						"imageSpriteId": 3423054,
+						"imageSpriteId": 7913563,
+						"collisionPoly": {
+							"points": [
+								0.5,
+								0.1544943820224719,
+								0.41025641025641024,
+								0.12640449438202248,
+								0.782051282051282,
+								0.5,
+								0.4230769230769231,
+								0.8735955056179775,
+								0.5,
+								0.8455056179775281,
+								0.08974358974358974,
+								0.5
+							]
+						},
 						"useCollisionPoly": true,
 						"duration": 1
 					},
 					{
-						"width": 250,
-						"height": 250,
+						"width": 78,
+						"height": 356,
 						"originX": 0.5,
 						"originY": 0.5,
 						"originalSource": "",
 						"exportFormat": "png",
 						"exportQuality": 0.8,
-						"imageSpriteId": 1232520,
+						"imageSpriteId": 7292172,
+						"collisionPoly": {
+							"points": [
+								0.5,
+								0.1544943820224719,
+								0.41025641025641024,
+								0.12640449438202248,
+								0.782051282051282,
+								0.5,
+								0.4230769230769231,
+								0.8735955056179775,
+								0.5,
+								0.8455056179775281,
+								0.08974358974358974,
+								0.5
+							]
+						},
 						"useCollisionPoly": true,
 						"duration": 1
 					},
 					{
-						"width": 250,
-						"height": 250,
-						"originX": 0.5,
-						"originY": 0.5,
+						"width": 78,
+						"height": 356,
+						"originX": 0.47435897435897434,
+						"originY": 0.5084269662921348,
 						"originalSource": "",
 						"exportFormat": "png",
 						"exportQuality": 0.8,
-						"imageSpriteId": 2228218,
+						"imageSpriteId": 4453203,
+						"collisionPoly": {
+							"points": [
+								0.5,
+								0.1544943820224719,
+								0.41025641025641024,
+								0.12640449438202248,
+								0.782051282051282,
+								0.5,
+								0.4230769230769231,
+								0.8735955056179775,
+								0.5,
+								0.8455056179775281,
+								0.08974358974358974,
+								0.5
+							]
+						},
 						"useCollisionPoly": true,
 						"duration": 1
 					}
