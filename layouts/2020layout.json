@@ -13862,8 +13862,8 @@
 					"instanceVariables": {},
 					"behaviors": {},
 					"world": {
-						"x": 1605,
-						"y": 5112,
+						"x": 1664,
+						"y": 5184,
 						"width": 72.34951176575979,
 						"height": 70.45602846284669,
 						"originX": 0.5,
@@ -14231,10 +14231,17 @@
 					},
 					"uid": 355,
 					"instanceVariables": {},
-					"behaviors": {},
+					"behaviors": {
+						"Solid": {
+							"properties": {
+								"enabled": true,
+								"tags": ""
+							}
+						}
+					},
 					"world": {
-						"x": 1324.3481095396705,
-						"y": 5271.508268253351,
+						"x": 1415,
+						"y": 5407,
 						"width": 712.9628317155563,
 						"height": 709.220413648012,
 						"originX": 0.5,

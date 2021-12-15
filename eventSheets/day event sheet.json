@@ -1591,10 +1591,10 @@
 						{
 							"id": "set-position",
 							"objectClass": "Player",
-							"sid": 423165271872868,
+							"sid": 648270188688151,
 							"parameters": {
 								"x": "800",
-								"y": "1450"
+								"y": "1130"
 							}
 						},
 						{
@@ -1639,10 +1639,10 @@
 						{
 							"id": "set-position",
 							"objectClass": "Player",
-							"sid": 424822001574634,
+							"sid": 180218638864310,
 							"parameters": {
-								"x": "2000",
-								"y": "1400"
+								"x": "1900",
+								"y": "1370"
 							}
 						},
 						{
@@ -1687,10 +1687,10 @@
 						{
 							"id": "set-position",
 							"objectClass": "Player",
-							"sid": 590605390756069,
+							"sid": 984060806044107,
 							"parameters": {
 								"x": "800",
-								"y": "1450"
+								"y": "1130"
 							}
 						},
 						{
@@ -1735,9 +1735,9 @@
 						{
 							"id": "set-position",
 							"objectClass": "Player",
-							"sid": 469999478744735,
+							"sid": 671517924265851,
 							"parameters": {
-								"x": "1400",
+								"x": "1830",
 								"y": "5100"
 							}
 						},
