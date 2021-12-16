@@ -1248,7 +1248,7 @@
 				{
 					"type": "npc1dialouge2",
 					"properties": {
-						"text": "Collect resources for your\nhunger and thirst! \nRemember to speak to Helen\nbefore you leave!",
+						"text": "Collect resources for your\nhunger and thirst, press 1 &\n2 in order to consume it!\nRemember to speak to Helen\nbefore you leave!",
 						"enable-bbcode": true,
 						"font": "Arial",
 						"size": 15,
