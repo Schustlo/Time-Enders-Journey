@@ -231,7 +231,9 @@
 			"FinalDialogue4",
 			"FinalDialogue5",
 			"FinalDialogue6",
-			"FinalDialogue7"
+			"FinalDialogue7",
+			"Start2",
+			"SolidHouseWalls2"
 		],
 		"subfolders": [
 			{
@@ -302,7 +304,10 @@
 					"IDKEDN",
 					"DINNING",
 					"NP3DADASD",
-					"NP3DADASD2fef"
+					"NP3DADASD2fef",
+					"NPC4",
+					"NP4DIALOUGE",
+					"NP4DIALOUGE2"
 				],
 				"subfolders": [],
 				"name": "notplaceholder"

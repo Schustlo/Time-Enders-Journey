@@ -13922,8 +13922,8 @@
 						}
 					},
 					"world": {
-						"x": 6677,
-						"y": 4790,
+						"x": 6791,
+						"y": 4912,
 						"width": 486.4567492296644,
 						"height": 621.3995104674365,
 						"originX": 0.49823321554770317,
@@ -18967,6 +18967,126 @@
 						"height": 66.30597014925374,
 						"originX": 0.4872881355932203,
 						"originY": 0.5896656534954408,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
+						"zElevation": 0
+					}
+				},
+				{
+					"type": "NPC4",
+					"properties": {
+						"initially-visible": true,
+						"initial-animation": "Animation 1",
+						"initial-frame": 0,
+						"enable-collisions": true,
+						"live-preview": false
+					},
+					"uid": 696,
+					"instanceVariables": {},
+					"behaviors": {
+						"Solid": {
+							"properties": {
+								"enabled": true,
+								"tags": ""
+							}
+						}
+					},
+					"world": {
+						"x": 6512,
+						"y": 4299,
+						"width": 68.23334032856934,
+						"height": 91.40692760997024,
+						"originX": 0.4823529411764706,
+						"originY": 0.5663716814159292,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
+						"zElevation": 0
+					}
+				},
+				{
+					"type": "NP4DIALOUGE",
+					"properties": {
+						"text": "THE BIG COVID MAN ATE\nALL OF MY WORK!!",
+						"enable-bbcode": true,
+						"font": "Arial",
+						"size": 15,
+						"line-height": 0,
+						"bold": true,
+						"italic": true,
+						"color": [
+							1,
+							0.9411764705882353,
+							0.9411764705882353,
+							1
+						],
+						"horizontal-alignment": "center",
+						"vertical-alignment": "center",
+						"wrapping": "character",
+						"initially-visible": true,
+						"origin": "top-left"
+					},
+					"uid": 700,
+					"instanceVariables": {},
+					"behaviors": {},
+					"world": {
+						"x": 6532,
+						"y": -455,
+						"width": 427.5824668868725,
+						"height": 120.72192598658728,
+						"originX": 0,
+						"originY": 0,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
+						"zElevation": 0
+					}
+				},
+				{
+					"type": "NP4DIALOUGE2",
+					"properties": {
+						"text": "Defeat em and you can have my work!!",
+						"enable-bbcode": true,
+						"font": "Arial",
+						"size": 15,
+						"line-height": 0,
+						"bold": true,
+						"italic": true,
+						"color": [
+							1,
+							0.9411764705882353,
+							0.9411764705882353,
+							1
+						],
+						"horizontal-alignment": "center",
+						"vertical-alignment": "center",
+						"wrapping": "character",
+						"initially-visible": true,
+						"origin": "top-left"
+					},
+					"uid": 704,
+					"instanceVariables": {},
+					"behaviors": {},
+					"world": {
+						"x": 6184,
+						"y": -299,
+						"width": 427.5824668868725,
+						"height": 120.72192598658728,
+						"originX": 0,
+						"originY": 0,
 						"color": [
 							1,
 							1,

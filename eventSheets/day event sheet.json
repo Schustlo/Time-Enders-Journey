@@ -2956,6 +2956,95 @@
 						}
 					],
 					"sid": 283477369894806
+				},
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "on-collision-with-another-object",
+							"objectClass": "Player",
+							"sid": 606261153459230,
+							"parameters": {
+								"object": "NPC4"
+							}
+						}
+					],
+					"actions": [
+						{
+							"id": "create-object",
+							"objectClass": "System",
+							"sid": 702041326861265,
+							"parameters": {
+								"object-to-create": "NP4DIALOUGE",
+								"layer": "0",
+								"x": "6137",
+								"y": "4224",
+								"create-hierarchy": false
+							}
+						},
+						{
+							"id": "wait-for-previous-actions",
+							"objectClass": "System",
+							"sid": 171500204904062
+						},
+						{
+							"id": "wait",
+							"objectClass": "System",
+							"sid": 567355637987693,
+							"parameters": {
+								"seconds": "4"
+							}
+						},
+						{
+							"id": "destroy",
+							"objectClass": "NP4DIALOUGE",
+							"sid": 714954803897801
+						},
+						{
+							"id": "wait-for-previous-actions",
+							"objectClass": "System",
+							"sid": 765037442921015
+						},
+						{
+							"id": "wait",
+							"objectClass": "System",
+							"sid": 978338199791204,
+							"parameters": {
+								"seconds": "1.5"
+							}
+						},
+						{
+							"id": "create-object",
+							"objectClass": "System",
+							"sid": 403656029751858,
+							"parameters": {
+								"object-to-create": "NP4DIALOUGE2",
+								"layer": "0",
+								"x": "6168",
+								"y": "4311",
+								"create-hierarchy": false
+							}
+						},
+						{
+							"id": "wait-for-previous-actions",
+							"objectClass": "System",
+							"sid": 417524502079222
+						},
+						{
+							"id": "wait",
+							"objectClass": "System",
+							"sid": 218412756316482,
+							"parameters": {
+								"seconds": "3.5"
+							}
+						},
+						{
+							"id": "destroy",
+							"objectClass": "NP4DIALOUGE2",
+							"sid": 120350133701140
+						}
+					],
+					"sid": 116838415133960
 				}
 			],
 			"sid": 601692603004525
